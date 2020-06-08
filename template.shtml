@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+<HTML>
+<HEAD>
+<TITLE>Document Title</TITLE>
+<!--#include virtual="/~sbagchi/info.inc"-->
+</HEAD>
+<BODY>
+<H1>Document Main Heading</H1>
+
+
+<!-- Begin the body of your page here. -->
+
+
+
+
+<!-- End the body of your page here. -->
+
+<!--#include virtual="/~sbagchi/signature.inc"-->
+</BODY>
+</HTML>

@@ -9,8 +9,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 12">
 <meta name=Originator content="Microsoft Word 12">
-<link rel=File-List href="../web-symlink/address_files/filelist.xml">
-<link rel=Edit-Time-Data href="../web-symlink/address_files/editdata.mso">
+<link rel=File-List href="index_files/filelist.xml">
+<link rel=Edit-Time-Data href="index_files/editdata.mso">
 <!--[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
@@ -19,30 +19,29 @@ w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
 <![endif]-->
-<title> Address Info </title>
+<title> Saurabh's Home Page </title>
 <!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>Saurabh Bagchi</o:Author>
-  <o:LastAuthor>Somali Chaterji</o:LastAuthor>
-  <o:Revision>8</o:Revision>
-  <o:TotalTime>17</o:TotalTime>
-  <o:Created>2004-05-08T20:34:00Z</o:Created>
-  <o:LastSaved>2009-10-01T17:08:00Z</o:LastSaved>
+  <o:LastAuthor>Saurabh Bagchi</o:LastAuthor>
+  <o:Revision>38</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2006-07-02T15:51:00Z</o:Created>
+  <o:LastSaved>2008-12-14T21:24:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>167</o:Words>
-  <o:Characters>954</o:Characters>
-  <o:Company>Engineering Computer Network</o:Company>
-  <o:Lines>7</o:Lines>
-  <o:Paragraphs>2</o:Paragraphs>
-  <o:CharactersWithSpaces>1119</o:CharactersWithSpaces>
+  <o:Characters>2</o:Characters>
+  <o:Company> Purdue University</o:Company>
+  <o:Lines>1</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>2</o:CharactersWithSpaces>
   <o:Version>12.00</o:Version>
  </o:DocumentProperties>
 </xml><![endif]-->
-<link rel=themeData href="../web-symlink/address_files/themedata.thmx">
-<link rel=colorSchemeMapping href="../web-symlink/address_files/colorschememapping.xml">
+<link rel=themeData href="index_files/themedata.thmx">
+<link rel=colorSchemeMapping href="index_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:Zoom>150</w:Zoom>
+  <w:Zoom>0</w:Zoom>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -87,8 +86,10 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    QFormat="true" Name="heading 2"/>
-  <w:LsdException Locked="false" QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 4"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    QFormat="true" Name="heading 5"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
@@ -256,46 +257,15 @@ w\:* {behavior:url(#default#VML);}
 	mso-pagination:widow-orphan;
 	font-size:12.0pt;
 	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	color:#003327;}
-h3
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 3 Char";
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	mso-outline-level:3;
-	font-size:13.5pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:#003327;}
-h4
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 4 Char";
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	mso-outline-level:4;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:#003327;}
+	mso-fareast-font-family:"Times New Roman";}
 a:link, span.MsoHyperlink
 	{mso-style-unhide:no;
-	color:#D00000;
+	color:blue;
 	text-decoration:underline;
 	text-underline:single;}
 a:visited, span.MsoHyperlinkFollowed
 	{mso-style-unhide:no;
-	color:#551A8B;
+	color:blue;
 	text-decoration:underline;
 	text-underline:single;}
 p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
@@ -308,45 +278,6 @@ p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
 	font-size:8.0pt;
 	font-family:"Tahoma","sans-serif";
 	mso-fareast-font-family:"Times New Roman";}
-span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 3";
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#4F81BD;
-	mso-themecolor:accent1;
-	font-weight:bold;}
-span.Heading4Char
-	{mso-style-name:"Heading 4 Char";
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 4";
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#4F81BD;
-	mso-themecolor:accent1;
-	font-weight:bold;
-	font-style:italic;}
 span.BalloonTextChar
 	{mso-style-name:"Balloon Text Char";
 	mso-style-unhide:no;
@@ -356,9 +287,9 @@ span.BalloonTextChar
 	mso-bidi-font-size:8.0pt;
 	font-family:"Tahoma","sans-serif";
 	mso-ascii-font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
 	mso-hansi-font-family:Tahoma;
-	mso-bidi-font-family:Tahoma;
-	color:#003327;}
+	mso-bidi-font-family:Tahoma;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -373,10 +304,6 @@ span.BalloonTextChar
 	mso-paper-source:0;}
 div.Section1
 	{page:Section1;}
-chewy-font {
-	font-family: 'Chewy', cursive;
-	font-size: 68px;
-}
 -->
 </style>
 <!--[if gte mso 10]>
@@ -397,104 +324,37 @@ chewy-font {
 	font-size:10.0pt;
 	font-family:"Times New Roman","serif";}
 </style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="7170"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
+<![endif]-->
 
-<link href="styles.css" rel="stylesheet"></head>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1284970-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 
-<body bgcolor=white background="pics/lblue.jpg" lang=EN-US link="#D00000"
-vlink="#551A8B" style='tab-interval:.5in'>
-
-<div class=Section1>
-
-<h3><span style='mso-fareast-font-family:"Times New Roman"'>My coordinates </span><span
-style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><img
-width=48 height=41 id="_x0000_i1028"
-src="pics/mail.gif"
-alt="pics/mail.gif"></span><span
-style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h3>
-
-<p class=MsoNormal>School of Electrical and Computer Engineering</p>
-
-<p class=MsoNormal>465 Northwestern Avenue <br> 
-  Room EE 325
-</p>
-<p class=MsoNormal>West Lafayette, IN 47907. <br>
-  <span lang=IT style='mso-ansi-language:IT'>
-  <o:p>&nbsp;</o:p>
-</span></p>
-<image src="pics/rainbow.line.gif">
-
-<h3><span style='mso-fareast-font-family:"Times New Roman"'>How to reach me: <o:p></o:p></span></h3>
-
-<p class=MsoNormal><span style='mso-no-proof:yes'><img width=45 height=52
-id="_x0000_i1027" src="pics/letter.gif"
-alt="pics/letter.gif"></span></p>
-
-<p class=MsoNormal><a href="mailto:%20sbagchi@purdue.edu"><span lang=IT
-style='mso-ansi-language:IT'>E-mail: sbagchi@purdue.edu </span></a><span
-lang=IT style='mso-ansi-language:IT'><o:p></o:p></span></p>
-
-<p class=MsoNormal><a href="mailto:%20saurabh_bagchi@yahoo.com"><span lang=IT
-style='mso-ansi-language:IT'>E-mail: saurabh_bagchi@yahoo.com </span></a><span
-lang=IT style='mso-ansi-language:IT'><o:p></o:p></span></p>
-
-<p class=MsoNormal>Phone: (765) 494-1741 (Office); (765) 427-5708 (Cell)</p>
-
-<p class=MsoNormal>
-  <o:p>Google ID: &nbsp;</o:p>
-  saurabh.bagchi.1</p>
-<p class=MsoNormal>Skype ID: saurabh_bagchi</p>
-
-<image src="pics/rainbow.line.gif">
-
-<h4><span style='mso-fareast-font-family:"Times New Roman"'>Emergency contact </span><span
-style='mso-fareast-font-family:"Times New Roman";mso-no-proof:yes'><img
-border=0 width=32 height=32 id="_x0000_i1026"
-src="pics/folder.gif"
-alt="pics/folder.gif"></span><span
-style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h4>
-
-<p class=MsoNormal>Ms. Somali Chaterji-Bagchi (Wife)</p>
-
-<p class=MsoNormal>Phone: 765-714-8812 </p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal>Mr. Sutirtha Bagchi (Brother)</p>
-
-<p class=MsoNormal>Phone: 412-651-5645</p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal>Mr. Hriditosh Bagchi/Mrs. Madhabi Bagchi (Parents)</p>
-
-<p class=MsoNormal>BD-223, Salt Lake, <br>
-Calcutta 700064. <br>
-West Bengal, India. <br>
-Phone: 011-91-33-2334 3834; 011-91-94337-73513 (cell) <span style='mso-tab-count:
-1'>&nbsp;&nbsp;&nbsp; </span></p>
-
-<div class=MsoNormal align=center style='text-align:center'>
-
-<hr size=2 width="100%" align=center>
-
-</div>
-
-<p class=MsoNormal><i><a href="mailto:sbagchi@purdue.edu">Saurabh Bagchi </a><br>
-<!-- hhmts start -->Last modified: </i><!--[if supportFields]><i><span
-style='mso-element:field-begin'></span><span
-style='mso-spacerun:yes'>&nbsp;</span>DATE \@ &quot;MMMM d, yyyy&quot; <span
-style='mso-element:field-separator'></span></i><![endif]--><em><!-- #BeginDate format:Am1 -->March 23, 2019<!-- #EndDate -->
-</em> </p>
-
-</div>
-
-</body>
+<frameset rows="20%,80%">
+ <frame name=top src="portal_toc.html">
+ <frame name=bottom src="portal_contents.html">
+ <noframes>
+  <body lang=EN-US link=blue vlink=blue style='tab-interval:.5in'>
+  <div class=Section1>
+  <p class=MsoNormal><script  src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+  </script><script  type="text/javascript">
+_uacct = "UA-1284970-1";
+urchinTracker();
+  </script><o:p>&nbsp;</o:p></p>
+  </div>
+  </body>
+ </noframes>
+</frameset>
 
 </html>

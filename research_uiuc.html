@@ -1,0 +1,306 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (Windows NT 5.0; U) [Netscape]">
+   <title> Research (UIUC) </title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1284970-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<link href="styles.css" rel="stylesheet"></head>
+</head>
+<body text="#003327" bgcolor="#FFFFFF" link="#D00000" vlink="#551A8B" alink="#FF0000">
+
+<h2>
+<i><font color="#000000">"If we knew what it was we were doing, it would
+not be called research, would it?"</font></i></h2>
+
+<div align=right><font color="#000000">Albert Einstein</font></div>
+<font color="#000000">As a graduate student at the University of Illinois,
+I have been working in the area of software fault tolerance since 1997.
+We are involved in a project called Chameleon which is a software infrastructure
+for providing fault tolerance services to a wide range of applications
+- from off-the-shelf applications to applications customized for the Chameleon
+environment - in a distributed environment. The infrastructure is adaptive
+and can adapt to meet different availability requirements of different
+applications, as well changing requirements of the same application. The
+software can run on the standard workstations or PCs running off-the-shelf
+operating systems like Sun Solaris or Windows NT, and does not require
+any specialized hardware. The architecture of Chameleon is such that it
+can provide its services in a an network of computing nodes which may be
+heterogeneous and may not be intrinsically fault tolerant.</font><font color="#000000"></font>
+<p><font color="#000000">The project is being sponsored by the Jet Propulsion
+Laboratory which is an organizational wing of NASA and is based in Caltech,
+Pasadena, CA. For my MS thesis, I built the first prototype of the system
+and showed a demonstration of its capability to support multiple classes
+of applications. For my Ph.D. thesis, I explored the error detection protocols
+in Chameleon. Error detection is a key ingredient in building reliable
+distributed systems where the errors to be tolerated can be as varied as
+hardware errors, system software errors, application errors, errors in
+the software infrastructure itself, or malicious security attacks. In the
+networked environment, while the issue of application error detection has
+been fairly well studied, infrastructure error detection is less well understood.
+The currently employed techniques of timeouts or exceptions raised by the
+operating system often cannot provide fault containment to a reasonable
+level. In existing systems, fail silence of nodes and processes is often
+assumed away though field studies and our fault injection studies have
+repeatedly shown that in a distributed environment executing on off-the-shelf
+hardware components, the fail silence assumption is often violated. Hence,
+there is a need to explore more sophisticated detection techniques for
+the SIFT infrastructure. As part of my doctoral thesis work, I proposed
+a hierarchy for error detection techniques, which can be applied in a distributed
+software implemented fault tolerance (SIFT) environment. Within this hierarchy,
+novel techniques for making a process self-checking and a node fail-silent
+were explored. The levels in the hierarchy were designed to enforce different
+fault containment boundaries - a process, a node, or a replication group.
+The protocols for escalating the error conditions from one level to another
+to optimize the detection scheme and minimize error propagation were clearly
+defined. The error detection framework was implemented and demonstrated
+on the Chameleon testbed, though the principles are of general applicability
+in a message-passing-based distributed system.</font><font color="#000000"></font>
+<p><font color="#000000">If you would like to obtain a distribution of
+Chameleon, please send a mail to us by clicking <a href="mailto: iyer@crhc.uiuc.edu, bagchi@crhc.uiuc.edu?subject=Requestfor Chameleon distribution">here</a></font>
+<br><font color="#000000">The project is lead by <a href="http://chaos.crhc.uiuc.edu/Faculty/iyer.html" target="_top">Professor
+Ravishankar K. Iyer</a>. <a href="http://www.crhc.uiuc.edu/~kalbar/">Dr.
+Zbigniew Kalbarczyk</a> has been involved with the project since its inception
+from 1997 and continues to be a driving force. Various current and past
+graduate
+students have been involved with the project. Current: <a href="mailto:kwhisnan@crhc.uiuc.edu">Keith
+Whisnant</a>,
+<a href="http://www.crhc.uiuc.edu/~ahuja">Dheeraj Ahuja</a>,
+and <a href="http://www.crhc.uiuc.edu/~basilecl">Claudio Basile</a>.</font>
+<h3>
+<font color="#000000">Chameleon links</font></h3>
+<font color="#000000"><b>Publications </b>(The links are in chronological
+order, from earliest to the latest. All links are postscript files, unless
+otherwise mentioned)</font>
+<ul>
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/tr97.ps">Chameleon
+: A Software Infrastructure and Testbed for High-Speed Networked Computing
+</a>:
+This technical report from July, 1997 presents some of the early design
+philosophy and the initial issues that were targeted in the research.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/ftcs28.ps">Fast
+Abstracts, 28th International Symposium on Fault Tolerant Computing, 1998.
+</a>This is an abstract that can serve as a brief and concise introduction
+to the environment.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/srds98.ps">Chameleon:
+A Software Infrastructure for Adaptive Fault Tolerance </a>. Published
+at the 18th Symposium on Reliable Distributed Systems, Purdue University,
+1998. This paper provides details of the Chameleon architecture and some
+results from an early implementation and simulation. The full length paper
+is <a href="http://www.crhc.uiuc.edu/~bagchi/Research/srds98_full.ps">here
+</a>.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/HASE98.ps">A
+Flexible Software Architecture for High Availability Computing </a>. Published
+at the 3rd IEEE Conference on High Assurance Systems Engineering, 1998.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/TPDS99.ps">Chameleon:
+A Software Architecture for Adaptive Fault Tolerance. </a>IEEE Transactions
+on Parallel and Distributed Systems, Special Issue on Real-Time Systems,
+June, 1999. This paper provides a fairly comprehensive discussion of the
+Chameleon architecture with emphasis on its real-time aspects.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/FTCS99_sb.ps">Hierarchical
+Error Detection and Recovery in a SIFT Environment </a>. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/FTCS99_sb_abs.ps">Abstract
+</a>.
+This paper explores the issues involved in error detection and recovery
+in Chameleon, primarily exploring the error handling for the Chameleon
+components called ARMORs. It was submitted to the Fault Tolerance Computer
+Symposium-29, held in Wisconsin, June 15-18, 1999.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/FTCS99_kw.ps">Providing
+Adaptive Fault Tolerance through the Reconfigurable ARMOR Architecture
+of Chameleon </a>. This paper describes the reconfigurable ARMOR architecture
+in Chameleon and explains how it is used to provide adaptive fault tolerance
+in a distributed environment. It was submitted to the Fault Tolerance Computer
+Symposium-29, held in Wisconsin, June 15-18, 1999.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/FTCS99_abs.ps">Software-based
+Signaturing in Distributed Systems </a>. Published as a Fast Abstract at
+the 29th International Fault Tolerant Computer Symposium, Wisconsis, June
+15th-18th, 1999. It gives a brief overview of our recent work on software
+signaturing which is proposed as one of the techniques to make the Chameleon
+ARMORs more robust. However, the discussion here is generally applicable
+in the context of distributed systems.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/TKDE99.ps">Hierarchical
+Error Detection in a SIFT Environment </a>. Published in IEEE Transactions
+on Knowledge and Data Engineering, April, 2000. This paper details the
+detection algorithms in Chameleon, along with the Optimization framework.
+It gives fairly detailed results from the latest implementation and simulation
+of the environment.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/FTCS30.ps">Fault
+Injection Based Assessment of Fail-Silence Provided by Process Duplication
+versus Internal Error Detection </a>. Submitted to the 30th International
+Symposium on Fault-Tolerant Computing, 2000. This paper provides the results
+of fault injection into Chameleon and another distributed SIFT middleware
+from the University of Newcastle called Voltan. The goal is to evaluate
+the fail-silence provided by the internal ARMOR self-checking techniques
+with full duplication provided by Voltan. Results from both direct and
+random fault injection campaigns are presented.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/TC00.ps">Design
+and Evaluation of Preemptive Control Signature (PECOS) Checking for Distributed
+Applications </a>. Revised and submitted to IEEE Transactions on Computers
+in January 2002. It provides the design of a technique for protecting against
+control flow faults, called PECOS. The main advantages of PECOS are that
+it is pre-emptive in nature thereby reducing recovery effort and system
+downtime, and it can handle control structures determined at runtime (e.g.,
+dynamic library calls). Evaluation of PECOS is done on a client-server
+application called DHCP, using software based fault injection. Detailed
+fault injection based evaluation and performance measures are provided.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/DSN01.ps">A
+Framework for Database Audit and Control Flow Checking for a Wireless Telephone
+Network Controller </a>. Published at the IEEE Dependable Systems and Networks
+Conference, Sweden, July, 2001. It provides the dependability assessment
+of a controller for a wireless telephone network. Two classes of techniques
+for protecting against data and control errors in such an environment are
+presented. The resultant improvement in system reliability is evaluated
+through detailed fault injection. The full paper is <a href="http://www.crhc.uiuc.edu/~bagchi/Research/DSN01_full.ps">here
+</a>.</font></li>
+</ul>
+
+<h2>
+<font color="#000000">Presentations</font></h2>
+<font color="#000000">1. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/pres_042997.ps">24th
+April, 1997</a></font><font color="#000000"></font>
+<p><font color="#000000">2. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/jpl_020498.ps">4th
+February, 1998</a></font><font color="#000000"></font>
+<p><font color="#000000">3. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/icap_040898.ps">8th
+April, 1998 </a>(ICAP, UIUC)</font><font color="#000000"></font>
+<p><font color="#000000">4. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/pres_101698.ps">16th
+October, 1998 </a>(Jet Propulsion Lab, Pasadena, California)</font><font color="#000000"></font>
+<p><font color="#000000">5. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/srds98.ps">25th
+October, 1998 </a>(Symposium on Reliable Distributed Systems 98, Purdue
+University, Indiana)</font><font color="#000000"></font>
+<p><font color="#000000">6. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/CRHCSeminar_111798.prn">17th
+November, 1998 </a>(CRHC Seminar, UIUC) <a href="http://www.crhc.uiuc.edu/~bagchi/Research/CRHCSeminar_111798.ppt">Powerpoint
+file</a></font><font color="#000000"></font>
+<p><font color="#000000">7. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/Al_021699.ppt">16th
+February, 1999 (powerpoint file) </a>(Research Group Seminar given to Prof.
+Algirdas Avizienis, Center for Reliable &amp; High Performance Computing,
+U. of Illinois.</font><font color="#000000"></font>
+<p><font color="#000000">8. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/MS_032299.ps">22nd
+March, 1999 </a><a href="http://www.crhc.uiuc.edu/~bagchi/Research/MS_032299.ppt">Powerpoint
+file</a></font><font color="#000000"></font>
+<p><font color="#000000">9. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/icap_040699.ps">6th
+April, 1999 </a><a href="http://www.crhc.uiuc.edu/~bagchi/Research/icap_040699.ppt">Powerpoint
+file </a>Posters presented at ICAP (Industrial Computer Affiliates Program),
+University of Illinois, April, 1999.</font><font color="#000000"></font>
+<p><font color="#000000">9. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/Mot_072199.ps">21st
+July, 1999 </a><a href="http://www.crhc.uiuc.edu/~bagchi/Research/Mot_072199.ppt">Powerpoint
+file </a>Presentation given to Motorola internally at CRHC, UIUC. It contains
+preliminary availability and coverage measures from the error detection
+protocols obtained through fault injection experiments.</font><font color="#000000"></font>
+<p><font color="#000000">10. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/Jim_041700_kw.ps">17th
+April, 2000 </a>Talk given by Keith Whisnant to Jim Gray of Microsoft Research
+that describes the high-level philosophy of Chameleon, and the latest work
+on micro-checkpointing.</font>
+<br><font color="#000000"><a href="http://www.crhc.uiuc.edu/~bagchi/Research/Jim_041700.ps">17th
+April, 2000 </a>Talk given by me that presents results of the evaluation
+of the pre-emptive control flow signature technique. It contains a table
+that compares the detection techniques available in existing SIFT systems.</font><font color="#000000"></font>
+<p><font color="#000000">11. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/ATT_050500.ps">5th
+May, 2000 </a>Presentation that contains the latest work on control flow
+signatures and presents results from the evauation done of the signature
+schemes.</font><font color="#000000"></font>
+<p><font color="#000000">12. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/ICAP_091300.ps">13th
+September, 2000 </a>A short summary of the raison-d'etre behind error detection
+and latest fault injection and performance results from the pre-emptive
+control flow signature (PECOS) scheme.</font><font color="#000000"></font>
+<p><font color="#000000">13. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/Final_110100.ps">1st
+November, 2000 </a>The slides from my final Ph.D. thesis defense. In the
+talk, I focus on the work on control flow error detection. It presents
+the motivation, the techniques, and detailed evaluation of two large-scale
+commercial applications - Dynamic Host Configuration Protocol (DHCP) application,
+and a call processing application for a mobile environment. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/Final_110100_bak.ps">Here
+are the backup slides that contain useful stuff but could not be accomodated
+in the 90 minute presentation</a></font>
+<h2>
+<font color="#000000">Thesis</font></h2>
+<font color="#000000">The topic of my Ph.D. thesis is <i>Hierarchical Error
+Detection Protocols in a Software Implemented Fault Tolerance (SIFT) Environment
+</i>.
+I defended my thesis on November 1st, 2000. I will be submitting the thesis
+shortly (end-November, early-December). <a href="http://www.crhc.uiuc.edu/~bagchi/Research/pthesis.html">Here</a>
+is an abstract of the thesis. And <a href="http://www.crhc.uiuc.edu/~bagchi/Research/pthesis.ps">here</a>
+is the full postscript version.</font><font color="#000000"></font>
+<p><font color="#000000">I had defended the proposal at my Preliminary
+examination on 10th June, 1999. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/prelim.ps">Here
+</a>is
+the proposal. And <a href="http://www.crhc.uiuc.edu/~bagchi/Research/prelim_pres.ps">here
+</a>are
+the slides from my prelim talk.</font><font color="#000000"></font>
+<p><font color="#000000">The topic of my Masters thesis is <i>Chameleon:
+A Software Infrastructure for Adaptive Fault Tolerance in Distributed Systems
+</i>. <a href="http://www.crhc.uiuc.edu/~bagchi/Research/mthesis.html">Here
+</a>is
+an abstract of the thesis. And <a href="http://www.crhc.uiuc.edu/~bagchi/Research/mthesis.ps">here
+</a>is
+the full postscript version.</font><font color="#000000"></font>
+<p><font color="#000000">My presentations for the Qualifying examination
+(September 1997) are here:</font>
+<ol>
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/bagchi/quals/qual1_0.ps">Methodology
+for Adapting to Patterns of Faults. </a>By, Gul Agha and Daniel Sturman.
+From, Foundations of Ultradependable Computing, 1994.</font></li>
+
+<li>
+<font color="#000000"><a href="http://www.crhc.uiuc.edu/bagchi/quals/qual2_0.ps">Refinement
+for Fault-Tolerance: An Aircraft Hand-off Protocol. </a>By, Keith Marzullo,
+Fred Schneider &amp; Jon Dehn. From, Foundations of Ultradependable Computing,
+1994.</font></li>
+</ol>
+
+<br>&nbsp;
+<center><table BORDER COLS=3 WIDTH="48%" >
+<tr>
+<td ALIGN=CENTER WIDTH="70">
+<center><a href="http://dynamo.ecn.purdue.edu/~sbagchi"><img SRC="home.gif" height=50 width=50></a>
+<br><font color="#000000">Home Page</font></center>
+</td>
+
+<td ALIGN=CENTER WIDTH="70"><a href="http://www.purdue.edu/"><img SRC="grif.gif" height=50 width=53 align=ABSCENTER></a>
+<br><font color="#000000">Purdue Home Page</font></td>
+
+<td ALIGN=CENTER WIDTH="70"><a href="http://dynamo.ecn.purdue.edu/"><img SRC="ece_logo.gif" height=50 width=52 align=ABSCENTER></a>
+<br><font color="#000000">Purdue ECE Home Page</font></td>
+</tr>
+</table></center>
+
+<hr WIDTH="100%">
+<center><font color="#000000">Saurabh Bagchi</font>
+<br><font color="#000000"><font size=-1>Last modified: January 26, 2003</font></font></center>
+<font color="#000000"></font>
+</body>
+</html>
