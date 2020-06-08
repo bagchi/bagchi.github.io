@@ -1,0 +1,19 @@
+html, body{
+  height: 100%;
+  font-family: 'Open Sans';
+}
+
+img {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.homepage-footer {
+  padding-top: 0px;
+}
+
+.twitter {
+  height: 480px;
+  width: auto;
+  overflow: scroll;
+}
