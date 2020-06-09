@@ -1,0 +1,2129 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="readinggroup_files/filelist.xml">
+<link rel=Edit-Time-Data href="readinggroup_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Reading Group on Reliable &amp; Secure System Design</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="time"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PersonName" downloadurl="http://www.microsoft.com"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PostalCode"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="State"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceName"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceType"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="country-region"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="City"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 5 4 5 2 3 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:536885895 0 0 0 511 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+h1
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	color:black;
+	mso-font-kerning:0pt;
+	font-weight:bold;
+	text-decoration:underline;
+	text-underline:single;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	color:black;
+	font-weight:bold;
+	font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:12.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:Arial;
+	color:black;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:#D00000;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#551A8B;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.DefaultText, li.DefaultText, div.DefaultText
+	{mso-style-name:"Default Text";
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:.2in;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Times;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:black;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:32702866;
+	mso-list-template-ids:-1063081852;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:194930373;
+	mso-list-template-ids:-1494314432;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:225335101;
+	mso-list-type:hybrid;
+	mso-list-template-ids:459073484 67698693 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:413164384;
+	mso-list-template-ids:1037084874;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:1489512900;
+	mso-list-template-ids:173161432;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:1659110548;
+	mso-list-template-ids:-1863569504;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:1937597719;
+	mso-list-template-ids:-86360204;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+<meta name=Author content="Saurabh Bagchi">
+<!--[if gte mso 9]><xml>
+ <u1:DocumentProperties>
+  <u1:Author>Saurabh Bagchi</u1:Author>
+  <u1:LastAuthor>Saurabh Bagchi</u1:LastAuthor>
+  <u1:Revision>2</u1:Revision>
+  <u1:TotalTime>88</u1:TotalTime>
+  <u1:LastPrinted>2002-09-27T02:06:00Z</u1:LastPrinted>
+  <u1:Created>2002-10-01T18:25:00Z</u1:Created>
+  <u1:LastSaved>2002-10-01T18:25:00Z</u1:LastSaved>
+  <u1:Pages>7</u1:Pages>
+  <u1:Words>1673</u1:Words>
+  <u1:Characters>9537</u1:Characters>
+  <u1:Company>Purdue University</u1:Company>
+  <u1:Lines>79</u1:Lines>
+  <u1:Paragraphs>19</u1:Paragraphs>
+  <u1:CharactersWithSpaces>11712</u1:CharactersWithSpaces>
+  <u1:Version>9.2720</u1:Version>
+ </u1:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+<link href="styles.css" rel="stylesheet"></head>
+</head>
+
+<body bgcolor=white lang=EN-US link="#D00000" vlink="#551A8B" style='tab-interval:
+.5in' alink="#ff0000">
+
+<div class=Section1>
+
+<h2 align=center style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;
+margin-left:0in;text-align:center'><span style='font-style:normal'>Reading
+Group on Reliable &amp; Secure System Design<u2:p></u2:p></span></h2>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:normal'><st1:PersonName><span
+ style='font-size:12.0pt'>Saurabh Bagchi<u2:p></u2:p></span></st1:PersonName><span
+style='font-size:12.0pt'> <o:p></o:p></span></p>
+
+<p align=center style='margin:0in;margin-bottom:.0001pt;text-align:center'>Electrical
+and Computer Engineering Department, <st1:place><st1:PlaceName>Purdue</st1:PlaceName>
+ <st1:PlaceType>University<u2:p></u2:p></st1:PlaceType></st1:place> </p>
+
+<p align=center style='margin:0in;margin-bottom:.0001pt;text-align:center'><span
+class=GramE>1285 EE Building, </span><st1:place><st1:City><span class=GramE>West
+  Lafayette</span></st1:City><span class=GramE>, </span><st1:State><span
+  class=GramE>IN</span></st1:State><span class=GramE> </span><st1:PostalCode><span
+  class=GramE>47907</span></st1:PostalCode></st1:place><span class=GramE>.<u2:p></u2:p></span>
+</p>
+
+<p align=center style='margin:0in;margin-bottom:.0001pt;text-align:center'>Email:
+<st1:PersonName>sbagchi@purdue.edu</st1:PersonName><o:p></o:p></p>
+
+<u2:p></u2:p>
+
+<h3>When &amp; Where</h3>
+
+<p class=MsoNormal align=left style='margin-bottom:6.0pt;text-align:left;
+line-height:normal'><span style='font-size:13.5pt'>For <span class=GramE>Spring</span>,
+2004:<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left'>We will be meeting in
+room EE 317 on Wednesdays from <st1:time Minute="15" Hour="17">5:15-6:30 pm</st1:time>.
+This semester, we will conduct the reading group meetings slightly differently from
+previous semesters. We will discuss a focused topic instead of individual
+papers. The topic may involve multiple papers, typically between 3 and 5. The
+discussion may take 2-3 meetings. One student will lead the discussion on one
+topic. I will provide an initial list of papers which can act as guide for the
+topic, but you will typically have to find other papers. This format will allow
+us to get an understanding of a topic, go somewhat in-depth into a topic, and
+look at different perspectives on the topic. </p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+style='font-size:13.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<h3>Format</h3>
+
+<p class=MsoNormal>At each meeting, we will discuss a topic related to
+designing reliable and secure systems. One student will present the paper(s)
+followed by a discussion of the ideas in the papers, their significance, the
+shortcomings of the paper and possible extensions. The presentation should be
+no more than one hour long and should be done using slides projected from a
+laptop. Each participant in the meeting should have a write-up with at least
+two points each on the shortcomings of the paper and future research directions
+suggested by the paper. Each of the participants will give feedback to the
+presenter about his/her presentation style.</p>
+
+<h3>Objectives</h3>
+
+<p class=MsoNormal>One major objective of the group is to gather ideas, which
+may help the students in their own research projects in the area. Another goal
+is to make the students comfortable with giving technical presentations and
+improve their presentation skills.</p>
+
+<h3>Meeting Schedule</h3>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+style='font-size:12.0pt'>[Spring 2004]<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+style='font-size:12.0pt'><span style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="92%"
+ style='width:92.32%;mso-cellspacing:1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td width="13%" nowrap style='width:13.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Date</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width="13%" style='width:13.62%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Topic</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width="41%" valign=top style='width:41.28%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Papers<o:p></o:p></span></b></p>
+  </td>
+  <td width="17%" style='width:17.78%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Presenter</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width="12%" style='width:12.98%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Presentation</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width="13%" nowrap valign=top style='width:13.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>January 15<o:p></o:p></span></p>
+  </td>
+  <td width="13%" valign=top style='width:13.62%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Planning meeting<o:p></o:p></span></p>
+  </td>
+  <td width="41%" valign=top style='width:41.28%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width="17%" valign=top style='width:17.78%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Saurabh Bagchi</span></st1:PersonName><span
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width="12%" valign=top style='width:12.98%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/~sbagchi/Research/ReadingGroup/groupoverview_0104.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width="13%" nowrap valign=top style='width:13.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>January 22,29<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>(Jan 22 we meet in <o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>EE 118)<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Feb 5<o:p></o:p></span></p>
+  </td>
+  <td width="13%" valign=top style='width:13.62%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Intrusion tolerance in mobile wireless networks<o:p></o:p></span></p>
+  </td>
+  <td width="41%" valign=top style='width:41.28%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Initial list:<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>1. &#8220;Intrusion detection techniques for mobile
+  wireless networks&#8221;, <span class=SpellE>Yongguang</span> Zhang, <span
+  class=SpellE>Wenke</span> Lee, Yi-An Huang. In Wireless Networks Journal,
+  September 2003.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>2. &#8220;Secure routing: Secure data transmission
+  in mobile ad hoc networks&#8221;, <span class=SpellE>Panagiotis</span> <span
+  class=SpellE>Papadimitratos</span>, <span class=SpellE>Zygmunt</span> J.
+  Haas. In ACM Workshop on Wireless Security, September 2003.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>3. &#8220;Securing ad hoc networks&#8221;, L. Zhou,
+  Z.J. Haas. In IEEE Network, Nov-Dec 1999.<o:p></o:p></span></p>
+  </td>
+  <td width="17%" valign=top style='width:17.78%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Issa Khalil</span></st1:PersonName><span
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width="12%" valign=top style='width:12.98%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/~sbagchi/Research/ReadingGroup/issa_adhocids_012204.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width="13%" nowrap valign=top style='width:13.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Feb 12, 19<o:p></o:p></span></p>
+  </td>
+  <td width="13%" valign=top style='width:13.62%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Diagnosis in distributed systems<o:p></o:p></span></p>
+  </td>
+  <td width="41%" valign=top style='width:41.28%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Initial list:<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>1. &#8220;Membership and system diagnosis,&#8221; M.
+  A. <span class=SpellE>Hiltunen</span>. In 14th IEEE Symposium on Reliable
+  Distributed Systems, 1995.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>2. &#8220;Distributed on-line diagnosis in the presence
+  of arbitrary faults,&#8221; R. <span class=SpellE>Buskens</span>, R. <span
+  class=SpellE>Bianchini</span> Jr. In 23<sup>rd</sup> International Symposium
+  on Fault-Tolerant Computing (FTCS-23), 1993.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>3. &#8220;Fault Identification Using a Finite-State
+  Machine Model with Unreliable Partially Observed Data Sequences,&#8221; A. <span
+  class=SpellE>Bouloutas</span>, G. Hart, M. Schwartz. IEEE Transactions on
+  Communications, July 1993<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Additional reference:<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>1. &#8220;Simulation of the Adapt on-line diagnosis
+  algorithm for general topology networks,&#8221; M. Stahl, R. <span
+  class=SpellE>Buskens</span>, R. <span class=SpellE>Bianchini</span> Jr. In
+  11th IEEE Symposium on Reliable Distributed Systems, 1992.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width="17%" valign=top style='width:17.78%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Gunjan</span></st1:PersonName><span
+  style='font-size:12.0pt'> Khanna<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Padma Varadharajan<o:p></o:p></span></p>
+  </td>
+  <td width="12%" valign=top style='width:12.98%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/~sbagchi/Research/ReadingGroup/diagnosis_gunjan_padma_020504.pdf"><span
+  class=SpellE>pdf</span></a> (Part 1)<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/~sbagchi/Research/ReadingGroup/diagnosis_gunjan_padma_020504_part2.pdf"><span
+  class=SpellE>pdf</span></a> (Part 2)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width="13%" nowrap valign=top style='width:13.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Feb 26<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Mar 4, 11<o:p></o:p></span></p>
+  </td>
+  <td width="13%" valign=top style='width:13.62%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Survivability<o:p></o:p></span></p>
+  </td>
+  <td width="41%" valign=top style='width:41.28%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Initial list:<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:.25in;text-align:left;
+  text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .25in'><![if !supportLists]><span
+  style='font-size:12.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+  mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:12.0pt'>Security and survivability
+  of distributed systems: an overview<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  class=SpellE><span style='font-size:12.0pt'>Kyamakya</span></span><span
+  style='font-size:12.0pt'>, K.<span style='mso-spacerun:yes'>   </span><span
+  class=SpellE>Jobman</span>, K.<span style='mso-spacerun:yes'>   </span><span
+  class=SpellE>Meincke</span>, M.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>MILCOM 2000. 21st Century Military
+  Communications<span style='mso-spacerun:yes'>  </span>Conference Proceedings<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:.25in;text-align:left;
+  text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .25in'><![if !supportLists]><span
+  style='font-size:12.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+  mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:12.0pt'>Survivability
+  analysis of network specifications<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  class=SpellE><span style='font-size:12.0pt'>Jha</span></span><span
+  style='font-size:12.0pt'>, S.<span style='mso-spacerun:yes'>   </span>Wing,
+  J.<span style='mso-spacerun:yes'>   </span>Linger, R.<span
+  style='mso-spacerun:yes'>   </span><span class=SpellE>Longstaff</span>, T.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>DSN 2000.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:.25in;text-align:left;
+  text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .25in'><![if !supportLists]><span
+  style='font-size:12.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+  mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:12.0pt'>Survivability
+  through customization and adaptability: the Cactus approach<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><span style='mso-spacerun:yes'> </span><span
+  class=SpellE>Hiltunen</span>, M.A.<span style='mso-spacerun:yes'>   </span><span
+  class=SpellE>Schlichting</span>, R.D.<span style='mso-spacerun:yes'>  
+  </span></span><st1:place><st1:City><span class=SpellE><span style='font-size:
+    12.0pt'>Ugarte</span></span></st1:City><span style='font-size:12.0pt'>, </span><st1:country-region><span
+    style='font-size:12.0pt'>C.A.</span></st1:country-region></st1:place><span
+  style='font-size:12.0pt'><span style='mso-spacerun:yes'>   </span>Wong, G.T.<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><span style='mso-spacerun:yes'> </span>DARPA
+  Information Survivability Conference and Exposition, 2000. DISCEX '00.<o:p></o:p></span></p>
+  </td>
+  <td width="17%" valign=top style='width:17.78%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Yu-Sung Wu (Hank)<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Bingrui Foo<o:p></o:p></span></p>
+  </td>
+  <td width="12%" valign=top style='width:12.98%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/~sbagchi/Research/ReadingGroup/hank_bingrui_survivability_022604.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+  <td width="13%" nowrap valign=top style='width:13.02%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Mar 25<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Apr 1<o:p></o:p></span></p>
+  </td>
+  <td width="13%" valign=top style='width:13.62%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='margin-left:.25in;text-align:left;
+  text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .25in'><![if !supportLists]><span
+  style='font-size:12.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+  mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='font-size:12.0pt'>Sensor Network
+  Localization<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='margin-left:.25in;text-align:left;
+  text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo2;tab-stops:list .25in'><![if !supportLists]><span
+  style='font-size:12.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;
+  mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>§<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span class=SpellE><span style='font-size:
+  12.0pt'>Testbed</span></span><span style='font-size:12.0pt'> development<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width="41%" valign=top style='width:41.28%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width="17%" valign=top style='width:17.78%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Nipoon Malhotra<o:p></o:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Mark Krasniewski<o:p></o:p></span></p>
+  </td>
+  <td width="12%" valign=top style='width:12.98%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+style='font-size:12.0pt'>[Fall 2003]<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="75%"
+ style='width:75.0%;mso-cellspacing:1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td nowrap style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Date</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Topic / Paper</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Presenter</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Presentation</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Aug 28<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Overview of research in DCSL<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Saurabh Bagchi</span></st1:PersonName><span
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/%7Esbagchi/Research/Presentations/researchoverview_0903.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td nowrap style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Sep 4<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;<a
+  href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Papers/cids_acsac03.pdf">Collaborative
+  Intrusion Detection System (CIDS): A Framework for Accurate and Efficient IDS</a>&quot;<br>
+  Yu-Sung Wu, </span><st1:PersonName><span style='font-size:12.0pt'>Bingrui Foo</span></st1:PersonName><span
+  style='font-size:12.0pt'>, <span class=SpellE>Yongguo</span> <span
+  class=SpellE>Mei</span>, </span><st1:PersonName><span style='font-size:12.0pt'>Saurabh
+   Bagchi</span></st1:PersonName><span style='font-size:12.0pt'>, ACSAC '03.<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Saurabh Bagchi</span></st1:PersonName><span
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/%7Esbagchi/Research/Presentations/groupseminar_090403.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Sep 11<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;Optimizing sensor networks in the
+  energy-latency-density design space&quot;<br>
+  Curt <span class=SpellE>Schurgers</span>, <span class=SpellE>Vlasios</span> <span
+  class=SpellE>Tsiatsis</span>, Saurabh <span class=SpellE>Ganeriwal</span>,
+  and <span class=SpellE>Mani</span> <span class=SpellE>Srivastava</span>, <br>
+  IEEE Transactions on Mobile Computing, Jan-Mar 2002.<br>
+  Available at: <a href="http://www.janet.ucla.edu/~curts/papers/TMC02.pdf">http://www.janet.ucla.edu/~curts/papers/TMC02.pdf</a><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Mark Krasniewski<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/%7Esbagchi/Research/Presentations/optimizedsensornetwork_mark_091103.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Sep 18<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;Observer-a concept for formal on-line
+  validation of distributed systems&quot;<br>
+  M. Diaz, G. <span class=SpellE>Juanole</span>, J.-P. <span class=SpellE>Courtiat</span>,
+  IEEE Transactions on Software <span class=SpellE>Engg</span>. Dec 1994<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Padma Varadharajan<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/ReadingGroup/observer_padma_091803.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Sep 25<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;Survivable Mobile Wireless Networks: Issues, Challenges,
+  and Research Directions&quot;<br>
+  James P.G. <span class=SpellE>Sterbenz</span>, Rajesh Krishnan, Regina
+  Rosales <span class=SpellE>Hain</span>, Alden W. Jackson, David Levin, Ram <span
+  class=SpellE>Ramanathan</span>, and John <span class=SpellE>Zao</span>, ACM
+  Workshop on Wireless Security (<span class=SpellE>WiSe</span>), 2002.<br>
+  Available at: http://www.ir.bbn.com/~krash/pubs/sterbenz_wise02.pdf<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Nipoon Malhotra<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Oct 2<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;Route Driven Gossip: Probabilistic Reliable
+  Multicast in Ad Hoc Networks&quot;<br>
+  Jun <span class=SpellE>Luo</span>, Patrick Th. <span class=SpellE>Eugster</span>,
+  Jean-Pierre <span class=SpellE>Hubaux</span>, <span class=SpellE>Infocom</span>
+  '03.<br>
+  Available at: http://lcawww.epfl.ch/Publications/luo/luoEH03A.pdf<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Padma Varadharajan<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Oct 9<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Presentation of monitor based detection project<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Gunjan</span></st1:PersonName><span
+  style='font-size:12.0pt'> Khanna, Padma Varadharajan<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Oct 16<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Presentation of monitor based detection project<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Gunjan</span></st1:PersonName><span
+  style='font-size:12.0pt'> Khanna, Padma Varadharajan<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Oct 23<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Review of presentation for UIUC visit<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Saurabh Bagchi</span></st1:PersonName><span
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Oct 30<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;A taxonomy of wireless micro-sensor network
+  models&quot; <o:p></o:p></span></p>
+  <div>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  class=SpellE><span style='font-size:12.0pt'>Sameer</span></span><span
+  style='font-size:12.0pt'> <span class=SpellE>Tilak</span>, <span
+  class=SpellE>Nael</span> B. Abu-<span class=SpellE>Ghazaleh</span>, Wendi <span
+  class=SpellE>Heinzelman</span> <o:p></o:p></span></p>
+  </div>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>April 2002, ACM SIGMOBILE Mobile Computing and Communications
+  Review, Vol. 6 Issue 2<br>
+  Available at: http://citeseer.nj.nec.com/tilak02taxonomy.html<o:p></o:p></span></p>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+   style='mso-cellspacing:0in;mso-padding-alt:0in 0in 0in 0in'>
+   <tr style='mso-yfti-irow:0;mso-yfti-lastrow:yes'>
+    <td nowrap valign=top style='padding:0in 0in 0in 0in'>
+    <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+    style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Nov 6<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;Queries and Aggregation: Computation hierarchy
+  for in-network processing&quot;<br>
+  Ram Kumar, <span class=SpellE>Vlasios</span> <span class=SpellE>Tsiatsis</span>,
+  <span class=SpellE>Mani</span> B. <span class=SpellE>Srivastava</span><br>
+  <strong><span style='font-weight:normal'>Proceedings of the 2nd ACM
+  international conference on Wireless sensor networks and applications,
+  September 2003</span></strong><br>
+  <strong><span style='font-weight:normal'>Available from ACM Digital Library</span></strong>
+  <o:p></o:p></span></p>
+  <table class=MsoNormalTable border=0 cellpadding=0 style='mso-cellspacing:
+   1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-lastrow:yes'>
+    <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+    style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+    </td>
+    <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+    style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12;mso-yfti-lastrow:yes'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Nov 13<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;Why 6? Defining the Operational Limits of <span
+  class=SpellE>stide</span>, an Anomaly-Based Intrusion Detector.&quot; <br>
+  <span class=SpellE>Kymie</span> M.C. Tan and Roy A. <span class=SpellE>Maxion</span><br>
+  <i>IEEE Symposium on Security and Privacy</i>, pages 188-201, Berkeley,
+  California, 12-15 May 2002. Available at:
+  http://www-2.cs.cmu.edu/afs/cs.cmu.edu/user/maxion/www/pubs/TanMaxion02.pdf <o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+style='font-size:12.0pt'><br>
+[Spring 2003] <br>
+&nbsp; <br>
+&nbsp; <o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="73%"
+ style='width:73.0%;mso-cellspacing:1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Date</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Topic / Paper</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Presenter</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><b><span
+  style='font-size:12.0pt'>Presentation</span></b><span style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Feb 4<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;A framework for constructing features and
+  models for intrusion detection systems&quot; by Lee and <span class=SpellE>Stolfo</span>
+  <br>
+  ACM Transactions on Information and System Security (TISSEC), Volume 3 Issue
+  4&nbsp; (November 2000)<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Saurabh Bagchi</span></st1:PersonName><span
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Feb 13<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Overview of intrusion tolerance research in group<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Saurabh Bagchi</span></st1:PersonName><span
+  style='font-size:12.0pt'>&nbsp; <br>
+  Hank<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Feb 20<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  class=SpellE><span style='font-size:12.0pt'>Lidong</span></span><span
+  style='font-size:12.0pt'> Zhou and <span class=SpellE>Zygmunt</span> J. Haas.
+  Securing Ad Hoc Networks. IEEE Network, 13(6):24-30, 1999. <br>
+  Anthony Wood, John A. <span class=SpellE>Stankovic</span>, &quot;Denial of
+  Service in Sensor Networks,&quot; IEEE Computer, 35(10):54-62, October 2002.<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Nipoon Malhotra<o:p></o:p></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/%7Esbagchi/Research/ReadingGroup/nipoon_DOSandSecuringAdHocNtw_0203.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Feb 27, Mar 6<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Data Mining Approaches to Intrusion Detection<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  class=SpellE><span style='font-size:12.0pt'>Serdar</span></span><span
+  style='font-size:12.0pt'> <span class=SpellE>Cabuk</span><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/%7Esbagchi/Research/ReadingGroup/serdar_intrusiondetection_machinelearning_030503.pdf"><span
+  class=SpellE><span style='color:black'>pdf</span></span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Mar 13<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  class=SpellE><span style='font-size:12.0pt'>Wenke</span></span><span
+  style='font-size:12.0pt'> Lee and Dong <span class=SpellE>Xiang</span>,
+  &quot;Information-Theoretic Measures for Anomaly Detection&quot;, <br>
+  Proceedings of The 2001 IEEE Symposium on Security and Privacy, </span><st1:place><st1:City><span
+    style='font-size:12.0pt'>Oakland</span></st1:City><span style='font-size:
+   12.0pt'>, </span><st1:State><span style='font-size:12.0pt'>CA</span></st1:State></st1:place><span
+  style='font-size:12.0pt'>, May 2001 <o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  class=SpellE><span style='font-size:12.0pt'>Serdar</span></span><span
+  style='font-size:12.0pt'> <span class=SpellE>Cabuk</span><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>April 3<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>&quot;A Software Architecture to support Misuse
+  Intrusion Detection&quot;, <span class=SpellE>Sandeep</span> Kumar and Eugene
+  <span class=SpellE>Spafford</span>, Proceedings of the 18th National
+  Information Security Conference, 1995<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Hank<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/%7Esbagchi/Research/ReadingGroup/hank_misusedetection_040303.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>April 17<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Cryptography protocols for sensor networks<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><st1:PersonName><span
+   style='font-size:12.0pt'>Issa Khalil</span></st1:PersonName><span
+  style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><a
+  href="http://www.ece.purdue.edu/%7Esbagchi/Research/ReadingGroup/issa_sensorcryptography_041703.pdf"><span
+  class=SpellE>pdf</span></a><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8;mso-yfti-lastrow:yes'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>April 24<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Zhen Xiao and K. <span class=SpellE>Birman</span>,
+  &#28;&quot;A Randomized Error Recovery Algorithm for Reliable
+  Multicast&quot;, IEEE <span class=SpellE>Infocom</span> April 2001, </span><st1:State><st1:place><span
+    style='font-size:12.0pt'>Alaska</span></st1:place></st1:State><span
+  style='font-size:12.0pt'>.<br>
+  Zhen Xiao, K.P. <span class=SpellE>Birman</span>, R. van <span class=SpellE>Renesse</span>,
+  &quot;Optimizing buffer management for reliable multicast&quot;, Proceedings
+  of the International Conference on Dependable Systems and Networks (DSN 02),
+  June 2002.<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'>Nipoon Malhotra<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<h3><u2:p></u2:p><o:p>&nbsp;</o:p></h3>
+
+<h3>Topics</h3>
+
+<p class=MsoNormal>In this group we will be covering papers from a subset of
+the following topics. A list of papers is given at the end of the write-up.</p>
+
+<p class=MsoNormal>[Spring 2003] <br>
+<span class=GramE>1. Case studies of intrusion detection systems <br>
+&nbsp;&nbsp;&nbsp; <span class=SpellE>i</span>) Theoretical work, e.g., by <span
+class=SpellE>Wenke</span> Lee <br>
+&nbsp;&nbsp;&nbsp; ii) Practical work, e.g., the Prelude IDS <br>
+2.</span> Security in ad-hoc or sensor networks <br>
+&nbsp;&nbsp;&nbsp; <span class=SpellE>i</span>) Denial of service <br>
+&nbsp;&nbsp;&nbsp; ii) Network layer issues <br>
+&nbsp;&nbsp;&nbsp; iii) Cryptography <br>
+3. <span class=GramE>Case studies of fault tolerant computer systems <br>
+&nbsp;&nbsp;&nbsp; E.g., Tandem&#8217;s Integrity machine, TNET &#8211; a reliable
+system area network <br>
+4.</span> <span class=GramE>Error detection techniques <br>
+&nbsp;&nbsp;&nbsp; <span class=SpellE>i</span>) Control flow error detection <br>
+&nbsp;&nbsp;&nbsp; ii) Watchdog processors <br>
+&nbsp;&nbsp;&nbsp; iii) Hardware redundancy <br>
+5.</span> <span class=GramE>Recovery techniques <br>
+&nbsp;&nbsp;&nbsp; <span class=SpellE>i</span>) Rollback recovery using
+checkpoints <br>
+&nbsp;&nbsp;&nbsp; ii) Rollback recovery in message passing multiprocessors <br>
+&nbsp;&nbsp;&nbsp; iii) Forward recovery <br>
+6.</span> Software reliability <br>
+&nbsp;&nbsp;&nbsp; <span class=SpellE>i</span>) <span class=GramE>How</span>
+often does software fail? <br>
+&nbsp;&nbsp;&nbsp; ii) Why does software fail? (And from that maybe, what can
+be done about it?) <br>
+7. Estimation of reliability <br>
+&nbsp;&nbsp;&nbsp; <span class=SpellE>i</span>) Reliability modeling, e.g.,
+using combinatorial models <br>
+&nbsp;&nbsp;&nbsp; ii) Availability modeling, e.g., using Markov models </p>
+
+<p style='text-align:justify;line-height:150%'><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%'>[Fall 2002] <br>
+1. Analytical Modeling and Simulation<o:p></o:p></span></p>
+
+<p class=MsoNormal>2. Dependability Measurements</p>
+
+<p class=MsoNormal>3. Validation &#8211; Fault injection &amp; Formal methods</p>
+
+<p class=MsoNormal>4. Case studies of intrusion detection systems</p>
+
+<p class=MsoNormal>5. Case studies of reliable system design</p>
+
+<p class=MsoNormal>6. Error detection &amp; Control flow checking</p>
+
+<p class=MsoNormal>7. <span class=SpellE>Checkpointing</span> &amp; Recovery</p>
+
+<h3>Content of the Presentation</h3>
+
+<p class=MsoNormal>Pay particular emphasis on the following points in your
+presentation:</p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'>What
+     is the motivation behind the work? Is it driven by real-world problems?</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'>What
+     are the one or two key ideas in the paper? Generally, you can distill out
+     the complexities of the paper and find the key ideas which should be
+     expressed succinctly in one slide. When the audience walks out of the
+     presentation, a majority will forget the details. Here you must drive in
+     the points that you want the audience to leave the room with. Remind the
+     audience of the key points in the paper towards the end of the
+     presentation.</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'>Give
+     an illustration of the approach in the paper applied to a problem. You can
+     use the example presented in the paper, but it will be highly appreciated
+     if you can also sketch out the application of the idea to another problem.</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'>What
+     are the assumptions made in the paper? When are these assumptions valid
+     and when are they not? What would it take to weaken the assumptions?</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'>In
+     presenting a paper, focus on the part of the paper that has relevance to
+     reliable and secure systems. For example, there may be a discussion of a
+     particular cryptography algorithm, but that may be worthy of less emphasis
+     than the way it is integrated into the whole system to enhance system
+     resilience.</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'>Give
+     an idea of the related work in the area. What is the state of the art, and
+     how is this paper extending that? Is there more recent work on this
+     problem?</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'>Are
+     there efforts to commercialize the ideas in the paper? For example, the
+     paper may be proposing <span class=GramE>a processor</span> architecture
+     and you are to see if any commercial vendors are using the architecture or
+     a variant of it.</li>
+</ul>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal>Here are some parts that may be of less importance in a
+reading group presentation such as ours:</p>
+
+</div>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo8;tab-stops:list .5in'>Details
+     of a particular technique that does not deal with reliability or security
+     per se. For example, a hardware fault tolerant system may have an
+     architecture that is speculative and therefore suitable for high
+     performance. You may want to spend less time on that than on an aspect
+     that improves the resilience of the hardware platform.</li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo8;tab-stops:list .5in'>Going
+     through the paper from A through Z. The written paper has the compulsion
+     of trying to be complete in its presentation. Here, we are trying to get
+     the main lessons from the paper and therefore can pick and choose the
+     parts we want to highlight.</li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo8;tab-stops:list .5in'>Don&#8217;t
+     present half a dozen experimental results if they all have the objective
+     of proving one idea. Show one of the experimental results and see how it
+     supports the author claims, and perhaps mention how other experiments also
+     bear the claims out.</li>
+</ul>
+
+<h3>Tips for the Presentation</h3>
+
+<p class=MsoNormal>Here are some points the presenter should keep in mind and
+the other participants should use while critiquing the presentation.</p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo11;tab-stops:list .5in'>At
+     the end does the presentation give me an idea of the key contribution of
+     the paper?</li>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo11;tab-stops:list .5in'>Did
+     the presentation bring out the shortcomings of the paper?</li>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo11;tab-stops:list .5in'>Did
+     the presentation have a smooth flow or was the presenter jumping back and
+     forth between the topics?</li>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo11;tab-stops:list .5in'>Did
+     the presenter try to understand audience questions and respond to them
+     directly and clearly?</li>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo11;tab-stops:list .5in'>Did
+     the presenter speak forcefully stressing on the important points? Did the
+     presenter appear to connect with the audience? A key to this is to speak
+     looking at the audience, as opposed to looking at the transparencies and
+     reading off them.</li>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo11;tab-stops:list .5in'>Before
+     the actual presentation, give a dry run, even if it is only to <span
+     class=GramE>yourself</span>.</li>
+</ul>
+
+<p class=MsoNormal>For the feedback on the presentation, speak your mind out.
+Don&#8217;t be offensive, but be candid. We are doing this so that we can help
+each other improve in the way we give presentations. This is a very important
+skill in all walks of life &#8211; industry jobs and academic jobs, and this
+group is meant to give you a non-threatening environment in which to improve
+this skill.</p>
+
+<h3>List of Papers</h3>
+
+<p class=MsoNormal>Here is an <u>initial </u>list of a superset of the papers
+we will look at. We will be sticking to this list for the first few weeks and after
+that, if students express interest in some other papers on the topic, we will
+consider those too.</p>
+
+<h1>Analytical Modeling and Simulation</h1>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>Z. Kalbarczyk, R. K. Iyer, G.L. <span
+class=SpellE>Ries</span>, J.U. Patel, M.S. Lee, and Y. Xiao Hierarchical
+Simulation Approach to Accurate Fault Modeling for System Dependability <span
+class=SpellE>Evaluation,IEEE</span> Transactions on Software Engineering, vol.
+25, no.5, September/October 1999, pp.619-632.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>K. K. <span class=SpellE>Goswami</span>,
+R. K. Iyer, and L. Young, &quot;DEPEND: A Simulation-Based Environment for
+System Level Dependability Analysis,&quot; IEEE Transactions on Computers, vol.
+46, no. 1, Jan. 1997, pp. 60-74.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>J. F. Meyer, &quot;On Evaluating
+the <span class=SpellE>Performability</span> of Degradable Computing
+Systems,&quot; IEEE Transactions on Computers, vol. C-29, no.8, Aug. 1980, pp.
+720-731.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>W.H. Sanders and L.M. <span
+class=SpellE>Malhis</span>, &quot;Dependability Evaluation Using Composed
+SAN-Based Reward Models,&quot; Journal of Parallel and Distributed Computing,
+Special Issues on Petri Net Models of Parallel and Distributed Computers,
+vol.15, no.3, 1992, pp.238-254.<o:p></o:p></p>
+
+</div>
+
+<h1><u2:p></u2:p>Dependability Measurements</h1>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>R. Iyer, Z. Kalbarczyk, M. <span
+class=SpellE>Kalyanakrishnam</span> Measurement-Based Analysis of Networked
+System <span class=SpellE>Avilability</span>, in &quot;Performance Evaluation
+Origins and Directions,&quot; Ed. G. Haring, Ch. <span class=SpellE>Lindemann</span>,
+M. <span class=SpellE>Reiser</span>, Lecture Notes in Computer Science,
+Springer <span class=SpellE>Verlag</span> 1999.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>J. <span class=SpellE>Xu</span>,
+Z. Kalbarczyk, R. Iyer, Networked Windows NT System Filed Failure Data
+Analysis, Proc. of <st1:place>Pacific Rim</st1:place> International Symposium
+on Dependable Computing, PRDC'99, <st1:place>Hong Kong</st1:place>, 1999.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>S. Chandra and P. Chen,
+&quot;Whither Generic Recovery from Application <span class=SpellE>Faults<span
+class=GramE>?A</span></span> Fault Study Using Open-Source Software,&quot;
+Proc. International Conference on Dependable Systems, DSN 2000, pp. 97-106.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>J. Gray, &quot;A Census of Tandem
+System Availability <span class=GramE>Between</span> 1985 and 1990,&quot; IEEE
+Transactions on Reliability, vol. 39, no. 4, July 1990, pp. 409-418.<o:p></o:p></p>
+
+</div>
+
+<h1><u2:p></u2:p>Validation</h1>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>J. <span class=SpellE>Arlat</span>,
+et al., &quot;Fault Injection for Dependability Validation: A Methodology and
+Some Applications,&quot; IEEE Transactions on Software Engineering, vol.16, no.
+2, Feb. 1990, pp. 166-182.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>R. K. <span class=SpellE>Shehady</span>
+and D. P. <span class=SpellE>Siewiorek</span>, &quot;A Method to Automate User
+Interface Testing Using <st1:place><st1:PlaceName>Variable</st1:PlaceName> <st1:PlaceName>Finite</st1:PlaceName>
+ <st1:PlaceType>State</st1:PlaceType></st1:place> Machines,&quot; Proc. IEEE
+Fault-Tolerant Computing <span class=SpellE><span class=GramE>Symp</span></span><span
+class=GramE>.,</span> 1997, pp. 80-88.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>D. Stott, N. <span class=SpellE>Speirs,Z</span>.
+Kalbarczyk, S. Bagchi, J. <span class=SpellE>Xu</span>, R. K. Iyer, Comparing
+Fail-Silence Provided by Process Duplication versus Internal Error Detection
+for DHCP Server, Proc. of Int'l Parallel and Distributed Processing Symposium,
+IPDPS'01, April 2001, pp. 91-100.<o:p></o:p></p>
+
+</div>
+
+<h1><u2:p></u2:p>Case Studies of Intrusion Detection Systems</h1>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'><span class=SpellE>Wenke</span>
+Lee and Sal <span class=SpellE>Stolfo</span>, A Framework for Constructing
+Features and Models for Intrusion Detection Systems ACM Transactions on
+Information and System Security, Volume 3, Number 4 (November 2000)</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>S. Chen, J. <span class=SpellE>Zu</span>,
+R. K. Iyer and K. <span class=SpellE>Whisnant</span>. <span class=GramE>Evaluating
+the Security Threat of Firewall Data Corruption Caused by Instruction Transient
+Errors.</span> <span class=GramE>Proc. International Conference on Dependable
+Systems, DSN 2002.</span></p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>J. Reynolds, J. <span
+class=GramE>Just, E. Lawson, L. Clough, R. <span class=SpellE>Maglich</span>,
+and K. <span class=SpellE>Levitt</span>.</span> <span class=GramE>The Design
+and Implementation of an Intrusion Tolerant System.</span> <span class=GramE>Proc.
+International Conference on Dependable Systems, DSN 2002.</span></p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>Readings taken from CS 590-I
+course on &quot;Introduction to Information Security&quot;.
+http://www.cerias.purdue.edu/homes/spaf/CS590I/index.html#read<o:p></o:p></p>
+
+</div>
+
+<h1><u2:p></u2:p>Case Studies of Reliable System Design</h1>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>D. Jewett, &quot;Integrity S2: A
+Fault-tolerant Unix Platform,&quot; Proc. IEEE Fault-Tolerant Computing <span
+class=SpellE>Symp</span>., 1991, pp.512-519.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>O. <span class=SpellE>Serlin</span>,
+&quot;Fault-Tolerant Systems in Commercial Applications,&quot; IEEE Computer,
+August, 1984, pp. 19-30.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>R. W. Horst<span class=GramE>,,</span>
+&quot; <span class=SpellE>TNet</span>: A Reliable System Area Network,&quot;
+IEEE Micro, February 1995, pp. 37-45.<o:p></o:p></p>
+
+</div>
+
+<h1><u2:p></u2:p>Error Detection &amp; Control Flow Checking</h1>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>S. Bagchi, Y. Liu, Z. Kalbarczyk,
+R. K. Iyer, Y. <span class=SpellE>Levendel</span>, L. <span class=SpellE>Votta</span>,
+A Framework for Database Audit and Control Flow Checking for a Wireless
+Telephone Network Controller, in Proc. of Conference on Dependable Systems and
+Networks, DSN'01, July 2001, pp. 225-234.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>Z. <span class=SpellE>Alkhalifa</span>,
+V.S.S. Nair, N. Krishnamurthy, and J.A. Abraham, &#8220;Design and Evaluation
+of System-Level Checks for On-Line Control Flow Error Detection,&#8221; IEEE
+Trans. On <span class=SpellE>Parrallel</span> &amp; Distributed Systems, June
+1999, pp. 627-641.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>J. H. Patel and L. Y. <span
+class=SpellE>Fung</span>, &quot;Concurrent Error Detection in <span
+class=SpellE>ALU&#8217;s</span> by <span class=SpellE>Recomputing</span> with
+Shifted Operands, &quot; IEEE Transactions on Computers, vol. C-31, no. 7, July
+1982, pp. 589-595.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>A. <span class=SpellE>Mahmood</span>
+and E. J. <span class=SpellE>McCluskey</span>, &quot;Concurrent Error Detection
+Using Watchdog Processors - A Survey,&quot; IEEE Transactions on Computers,
+vol. 37, no. 2, Feb. 1988, pp. 160-174.<o:p></o:p></p>
+
+</div>
+
+<h1><u2:p></u2:p><span class=SpellE>Checkpointing</span> &amp; Recovery</h1>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>K. M. <span class=SpellE>Chandy</span>
+and L. <span class=SpellE>Lamport</span>, &quot;Distributed Snapshots:
+Determining Global States of Distributed Systems,&quot; ACM Transactions on
+Computer Systems, vol. 3, no. 1, Feb. 1985, pp. 63-75.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'><span class=GramE>E. N. <span
+class=SpellE>Elnozahy</span> and W. <span class=SpellE>Zwaenepoel</span>,
+&quot;On the Use and Implementation of Message Logging,&quot; Proc. IEEE
+Fault-Tolerant Computing <span class=SpellE>Symp</span>., 1994, pp.298-307.</span></p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>N. <span class=SpellE>Vaidya</span>,
+&quot;A Case for Two-level Recovery Schemes,&quot; IEEE Transactions on
+Computers, vol. 47, no.6, June 1998, pp. 656-666.</p>
+
+</div>
+
+<div style='margin-left:.25in'>
+
+<p class=MsoNormal style='text-indent:-.25in'>R. Prakash, M. <span
+class=SpellE>Singhal</span>, &quot;Low-cost <span class=SpellE>Checkpointing</span>
+and Failure Recovery in Mobile Computing <span class=SpellE>Systems,&quot;IEEE</span>
+Transaction on Parallel and Distributed Systems, vol. 7, no. 10, Oct. 1996, pp.
+1035-1048.</p>
+
+</div>
+
+<h3>Meeting Schedule</h3>
+
+<p style='text-align:justify;line-height:150%'><span style='font-size:11.0pt;
+mso-bidi-font-size:12.0pt;line-height:150%'>[Fall 2002] <br>
+Here is the schedule for each meeting date. The default meeting time is
+11-12:30 pm. For some of the meeting dates, no conference room with our
+requirement of an LCD projector was available. I will continue working on this
+to find a suitable venue. I will update the topic and presenter as we go along.<o:p></o:p></span></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;mso-border-alt:
+  inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b>Date</b></p>
+  </td>
+  <u2:p></u2:p>
+  <td width=154 valign=top style='width:115.75pt;border:inset 1.0pt;border-left:
+  none;mso-border-top-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b>Venue</b></p>
+  </td>
+  <u2:p></u2:p>
+  <td width=140 valign=top style='width:104.65pt;border:inset 1.0pt;border-left:
+  none;mso-border-top-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b>Topic &amp; Papers</b></p>
+  </td>
+  <u2:p></u2:p>
+  <td width=140 valign=top style='width:104.65pt;border:inset 1.0pt;border-left:
+  none;mso-border-top-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b>Presenter</b></p>
+  </td>
+ </tr>
+ <u2:p></u2:p>
+ <tr style='mso-yfti-irow:1'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;border-top:
+  none;mso-border-left-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>October 4
+  (3:00-4:00)<u2:p></u2:p></span></p>
+  </td>
+  <td width=154 valign=top style='width:115.75pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>EE 317<u2:p></u2:p></span></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
+  10.0pt;line-height:150%'>Analytical Modeling &amp; Simulation<u2:p></u2:p></span></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
+  10.0pt;line-height:150%'>Papers by: 1) <a
+  href="http://www.ece.purdue.edu/%7Esbagchi/Research/ReadingGroup/hierarchicalinjection_iyer_1002.prn">Kalbarczyk
+  et al</a></span></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><st1:PersonName><span style='font-size:10.0pt;line-height:
+   150%'>Saurabh Bagchi<u2:p></u2:p></span></st1:PersonName></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;border-top:
+  none;mso-border-left-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>October 11<u2:p></u2:p></span></p>
+  </td>
+  <td width=154 valign=top style='width:115.75pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>MSEE 239</span><o:p></o:p></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=left style='text-align:left'><span class=SpellE><u2:p><span
+  style='font-size:10.0pt;line-height:150%'>Performability</span></span><span
+  style='font-size:10.0pt;line-height:150%'> Paper by Meyer et al</u2:p></span><o:p></o:p></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;border-top:
+  none;mso-border-left-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>October 18<u2:p></u2:p></span></p>
+  </td>
+  <td width=154 valign=top style='width:115.75pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:10.0pt;
+  line-height:150%'>Knoy</span></span><span style='font-size:10.0pt;line-height:
+  150%'>&nbsp;<u2:p></u2:p></span><o:p></o:p></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;border-top:
+  none;mso-border-left-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>October 25<u2:p></u2:p></span></p>
+  </td>
+  <td width=154 valign=top style='width:115.75pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>EE 317<u2:p></u2:p></span><o:p></o:p></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;border-top:
+  none;mso-border-left-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>November 1<u2:p></u2:p></span></p>
+  </td>
+  <td width=154 valign=top style='width:115.75pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>EE 317<u2:p></u2:p></span><o:p></o:p></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;border-top:
+  none;mso-border-left-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>November 8<u2:p></u2:p></span></p>
+  </td>
+  <td width=154 valign=top style='width:115.75pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>EE 317<u2:p></u2:p></span><o:p></o:p></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;border-top:
+  none;mso-border-left-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>November 15<u2:p></u2:p></span></p>
+  </td>
+  <td width=154 valign=top style='width:115.75pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>EE 317<u2:p></u2:p></span><o:p></o:p></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;border-top:
+  none;mso-border-left-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>November 22<u2:p></u2:p></span></p>
+  </td>
+  <td width=154 valign=top style='width:115.75pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>No room
+  available yet<u2:p></u2:p></span><o:p></o:p></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9;mso-yfti-lastrow:yes'>
+  <td width=157 valign=top style='width:117.75pt;border:inset 1.0pt;border-top:
+  none;mso-border-left-alt:inset windowtext .75pt;mso-border-bottom-alt:inset windowtext .75pt;
+  mso-border-right-alt:inset windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>November 29<u2:p></u2:p></span></p>
+  </td>
+  <td width=154 valign=top style='width:115.75pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;line-height:150%'>MSEE 239<u2:p></u2:p></span><o:p></o:p></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=140 valign=top style='width:104.65pt;border-top:none;border-left:
+  none;border-bottom:inset 1.0pt;border-right:inset 1.0pt;mso-border-bottom-alt:
+  inset windowtext .75pt;mso-border-right-alt:inset windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'><span style='font-size:12.0pt;font-family:"Times New Roman";
+  mso-fareast-font-family:"Times New Roman";color:black;mso-ansi-language:EN-US;
+  mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><u2:p></u2:p></span>
+  <p class=MsoNormal align=left style='text-align:left;line-height:normal'><span
+  style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<div style='margin-left:.25in'><u2:p></u2:p>
+
+<p class=MsoNormal style='text-indent:-.25in'>&nbsp; <br>
+&nbsp; <br>
+&nbsp; <o:p></o:p></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="48%"
+ style='width:48.0%;mso-cellspacing:1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'
+ cols=3>
+ <tr style='mso-yfti-irow:0;mso-yfti-lastrow:yes'>
+  <td width=70 style='width:52.5pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:normal'><span
+  style='font-size:12.0pt'><a href="http://dynamo.ecn.purdue.edu/%7Esbagchi"><span
+  style='text-decoration:none;text-underline:none'><img border=0 width=50
+  height=50 id="_x0000_i1025" src=home.gif></span></a><br>
+  Home Page<o:p></o:p></span></p>
+  </td>
+  <td width=70 style='width:52.5pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:normal'><span
+  style='font-size:12.0pt'><a href="http://www.purdue.edu/"><span
+  style='text-decoration:none;text-underline:none'><img border=0 width=53
+  height=50 id="_x0000_i1026" src=grif.gif align=middle></span></a><br>
+  Purdue Home Page<o:p></o:p></span></p>
+  </td>
+  <td width=70 style='width:52.5pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:normal'><span
+  style='font-size:12.0pt'><a href="http://dynamo.ecn.purdue.edu/"><span
+  style='text-decoration:none;text-underline:none'><img border=0 width=52
+  height=50 id="_x0000_i1027" src="ece_logo.gif" align=middle></span></a><br>
+  Purdue ECE Home Page<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<div class=MsoNormal align=center style='text-align:center;text-indent:-.25in'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:-.25in'><st1:PersonName>Saurabh
+ Bagchi</st1:PersonName> <br>
+<span style='font-size:10.0pt;line-height:150%'>Last modified: September 11,
+2003</span></p>
+
+</div>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:normal'><span style='font-size:12.0pt'><br>
+<br>
+<br>
+<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

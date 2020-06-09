@@ -1,0 +1,1134 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+xmlns:oa="urn:schemas-microsoft-com:office:activation"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="research_files/filelist.xml">
+<link rel=Edit-Time-Data href="research_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Dependable Computing Systems Research Group</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PersonName" downloadurl="http://www.microsoft.com"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="date"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceType"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceName"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="City"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="State"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="country-region"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>sbagchi</o:Author>
+  <o:LastAuthor>Saurabh Bagchi</o:LastAuthor>
+  <o:Revision>15</o:Revision>
+  <o:TotalTime>1349</o:TotalTime>
+  <o:Created>2004-01-28T01:11:00Z</o:Created>
+  <o:LastSaved>2004-07-27T19:33:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>3819</o:Words>
+  <o:Characters>21772</o:Characters>
+  <o:Company>Engineering Computer Network</o:Company>
+  <o:Lines>181</o:Lines>
+  <o:Paragraphs>51</o:Paragraphs>
+  <o:CharactersWithSpaces>25540</o:CharactersWithSpaces>
+  <o:Version>11.5703</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+a:link, span.MsoHyperlink
+	{color:#D00000;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#551A8B;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:369719646;
+	mso-list-template-ids:-1745694924;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:423263946;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1379756914 67698693 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:600068082;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2012036860 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1073047649;
+	mso-list-template-ids:1534618652;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:1087505818;
+	mso-list-template-ids:284955740;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:1100418615;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1694804510 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:1773159611;
+	mso-list-template-ids:-18686020;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7
+	{mso-list-id:1819227581;
+	mso-list-template-ids:-1927634918;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+<meta name=Author content="Saurabh Bagchi">
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link="#D00000" vlink="#551A8B" style='tab-interval:
+.5in' alink="#ff0000">
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:18.0pt'>Dependable Computing Systems Group</span></b> <br>
+<b><span style='font-size:18.0pt'>Department of Electrical and <st1:place
+w:st="on"><st1:PlaceName w:st="on">Computer</st1:PlaceName> <st1:PlaceName
+ w:st="on">Engineering</st1:PlaceName><span style='font-size:12.0pt;font-weight:
+ normal'> <br>
+ </span><st1:PlaceName w:st="on">Purdue</st1:PlaceName> <st1:PlaceType w:st="on">University</st1:PlaceType></st1:place></span></b></p>
+
+<p style='margin-bottom:12.0pt'>The Dependable Computing Systems research group
+is focusing on building distributed systems that are tolerant to natural
+failures and malicious intrusions. The research areas encompass networking,
+distributed middleware and interesting applications in ad-hoc and sensor
+networks. We are located in room 34 of the Electrical Engineering building (5
+Linux machines and 2 PCs). Our sensor network testbeds are located in Physics
+50 (8 Mica motes and 1 PC) and in Civil G239 (16 Mica2 motes and 2 PCs). </p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="50%"
+ style='width:50.0%;mso-cellspacing:1.5pt;border:outset 4.5pt;mso-padding-alt:
+ 1.5pt 1.5pt 1.5pt 1.5pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td valign=top style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p class=MsoNormal><span style='font-size:18.0pt'><a href="#Projects">Projects</a></span></p>
+  </td>
+  <td valign=top style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p class=MsoNormal><span style='font-size:18.0pt'><a href="#People">People</a></span></p>
+  </td>
+  <td valign=top style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p class=MsoNormal><span style='font-size:18.0pt'><a href="#Publications">Publications</a></span></p>
+  </td>
+  <td valign=top style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p class=MsoNormal><span style='font-size:18.0pt'><a href="#Presentations">Presentations</a></span></p>
+  </td>
+  <td valign=top style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+  <p class=MsoNormal><a href="#Internal"><span style='font-size:18.0pt'>Internal</span></a></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p><a name=Projects></a>The following projects are currently going on. </p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l6 level1 lfo1;tab-stops:list .5in'>Disruption tolerant system
+     design</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l6 level1 lfo1;tab-stops:list .5in'>Intelligent sensor networks</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l6 level1 lfo1;tab-stops:list .5in'>Architectural support for
+     robust software execution</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l6 level1 lfo1;tab-stops:list .5in'>Self-checking techniques for
+     reliable distributed systems</li>
+</ul>
+
+<p class=MsoNormal>I organize a reading group on the topic of design of
+dependable systems. You can find details of our schedule, papers we discuss and
+format of the meeting <a
+href="http://www.ece.purdue.edu/%7Esbagchi/readinggroup.html">here</a>. </p>
+
+<p><b><i><span style='font-size:13.5pt;color:#3333FF'><br>
+1. Disruption Tolerant System Design</span></i></b> </p>
+
+<p>As distributed systems are deployed for running critical applications, there
+is an increasing need to make such systems resilient. The distributed
+applications running on such platforms need continuous uptime, as downtime
+translates directly to financial losses, loss of prestige, or endangerment of
+human lives. Examples of such applications abound in the domains of banking,
+finance, airline, and military. The systems need to be resilient to faults as
+we traditionally know them, having non-malicious origin, as well as to intrusions
+or faults created by malicious human attackers of the system. The ultimate
+outcome of both faults and intrusions is to cause a failure of the system or
+its performance degradation. However, until now, the two causes of system
+disruptions have been looked upon as separate areas of concern, each with its
+own methodology and sub-system. This increases the complexity of the overall
+system and does not exploit the synergy between the two tasks &#8211; providing
+fault-tolerance and intrusion-tolerance &#8211; and therefore increases the
+overall cost of achieving both. In this proposal, we argue for a common
+approach to handling faults and intrusions, henceforth called disruptions.
+There is also the need for an integrated infrastructure that provides tolerance
+to disruptions, not piecemeal solutions such as detection alone. The different
+phases of disruption tolerance considered here &#8211; detection, diagnosis,
+containment and recovery &#8211; are closely coupled in their functioning and
+the project provides a framework for exploring the interactions to make the
+system as a whole resilient to disruptions. The project uses best-of-breed
+techniques from several areas of fault tolerance and intrusion tolerance that
+have been researched for long, such as network based intrusion detection tools
+and available database of vulnerabilities in widely used software. </p>
+
+<p><b>Collaborators</b>: <br>
+Arif Ghafoor (ECE, Purdue), <st1:place w:st="on">Ness</st1:place> Shroff (ECE,
+Purdue), Eugene Spafford (CS, Purdue), Sachin Garg (Avaya Labs).</p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;
+margin-bottom:.0001pt'><b>Papers</b>:<br>
+1. &quot;An Adaptive Disruption Tolerance Framework for Developing High
+Assurance, Survivable Distributed Applications&quot;. For submission to IEEE
+Transactions on Software Engineering. <a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Papers/disruptiontolerance_ieeesp03_intro.pdf"><span
+class=GramE>Introduction.</span></a><br>
+2. &quot;<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/cids_acsac03_cameraready.pdf">Collaborative
+Intrusion Detection System (CIDS): A Framework for Accurate and Efficient IDS</a>&quot;:
+Yu-Sung Wu, <st1:PersonName w:st="on">Bingrui Foo</st1:PersonName>, Yongguo
+Mei, <st1:PersonName w:st="on">Saurabh Bagchi</st1:PersonName>. Appeared at the
+19th Annual Computer Security Applications Conference, <st1:date Month="12"
+Day="8" Year="2003" w:st="on">December 8-12, 2003</st1:date>, <st1:place w:st="on"><st1:City
+ w:st="on">Las Vegas</st1:City>, <st1:State w:st="on">Nevada</st1:State></st1:place>.
+(Acceptance rate: 36/110). <a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Presentations/hank_cids_acsac03.pdf"><span
+class=GramE>Presentation</span></a><span class=GramE> (by Hank).</span></p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;
+margin-bottom:.0001pt'>3. &#8220;<a
+href="http://www.ece.purdue.edu/~sbagchi/Research/Papers/adepts_ceriastr03.pdf">ADEPTS:
+Adaptive Intrusion Containment and Response using Attack Graphs in an
+E-Commerce Environment</a>&#8221;: Yu-Sung Wu, <st1:PersonName w:st="on">Bingrui
+ Foo</st1:PersonName>, <st1:PersonName w:st="on">Blake Matheny</st1:PersonName>,
+<st1:PersonName w:st="on">Tyler Olsen</st1:PersonName>, <st1:PersonName w:st="on">Saurabh
+ Bagchi</st1:PersonName>. CERIAS Tech Report 2003-33.</p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;
+margin-bottom:.0001pt'>4. &#8220;<a
+href="Research/Papers/scidive_dsn04_submit.pdf">SCIDIVE: A Stateful and Cross
+Protocol Intrusion Detection Architecture for Voice-over-IP Environments</a>&#8221;:
+<st1:PersonName w:st="on">Saurabh Bagchi</st1:PersonName>, Yu-Sung Wu (<st1:City
+w:st="on">Purdue U.</st1:City>, <st1:country-region w:st="on">USA</st1:country-region>);
+Sachin Garg, Navjot Singh, Tim Tsai (Avaya Labs, <st1:place w:st="on"><st1:country-region
+ w:st="on">USA</st1:country-region></st1:place>). <span class=GramE>At<span
+style='mso-spacerun:yes'>  </span>IEEE</span> Dependable Systems and Networks
+Conference (DSN 2004), June 28-July 1, 2004, <st1:place w:st="on"><st1:City
+ w:st="on">Florence</st1:City>, <st1:country-region w:st="on">Italy</st1:country-region></st1:place>
+(Acceptance rate: DCCS track 58/276). [<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/scidive_dsn04_cameraready.pdf">Camera
+ready</a>] [<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/scidive_dsn04_presentation.pdf">DSN
+presentation</a>]</p>
+
+<p><b>Background reading</b>: <br>
+<a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Papers/disruptiontolerance_ieeesp03_ref.pdf">Reference
+List</a> </p>
+
+<p><b><i><span style='font-size:13.5pt;color:#3333FF'>2. Intelligent Sensor
+Networks</span></i></b> </p>
+
+<p>Recent advances in wireless communications and electronics have enabled the
+development of low-cost, low-power, miniature sensor nodes. These nodes are
+multifunctional and capable of sensing, communication, computation and
+sometimes, mobility. Sensor networks are comprised of large numbers of sensor
+nodes placed in the environment to be monitored and communicating with each
+other through low-bandwidth communication links. Some of the characteristics of
+the sensor nodes make it challenging to harness them into usable networks. They
+have limited sources of power, high failure rates and limited computation and
+communication power. In our current research, we are investigating the issues
+in building sensor networks to meet high-level application requirements, such
+as time to completion, in the face of the constraints imposed by the nodes.
+Specifically, our research focuses on scheduling algorithms for communication,
+computation and mobility taking deployment specific knowledge into account.
+While the individual nodes may be prone to failures, a certain fraction of
+redundant nodes may be deployed. We intend to investigate protocols that
+exploit the redundancy in the sensor nodes to &#8220;route around&#8221;
+failures. Another area of focus is the design of power-aware routing protocols
+and integrating them with higher-level protocols controlling computation,
+communication and motion. In this research, we will address fundamental
+problems leading to proof of concept demonstrations of the developed strategies
+and technologies through a testbed of mobile sensor nodes running a network
+protocol stack, middleware and representative applications. </p>
+
+<p>In another facet of this work, we are looking at protecting message
+communication in sensor networks through cryptographic techniques. Symmetric
+key cryptography is the fundamental technique being used. The protocols in this
+domain suffer from one or more of the problems of weak security guarantees if
+some nodes are compromised, lack of scalability, high energy overhead for key
+management and increased end-to-end data latency. We propose a protocol called
+SECOS that mitigates these problems. SECOS divides the sensor field into
+control groups each with a control head. Data exchange between nodes within a
+control group happens through the mediation of the control head which provides
+the common key. The keys and the control heads are changed periodically to
+enhance security. SECOS enhances the survivability of the network by handling
+failures of control nodes.</p>
+
+<p><b>Collaborators</b>: <br>
+Catherine Rosenberg (ECE, Purdue), Bill Chappell (ECE, Purdue), <st1:PersonName
+w:st="on">Yung-Hsiang Lu</st1:PersonName> (ECE, Purdue), <st1:PersonName w:st="on">Zhiyuan
+ Li</st1:PersonName> (CS, Purdue).</p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:0in;
+margin-bottom:.0001pt'><b>Papers</b>:<br>
+<span style='mso-spacerun:yes'> </span></p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:.25in;
+margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level1 lfo7;tab-stops:
+list .25in'><![if !supportLists]><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&#8220;<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/nipoon_msthesis_0704.pdf">Robust
+Location Determination in Wireless Ad-hoc Networks</a>,&#8221; Nipoon Malhotra.
+Masters Thesis submitted in partial fulfillment of the MSECE degree.
+Supervisor: Prof. Saurabh Bagchi. Submitted: July 2004. [<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/nipoon_msthesis_presentation_0704.pdf">Presentation</a>]</p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:.25in;
+margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level1 lfo7;tab-stops:
+list .25in'><![if !supportLists]><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&#8220;<a
+href="Research/Papers/spms_dsn04_submit.pdf">Fault Tolerant Energy Aware Data
+Dissemination Protocol in Sensor Network</a>,&#8221; Gunjan Khanna, Saurabh
+Bagchi, Yu-Sung Wu. At IEEE Dependable Systems and Networks Conference (DSN
+2004), June 28-July 1, 2004, <st1:place w:st="on"><st1:City w:st="on">Florence</st1:City>,
+ <st1:country-region w:st="on">Italy</st1:country-region></st1:place>
+(Acceptance rate: PDS track 25/101). [<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/spms_dsn04_cameraready.pdf">Camera
+ready</a>] [<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/spms_dsn04_presentation.pdf">DSN
+presentation (Gunjan)</a>]</p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:.25in;
+margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level1 lfo7;tab-stops:
+list .25in'><![if !supportLists]><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&#8220;<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/mobilecollector_icccn04.pdf">Efficient
+Collection of Sensor Data in Remote Fields Using Mobile Collectors</a>,&#8221; Yuldi
+Tirta, Zhiyuan Li, Yung-Hsiang Lu, and Saurabh Bagchi. Accepted for publication
+in the <i style='mso-bidi-font-style:normal'>13th International Conference on
+Computer Communications and Networks</i> (ICCCN 2004), October 2004.
+(Acceptance rate: 81/200)</p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:.25in;
+margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level1 lfo7;tab-stops:
+list .25in'><![if !supportLists]><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&#8220;<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/mobilecollector_tmc04.pdf">Controlled
+Mobility for Efficient Data Gathering in Sensor Networks with Passively Mobile
+Nodes</a>,&#8221; Yuldi Tirta, Bennett Lau, Nipoon Malhotra, Saurabh Bagchi,
+Zhiyuan Li, and Yung-Hsiang Lu. To Appear in <i style='mso-bidi-font-style:
+normal'>Sensor Network Operations</i>, Shashi Phoha (ed.), IEEE Press, Wiley
+Publications, 2004. (Acceptance rate: 30/90)</p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:.25in;
+margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level1 lfo7;tab-stops:
+list .25in'><![if !supportLists]><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&#8220;<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/adhocmobility_prdc04_cameraready.pdf">Analysis
+and Evaluation of Topological and Application Characteristics of Unreliable
+Mobile Wireless Ad-hoc Network</a>,&#8221; Serdar Cabuk, Nipoon Malhotra,
+Longbi Lin, Saurabh <span class=GramE>Bagchi ,</span> Ness Shroff. At the10<sup>th</sup>
+IEEE Pacific Rim Dependable Computing Conference (PRDC &#8217;04), March 2004.
+(Acceptance rate: 34/102) <a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/adhocmobility_prdc04_submit.pdf">Full
+length version</a> [<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/adhocmobility_prdc04_presentation.pdf">Presentation</a>]</p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:.25in;
+margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level1 lfo7;tab-stops:
+list .25in'><![if !supportLists]><span style='mso-list:Ignore'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&#8220;<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/secos_dsn04_submit.pdf">SECOS:
+Key Management for Scalable and Energy Efficient Crypto <span class=GramE>On</span>
+Sensors</a>,&#8221; Issa Khalil, Saurabh Bagchi. CERIAS Tech Report TR-2003-33.
+</p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:.25in;
+margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level1 lfo7;tab-stops:
+list .25in'><![if !supportLists]><span style='mso-list:Ignore'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&quot;<a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Papers/spms_dsn03fastabs.pdf">Data
+Dissemination Protocol in Sensor Networks to Tolerate Node and Link Failures</a>,&quot;
+Gunjan Khanna, Yu-Sung Wu. Appeared as a Fast Abstract in DSN 2003. <a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Presentations/spms_fastabsdsn03.pdf">Presentation
+</a></p>
+
+<p style='margin-top:6.0pt;margin-right:0in;margin-bottom:0in;margin-left:.25in;
+margin-bottom:.0001pt;text-indent:-.25in;mso-list:l5 level1 lfo7;tab-stops:
+list .25in'><![if !supportLists]><span style='mso-list:Ignore'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&quot;<a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Papers/sensortmr_fastabsdsn03.pdf">A
+comparative study on data fault tolerant requirements for data propagation in
+sensor networks</a>,&quot; Jen-Yeu Chen, Yen-Shiang Shue, Hakeem Ogunleye,
+Saurabh Bagchi. Appeared as a Fast Abstract in DSN 2003. <a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Presentations/sensortmr_fastabsdsn03.pdf">Presentation
+</a></p>
+
+<p style='margin-bottom:0in;margin-bottom:.0001pt'><b>Background reading</b>: <br>
+1. Chien-Chung Shen and Chavalit Srisathapornphat and Chaiporn Jaikaeo,
+&quot;Sensor Information Networking Architecture and Applications&quot;, IEEE
+Personal Communications Magazine, August 2001, pp. 52-59. <br>
+2. Ian F Akyildiz and Weilian Su and Yogesh Sankarasubramaniam and Erdal
+Cayirci: &quot;A Survey on Sensor Networks&quot;, IEEE Communications Magazine,
+, 40(8):102-114, August 2002. <br>
+3. R. C. Shah and J. M. Rabaey: &quot;Energy Aware Routing for Low Energy Ad
+Hoc Sensor Networks&quot;, In Conference on Wireless Communications and
+Networking, pages 350-355, 2002. </p>
+
+<p style='margin:0in;margin-bottom:.0001pt'>4. <a
+href="http://www.ece.purdue.edu/~sbagchi/Research/Papers/references_adhocmobility.pdf">References</a>
+for ad-hoc mobility algorithms and location determination protocols in mobile
+ad-hoc networks.</p>
+
+<p style='margin:0in;margin-bottom:.0001pt'>5. <a
+href="http://www.ece.purdue.edu/~sbagchi/Research/Papers/references_sensornetworkcryptography.pdf">References</a>
+for sensor network cryptography.</p>
+
+<p><b><i><span style='font-size:13.5pt;color:#3333FF'>3. Architectural Support
+for Robust Software Execution</span></i></b> </p>
+
+<p>Computer program faults cause billions dollars of losses each year. Very
+often, these faults are due to the bugs in the programs. For example, illegal
+memory accesses may cause the whole program to fail and terminate unexpectedly,
+thus causing the user to lose valuable data. While monitoring tools for
+enhancing memory access integrity exist (e.g., Purify, Numega), they usually
+dramatically degrade the system performance. With the advances in semiconductor
+technology, there is available processing power in today's architectures that
+are not fully utilized by application programs. We intend to use the available
+computing power of these architectures to execute the detection routines to
+enhance the crash-proofness of commodity programs. </p>
+
+<p><b>Collaborators</b>: <br>
+T. N. Vijaykumar (ECE, Purdue), Tony Hosking (CS, Purdue). </p>
+
+<p><b>Background reading</b>: <br>
+1. R. Hastings and B. Joyce: &quot;Purify: Fast detection of memory leaks and
+access errors&quot;. In Proceedings of the Winter USENIX Conference, December
+1992. <br>
+2. J. Oplinger and M. Lam: &quot;Enhancing Software Reliability with Speculative
+threads&quot;. In Proceedings of the 10th International Conference on
+Architectural Support for Programming Languages and Operating Systems (ASPLOS),
+October. 2002. <br>
+3. Sanjay J. Patel, Zbigniew Kalbarczyk, Ravishankar K. Iyer, Wojciech Magda,
+Nithin Nakka: &quot;A Processor-Level Framework for High-Performance and
+High-Dependability,&quot; Workshop on Evaluating and Architecting Systems for
+Dependability, 2001. </p>
+
+<p><b><i><span style='font-size:13.5pt;color:#3333FF'>4. Self-Checking
+Techniques for Distributed Protocols</span></i></b> </p>
+
+<p>Networked devices running software service protocols are playing an
+increasingly important role in the connected world of today. Given the increase
+in complexity and scale of these services and the fact that networks are
+primarily running on software architectures designed in the 1980s, we are seeing
+cases of spectacular failures of network services today and believe
+tomorrow&#8217;s services are not positioned for the continuous availability
+that will be needed of them. The approach we are studying for detecting a class
+of failures due to software defects, mis-configurations or malicious attacks
+employs an external monitor component. The monitor observes the interactions
+between the protocol participants and performs predictive or reactive detection
+of failures. It is important the monitor be resilient, scalable and
+non-intrusive to the original software. The coverage of the monitor has to be
+validated through failure injection to the system that mimic the real-world
+scenarios.<br>
+Some further motivations are <a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Papers/monitordiagnosis_summary03.htm"><span
+class=GramE>here </span></a>. </p>
+
+<p><b>Papers</b>:<br>
+<span style='mso-spacerun:yes'> </span></p>
+
+<p style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo6;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&#8220;Self
+Checking Network Protocols: A Monitor Based Approach,&#8221; Gunjan Khanna,
+Padma Varadharajan, and Saurabh Bagchi. Accepted for publication in the<i
+style='mso-bidi-font-style:normal'> 23<sup>rd</sup> International Symposium on
+Reliable Distributed Systems (SRDS 2004)</i>, October 2004. (Acceptance rate: 27/117)</p>
+
+<p style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo6;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&#8220;<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/lrrm_dsn04_submit.pdf">LRRM:
+A Randomized Reliable Multicast Protocol for Optimizing Recovery Latency and
+Buffer Utilization</a>,&#8221; Nipoon Malhotra, Shrish Ranjan, and Saurabh
+Bagchi. Submitted to DSN, 2004.</p>
+
+<p style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo6;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&quot;<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/gunjan_msthesis_1203.pdf">Self-Checking
+Network Protocols: A Monitor Based Approach</a>,&#8221; Gunjan Khanna. MS
+Thesis. December 2003.</p>
+
+<p style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo6;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&quot;<a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/tram++_prdc04_cameraready.pdf">Failure
+Handling in a Reliable Multicast Protocol for Improving Buffer Utilization and
+Accommodating Heterogeneous Receivers</a>&quot;, Gunjan Khanna, John Rogers,
+Saurabh Bagchi. <span class=GramE>In Proceedings of the10<sup>th</sup> IEEE
+Pacific Rim Dependable Computing Conference (PRDC &#8217;04), March 2004.</span><span
+style='mso-spacerun:yes'>  </span>(Acceptance rate: 34/102) <a
+href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/tram++_prdc04_submit.pdf">Full
+length paper</a></p>
+
+<p style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo6;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&quot;<a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Papers/lrrm_fastabsdsn03.pdf">Light-Weight
+Randomized Reliable Multicasting Protocol</a>,&quot; Nipoon Malhotra, Shrish
+Ranjan, Saurabh Bagchi. Appeared in Fast Abstracts, DSN 2003. <a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Presentations/lrrm_fastabsdsn03.pdf">Presentation
+</a></p>
+
+<p style='margin-left:.25in;text-indent:-.25in;mso-list:l2 level1 lfo6;
+tab-stops:list .25in'><![if !supportLists]><span style='mso-list:Ignore'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><![endif]>&quot;<a
+href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Papers/pecos_ieeetc03.pdf">Design
+and Evaluation of Preemptive Control Signature (PECOS) Checking</a>,&quot; S.
+Bagchi, Z. Kalbarczyk, R. Iyer, Y. Levendel. To Appear in IEEE Transactions on
+Computers, December 2003.</p>
+
+<p><b>Background reading</b>: <br>
+1. Wuxu Peng, &#8220;Deadlock detection in communicating finite state machines
+by even reachability analysis,&#8221; In Proceedings of the Fourth
+International Conference on Computer Communications and Networks, 1995, pp.
+656-662. <br>
+2. Mohammed G. Gouda, Chung-Kuo Chang, &#8220;Proving liveness for networks of
+communicating finite state machines,&#8221; In ACM Transactions on Programming
+Languages and Systems (TOPLAS), Volume 8 ,&nbsp; Issue 1&nbsp; (January 1986),
+pp. 154-180. <br>
+3. A. Bouloutas, G. Hart, and M. Schwartz, ``Fault Identification Using a Finite-State
+Machine Model with Unreliable Partially Observed Data Sequences,&quot; IEEE
+Transactions on Communications, July 1993, pp. 1074-1083. <br>
+&nbsp; </p>
+
+<p><a name=People></a><span style='font-size:18.0pt;color:#3333FF'>Current
+Students</span> </p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p class=MsoNormal><span style='font-size:13.5pt;color:#3333FF'>Graduate
+Students</span></p>
+
+</blockquote>
+
+<p class=MsoNormal>(For the emails, add @purdue.edu) </p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'>Yu-sung Wu (Hank) [yswu] </li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'>Gunjan Khanna [gkhanna] </li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'>Jin-Yi Wang [wang109] </li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><st1:PersonName w:st="on">Issa
+      Khalil</st1:PersonName> [ikhalil] </li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'>Yen Shue [shue] </li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'>Bingrui Foo [foob]</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'>Sarah Sellke [ssellke]</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'>Padma Varadharajan [pvaradha]</li>
+</ul>
+
+<p style='margin-left:.5in'><span style='font-size:13.5pt;color:#3333FF'>Undergraduate
+Students</span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo3;tab-stops:list .5in'>Keith Davis [davisko]</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo3;tab-stops:list .5in'>Kareem Seddik [kseddik] </li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo3;tab-stops:list .5in'>Ivan Yudhi [iyudhi1]</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo3;tab-stops:list .5in'>Shyamal Varma [svarma]</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo3;tab-stops:list .5in'>Rolin Pettway [rpettway]</li>
+</ul>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.25in'><span style='font-size:13.5pt;color:#3333FF'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.25in'><span style='font-size:13.5pt;color:#3333FF'>Alums</span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo3;tab-stops:list .5in'>Nipoon Malhotra (MS, 2004):
+     Currently with Amazon. </li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo3;tab-stops:list .5in'>Nithin Jethanandani (BS,
+     2003): Currently with Ernst and Young. </li>
+</ul>
+
+<p class=MsoNormal><br>
+&nbsp; </p>
+
+<p class=MsoNormal><a name=Publications></a><span style='font-size:18.0pt;
+color:#3333FF'>Publications</span> </p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>&#8220;<a
+     href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/adhocmobility_prdc04.pdf">Analysis
+     and Evaluation of Topological and Application Characteristics of
+     Unreliable Mobile Wireless Ad-hoc Network</a>,&#8221; Serdar Cabuk, Nipoon
+     Malhotra, Longbi Lin, <st1:PersonName w:st="on">Saurabh <span class=GramE>Bagchi</span></st1:PersonName><span
+     class=GramE> ,</span> Ness Shroff. At the10<sup>th</sup> IEEE Pacific Rim
+     Dependable Computing Conference (PRDC &#8217;04), March 2004.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>&quot;<a
+     href="http://dynamo.ecn.purdue.edu/~sbagchi/Research/Papers/tram++_prdc04.pdf">Failure
+     Handling in a Reliable Multicast Protocol for Improving Buffer Utilization
+     and Accommodating Heterogeneous Receivers</a>&quot;, <st1:PersonName
+     w:st="on">Gunjan</st1:PersonName> Khanna, John Rogers, <st1:PersonName
+     w:st="on">Saurabh Bagchi</st1:PersonName>. At the10<sup>th</sup> IEEE
+     Pacific Rim Dependable Computing Conference (PRDC &#8217;04), March 2004.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>&quot;<a
+     href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Papers/cids_acsac03.pdf">Collaborative
+     Intrusion Detection System (CIDS): A Framework for Accurate and Efficient
+     IDS</a>&quot;: Yu-Sung Wu, Bingrui Foo, Yongguo Mei, <st1:PersonName
+     w:st="on"><span class=GramE>Saurabh</span> Bagchi</st1:PersonName>.
+     Appeared at the 19th Annual Computer Security Applications Conference, <st1:date
+     Month="12" Day="8" Year="2003" w:st="on">December 8-12, 2003</st1:date>, <st1:place
+     w:st="on"><st1:City w:st="on">Las Vegas</st1:City>, <st1:State w:st="on">Nevada</st1:State></st1:place>.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>S. Bagchi, M. Kaplan and R.
+     Das, &quot;Design and Evaluation of a Logger-based Recovery Subsystem for
+     Publish-Subscribe Middleware.&quot; In Proceedings of the International
+     Symposium on Performance Evaluation of Computer and Telecommunication
+     Systems (SPECTS '02), July 2002.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>S. Bagchi, G. Kar and J.
+     Hellerstein, &quot;Dependency Analysis in Distributed Systems using Fault
+     Injection: Application to Problem Determination in an E-Commerce
+     System&quot;. In Proceedings of the 12th International Workshop on
+     Distributed Systems: Operations \&amp; Management (DSOM 2001),&nbsp;
+     October 2001.&nbsp;</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>S. Bagchi, Y. Liu, Z.
+     Kalbarczyk, R. K. Iyer, Y. Levendel, and L. Votta, &quot;A Framework for
+     Database Audit and Control Flow Checking for a Wireless Telephone Network
+     Controller&quot;. In Proceedings of the International Conference on
+     Dependable Systems and Networks, 2001 (DSN 2001), July 2001.&nbsp;</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>S. Bagchi, B. Srinivasan, K.
+     Whisnant, Z. Kalbarczyk, and R. K. Iyer, &quot;Hierarchical Error
+     Detection in a Software Implemented Fault Tolerance (SIFT)
+     Environment&quot;. In IEEE Transactions on Knowledge and Data Engineering,
+     Vol. 12, No. 2, March/April 2000.&nbsp;</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>Z. Kalbarczyk, R.K. Iyer, <st1:place
+     w:st="on">S. Bagchi</st1:place>, and K. Whisnant, &quot;Chameleon: A
+     Software Infrastructure for Adaptive Fault Tolerance&quot;. In IEEE Trans.
+     on Parallel and Distributed Systems, Vol. 10, No. 6, pp. 560-579, June
+     1999.&nbsp;</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>S. Bhola, R. Strom, S.
+     Bagchi, Y. Zhao and J. Auerbach, &quot;Exactly-once Delivery in a
+     Content-based Publish-Subscribe System&quot;. In Proceedings of the
+     International Conference on Dependable Systems and Networks (DSN'02), pp.
+     7-16, June 2002.&nbsp;</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>N. Speirs, D. Stott, Z.
+     Kalbarczyk, S. Bagchi, J. Xu and R. Iyer, &quot;Comparing Fail-Silence
+     Provided by Process Duplication versus Internal Error Detection for DHCP
+     Server&quot;. In Proceedings of the 15th International Parallel and
+     Distributed Processing Symposium (IPDPS 2001), April 2001.&nbsp;</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'><st1:place w:st="on">S.
+      Bagchi</st1:place>, K. Whisnant, Z. Kalbarczyk and R. K. Iyer, &quot;The
+     Chameleon Infrastructure for Adaptive, Software Implemented Fault
+     Tolerance.&quot; In Proceedings of the 17th IEEE Symposium on Reliable
+     Distributed Systems, 1998, pp. 261-267, October 1998.&nbsp;</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>R.K. Iyer, Z. Kalbarczyk, K.
+     Whisnant and <st1:place w:st="on">S. Bagchi</st1:place>, &quot;A Flexible
+     Software Architecture for High Availability Computing&quot;. In
+     Proceedings of the 3rd IEEE International High-Assurance Systems
+     Engineering Symposium, pp. 42-49, November 1998.&nbsp;</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l7 level1 lfo4;tab-stops:list .5in'>S. Bagchi, Z. Kalbarczyk, R.
+     Iyer and K. Whisnant, &quot;Software-based Signaturing in Distributed
+     Systems.&quot; In Fast Abstract of 29th IEEE Fault Tolerant Computer
+     Symposium (FTCS-29), June 1999. </li>
+</ul>
+
+<p>&nbsp; </p>
+
+<p><u><span style='font-size:18.0pt;color:red'>Previous Work</span></u> </p>
+
+<p>During my Ph.D. at the <st1:place w:st="on"><st1:PlaceType w:st="on">University</st1:PlaceType>
+ of <st1:PlaceName w:st="on">Illinois</st1:PlaceName></st1:place>, I worked on
+the design and implementation of an adaptive software implemented
+fault-tolerant (SIFT) middleware called Chameleon. <a
+href="http://www.ece.purdue.edu/%7Esbagchi/research_uiuc.html">Here</a> is a
+page with the publications and presentations from that work. </p>
+
+<p>During my stint at IBM, I worked on publish-subscribe protocols. <a
+href="http://www.ece.purdue.edu/%7Esbagchi/research_ibm.html">Here</a> is a
+page that describes my work there.&nbsp;</p>
+
+<p><br>
+<a name=Presentations></a><span style='font-size:18.0pt;color:#3333FF'>Presentations</span>&nbsp;
+</p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo5;tab-stops:list .5in'><a
+     href="http://shay.ecn.purdue.edu/~ece572/handouts/Presentations/DependabilityInNews/MarsPathfinder97.pdf">&quot;Software
+     fault tolerance at work on the Mars Pathfinder&quot;</a>. Presentation at
+     Purdue in February, 2004.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo5;tab-stops:list .5in'><a
+     href="http://www.ece.purdue.edu/%7Esbagchi/Research/Presentations/spms_gradseminar_091103.pdf">&quot;Robust
+     Data Dissemination Protocols in Wireless Sensor Networks&quot;</a>.
+     Presentation at ECE graduate seminar in September, 2003.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo5;tab-stops:list .5in'><a
+     href="http://www.ece.purdue.edu/%7Esbagchi/Research/Presentations/groupseminar_090403.pdf">&quot;Disruption
+     Tolerance System for a Distributed E-Commerce Platform</a>&quot;. Purdue presentation
+     on the disruption tolerance project in September, 2003.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo5;tab-stops:list .5in'><a
+     href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Presentations/ieee_smartcard_042403.pdf">&quot;Smart
+     Cards <span class=GramE>As</span> Building Blocks for Dependable
+     Distributed Systems&quot;</a>. Presentation given to IEEE SmartCard
+     Committee at Purdue, April 2003.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo5;tab-stops:list .5in'>Computer Engineering Area
+     presentations, April 2003. Given to incoming graduate students to the ECE
+     department. <a
+     href="http://www.ece.purdue.edu/%7Esbagchi/Research/Presentations/ce_software.pdf">Software</a>.
+     <a
+     href="http://www.ece.purdue.edu/%7Esbagchi/Research/Presentations/ce_architecture.pdf">Architecture</a>.
+     <a
+     href="http://www.ece.purdue.edu/%7Esbagchi/Research/Presentations/ce_ai.pdf">Artificial
+     Intelligence</a>.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo5;tab-stops:list .5in'><a
+     href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/PurdueInternal/gradseminar_internal_030603.pdf">ECE
+     Graduate Seminar Presentation, March 2003</a>. Overview of research in
+     systems and architecture by three of us - Lu, Mithuna and myself.
+     (Restricted access to purdue.edu hosts)</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo5;tab-stops:list .5in'><a
+     href="http://dynamo.ecn.purdue.edu/%7Esbagchi/Research/Presentations/gradseminar_external_030603.pdf">ECE
+     Graduate Seminar Presentation, March 2003</a>. Same as above for external
+     access.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo5;tab-stops:list .5in'><a
+     href="http://www.ece.purdue.edu/%7Esbagchi/Research/Presentations/Motorola_022703.pdf">Presentation
+     to Motorola, February 2003</a>. Application of disruption tolerance to
+     cellular architectures.</li>
+</ul>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p><a name=Internal></a><span style='font-size:18.0pt;color:#3333FF'>Internal</span></p>
+
+<p><a
+href="http://www.ece.purdue.edu/%7Esbagchi/Research/GroupInternal/index.html">Here</a>
+is the internal site of the Dependable Computing Systems Lab. </p>
+
+<p>We have a collection of books in our lab. If you need any of these books for
+your research, send a mail to Issa at ikhalil@purdue.edu. Here is the <a
+href="http://web.ics.purdue.edu/%7Eikhalil/library.htm">list. </a><o:p></o:p></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="48%"
+ style='width:48.0%;mso-cellspacing:1.5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'
+ cols=3>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=70 style='width:52.5pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="http://dynamo.ecn.purdue.edu/%7Esbagchi"><span style='text-decoration:
+  none;text-underline:none'><img border=0 width=50 height=50 id="_x0000_i1025"
+  src="pics/home.gif"></span></a><br>
+  Home Page</p>
+  </td>
+  <td width=70 style='width:52.5pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="http://www.purdue.edu/"><span style='text-decoration:none;text-underline:
+  none'><img border=0 width=53 height=50 id="_x0000_i1026" src="pics/grif.gif"
+  align=middle></span></a><br>
+  Purdue Home Page</p>
+  </td>
+  <td width=70 style='width:52.5pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="http://dynamo.ecn.purdue.edu/"><span style='text-decoration:none;
+  text-underline:none'><img border=0 width=52 height=50 id="_x0000_i1027"
+  src="pics/ece_logo.gif" align=middle></span></a><br>
+  Purdue ECE Home Page</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p class=MsoNormal align=center style='margin-bottom:12.0pt;text-align:center'><i>Saurabh
+Bagchi <br>
+</i><i><span style='font-size:10.0pt'>Last modified: July 27, 2004</span><br>
+For a listing of statistics on hits on this page, click <a
+href="http://dynamo.ecn.purdue.edu/tools/analog/report?xq=1&amp;mq=1&amp;Wq=1&amp;dq=1&amp;Dq=1&amp;hq=1&amp;Hq=1&amp;Sq=1&amp;Ss=0&amp;Sa=&amp;Sb=&amp;iq=1&amp;is=0&amp;ia=&amp;ib=&amp;ie=1&amp;rq=1&amp;rs=0&amp;ra=&amp;rb=&amp;rt=f&amp;rl=f&amp;fq=1&amp;fs=0&amp;fa=&amp;fb=&amp;oq=1&amp;os=0&amp;oa=&amp;ob=&amp;fr=7%2F1%2F03&amp;to=8%2F1%2F03&amp;ar=&amp;fy=%2F%7Esbagchi%2F*&amp;fi=&amp;or=Purdue+University+Engineering&amp;ho=http%3A%2F%2Fwww.ecn.purdue.edu%2FEngr%2F&amp;TZ=US%2FEast-Indiana"><span
+class=GramE>here </span></a>. </i></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><br>
+<br>
+<br>
+<br>
+<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+</div>
+
+</body>
+
+</html>

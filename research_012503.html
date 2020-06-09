@@ -1,0 +1,238 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Saurabh Bagchi">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (Windows NT 5.0; U) [Netscape]">
+   <title>Dependable Computing Systems Research Group</title>
+<link href="styles.css" rel="stylesheet"></head>
+</head>
+<body text="#003327" bgcolor="#FFFFFF" link="#D00000" vlink="#551A8B" alink="#FF0000">
+
+<center><b><font color="#000000"><font size=+2>Dependable Computing Systems
+Group</font></font></b>
+<br><b><font color="#000000"><font size=+2>Department of Electrical and
+Computer Engineering</font></font></b>
+<br><b><font color="#000000"><font size=+2>Purdue University</font></font></b></center>
+
+<p><font color="#000000">The Dependable Computing Systems research group
+is focusing on building distributed systems that are tolerant to natural
+failures and malicious intrusions. The research areas encompass networking,
+distributed middleware and interesting applications in ad-hoc and sensor
+networks.</font>
+<p><font color="#000000">The following projects are currently going on.</font>
+<ul>
+<li>
+<font color="#000000">Disruption tolerant systems design</font></li>
+
+<li>
+<font color="#000000">Intelligent sensor networks</font></li>
+
+<li>
+<font color="#000000">Architectural support for robust software execution</font></li>
+
+<li>
+<font color="#000000">Self-checking techniques for reliable distributed
+systems</font></li>
+</ul>
+<b><i><font color="#3333FF"><font size=+1>1. Probabilistic reliable communication
+protocols</font></font></i></b>
+<p><font color="#000000">The use of reliable communication protocols in
+middleware layers such as the group communication stack has provided useful
+abstractions for building reliable distributed systems. However, such protocols
+have been known not to scale well with the number of participants and beyond
+local area networks. Therefore, there is interest in designing protocols
+that give probabilistic bounds on termination. The analysis of probabilistic
+reliable communication protocols has network characteristics as its parameters.
+Network connectivity, network delay, and failure rates are examples of
+network characteristics. In static networks, such characteristics are either
+stable or slow-changing. However, for dynamic network topologies, these
+characteristics are changing. An important application area for such dynamic
+networks is wireless ad hoc networks, because in many of its applications,
+the nodes are mobile. Sensor networks are a particular class of wireless
+ad hoc networks in which there are many nodes, each containing application-specific
+sensors, a wireless transceiver, and a simple processor. It is as yet not
+clearly understood how such changing network characteristics impact the
+success or timeliness of the distributed protocols. As the number of systems
+built around dynamic networks increases dramatically, it will become critical
+to understand the behavior of current protocols in such environments, and
+to come up with new protocols to satisfy the new requirements. This project
+seeks to characterize the network characteristics, analyze the behavior
+of current protocols, and design new protocols for meeting the requirements
+of new applications.</font>
+<p><font color="#000000">Background reading:</font>
+<br><font color="#000000">1. K. Birman, M. Hayden, O.Ozkasap, Z. Xiao,
+M. Budiu, and Y. Minsky.
+<a href="http://citeseer.nj.nec.com/302710.html">Bimodal
+Multicast</a>. ACM Transactions on Computer Systems, 17(2):41–88, May 1999.</font>
+<br><font color="#000000">2. P. Santi, and D. M. Blough. <a href="http://www.imc.pi.cnr.it/~santi/papers/DSN02.pdf">An
+Evalution of Connectivity in Mobile Wireless Ad Hoc Networks</a>. Dependable
+Systems and Networks, 2002.</font>
+<br><font color="#000000">3. P.Th. Eugster, R. Guerraoui, S. Handurukande,
+A.-M. Ker-marrec, and P. Kouznetsov. <a href="http://research.microsoft.com/users/annemk/papers/tr01_002.ps">Lightweight
+Probabilistic Broadcast</a>. In Proceedings of the 2001 IEEE International
+Conference on Dependable Systems and Networks, June 2001.</font>
+<p><b><i><font color="#3333FF"><font size=+1>2. Self-checking techniques
+for reliable distributed systems</font></font></i></b>
+<p><font color="#000000">A component in a distributed system - hardware
+components, such as network interfaces, or software components, such as
+processes - is said to be self-checking if it can shut itself down on detecting
+a malfunction. Hence, any output from such a component can be assumed to
+be correct, with the coverage of the associated self-checking techniques.
+This is considered a useful premise on which to build reliable distributed
+systems. This project seeks to validate this premise. Subsequently, it
+aims to design self-checking techniques for some typical components in
+a distributed system. The study should reveal what kinds of techniques
+are required under what kinds of communication patterns and fault patterns.</font>
+<p><font color="#000000">Background reading:</font>
+<br><font color="#000000">1. H. Madeira, J. G. Silva, <a href="http://eden.dei.uc.pt/~henrique/papers/ftcs24.pdf">“Experimental
+Evaluation of the Fail-Silent Behavior in Computers Without Error Masking,
+”</a> Proc. 24th International Symp. on Fault-Tolerant Computing (FTCS-24),
+pp. 350-359, July, 1994.</font>
+<br><font color="#000000">2. D. Powell, <a href="http://www.ece.purdue.edu/~sbagchi/www.newcastle.research.ec.org/maftia/papers_archive/papers/93192.ps">“Lessons
+Learned from Delta-4,”</a> IEEE Micro, vol.14, No. 4, 1994, pp.36-47.</font>
+<br><font color="#000000">3. S. Bagchi, Z. Kalbarczyk, R. Iyer, Y. Levendel,
+<a href="http://www.ece.purdue.edu/~sbagchi/Research/Papers/IEEE_TC2002.doc">"Design
+and Evaluation of Preemptive Control Signature (PECOS) Checking for Distributed
+Applications"</a>, Accepted for publication in IEEE Transactions on Computers,
+2003.</font>
+<br>&nbsp;
+<p><b><i><font color="#3333FF"><font size=+1>3. Can we make fault-tolerant
+systems intrusion-tolerant too?</font></font></i></b>
+<p><font color="#000000">As distributed systems are deployed for running
+critical applications, there is an increasing need to make such systems
+resilient. Resilience should include resilience to faults as we traditionally
+know them, having non-malicious origin, as well as to intrusions or faults
+created by malicious human attackers of the system. The ultimate outcome
+of both faults and intrusions is to cause a failure of the system or its
+performance degradation. However, until now, the two causes of system disruptions
+have been looked upon as separate areas of concern, each with its own methodology
+and sub-system. This increases the complexity of the overall system and
+does not exploit the synergy between the two tasks – providing fault-tolerance
+and intrusion-tolerance – and therefore increases the overall cost of achieving
+both. In this project, we propose a common approach to handling faults
+and intrusions, identify approaches taken originally from the fault tolerance
+domain which can be applied to make a system intrusion tolerant and outline
+an application area where the approaches can be applied. We also lay out
+the ways in which the handling of faults and intrusions must differ and
+see if we can derive any lessons from the fault tolerance community.</font>
+<p><font color="#000000">Background reading:</font>
+<br><font color="#000000">1. Y. Deswarte, L. Blain, J.-C. Fabre: <a href="http://www.ece.purdue.edu/~sbagchi/ftp.laas.fr/pub/Publications/1990/90373.ps">Intrusion
+tolerance in distributed systems.</a> In Proc. Symp. on Research in Security
+and Privacy, pages 110-121, Oakland, CA, USA, 1991. IEEE Computer Society
+Press.</font>
+<br><font color="#000000">2. M. K. Reiter: Distributing trust with the
+Rampart toolkit; Communications of the ACM, 39/4 (1996)</font>
+<br><font color="#000000">3. Christian Cachin Jonathan, <a href="http://citeseer.nj.nec.com/545944.html">"Secure
+Intrusion-tolerant Replication on the Internet",</a>In Proc. Intl. Conference
+on Dependable Systems and Networks (DSN-2002), pages 167-176, June 2002.</font>
+<p><b><i><font color="#3333FF"><font size=+1>4. Protocols for adaptive
+publish-subscribe systems</font></font></i></b>
+<p><font color="#000000">Well&shy;adapted to the loosely coupled nature
+of distributed interaction in large-scale applications over the Internet,
+the publish/subscribe communication paradigm has recently received an increasing
+attention. With systems based on that paradigm (called pub-sub systems),
+subscribers register their interest in an event, or a pattern of events,
+and are subsequently asynchronously notified of events fired by publishers.
+Many variants of the paradigm have recently been promoted, each variant
+being specifically adapted to some given application model (e.g., Java
+Event Dispatcher) or network model (e.g., local area networks). This project
+seeks to investigate the trade-offs between scalability, anonymity between
+publishers and subscribers, reliability and expressive power of the subscriptions
+in a pub-sub system. Then, it aims to build protocols on which a flexible
+pub-sub system can be structured which can be adapted to different application
+contexts. Finally, a demonstration of the system to support an existing
+application is planned.</font>
+<p><font color="#000000">Background reading:</font>
+<br><font color="#000000">1. Sumeer Bhola, Robert Strom, Saurabh Bagchi,
+Yuanyuan Zhao, and Joshua Auerbach. Exactly-Once Delivery in a Content-Based
+Publish-Subscribe System. In IEEE International Conference on Dependable
+Systems and Networks (DSN), 2002.</font>
+<br><font color="#000000">2. P.Th. Eugster, P. Felber, R. Guerraoui, A.-M.
+Kermarrec. <a href="http://citeseer.nj.nec.com/442483.html">The Many Faces
+of Publish/Subscribe</a>. EPFL Zurich Tech. Report - January 2001.</font>
+<p><font color="#3333FF"><font size=+2>Current Students</font></font>
+<blockquote><font color="#3333FF"><font size=+1>Graduate Students</font></font></blockquote>
+
+<ul>
+<li>
+<font color="#000000">Yu-sung Wu (Hank)</font></li>
+
+<li>
+<font color="#000000">Serdar Cabuk</font></li>
+
+<li>
+<font color="#000000">Gunjan Khanna</font></li>
+
+<li>
+<font color="#000000">Nipoon Malhotra</font></li>
+
+<li>
+<font color="#000000">Jin-yi Wang</font></li>
+
+<br>&nbsp;
+<p>&nbsp;
+<p><font color="#3333FF"><font size=+1>Undergraduate Students</font></font></ul>
+
+<ul>
+<li>
+<font color="#000000">John Rogers</font></li>
+
+<br>&nbsp;</ul>
+<font color="#3333FF"><font size=+2>Publications</font></font>
+<p><font color="#000000">1. S. Bagchi, M. Kaplan and R. Das, "Design and
+Evaluation of a Logger-based Recovery Subsystem for Publish-Subscribe Middleware."
+In Proceedings of the International Symposium on Performance Evaluation
+of Computer and Telecommunication Systems (SPECTS '02), July 2002.</font>
+<br><font color="#000000">2. S. Bagchi, G. Kar and J. Hellerstein, "Dependency
+Analysis in Distributed Systems using Fault Injection: Application to Problem
+Determination in an E-Commerce System". In Proceedings of the 12th International
+Workshop on Distributed Systems: Operations \&amp; Management (DSOM 2001),&nbsp;
+October 2001.</font>
+<br><font color="#000000">3. S. Bagchi, Y. Liu, Z. Kalbarczyk, R. K. Iyer,
+Y. Levendel, and L. Votta, "A Framework for Database Audit and Control
+Flow Checking for a Wireless Telephone Network Controller". In Proceedings
+of the International Conference on Dependable Systems and Networks, 2001
+(DSN 2001), July 2001.</font>
+<br><font color="#000000">4. S. Bagchi, B. Srinivasan, K. Whisnant, Z.
+Kalbarczyk, and R. K. Iyer, "Hierarchical Error Detection in a Software
+Implemented Fault Tolerance (SIFT) Environment". In IEEE Transactions on
+Knowledge and Data Engineering, Vol. 12, No. 2, March/April 2000.</font>
+<br><font color="#000000">5. Z. Kalbarczyk, R.K. Iyer, S. Bagchi, and K.
+Whisnant, "Chameleon: A Software Infrastructure for Adaptive Fault Tolerance".
+In IEEE Trans. on Parallel and Distributed Systems, Vol. 10, No. 6, pp.
+560-579, June 1999.</font>
+<br><font color="#000000">6. S. Bhola, R. Strom, S. Bagchi, Y. Zhao and
+J. Auerbach, "Exactly-once Delivery in a Content-based Publish-Subscribe
+System". In Proceedings of the International Conference on Dependable Systems
+and Networks (DSN'02), pp. 7-16, June 2002.</font>
+<br><font color="#000000">7. N. Speirs, D. Stott, Z. Kalbarczyk, S. Bagchi,
+J. Xu and R. Iyer, "Comparing Fail-Silence Provided by Process Duplication
+versus Internal Error Detection for DHCP Server". In Proceedings of the
+15th International Parallel and Distributed Processing Symposium (IPDPS
+2001), April 2001.</font>
+<br><font color="#000000">8. S. Bagchi, K. Whisnant, Z. Kalbarczyk and
+R. K. Iyer, "The Chameleon Infrastructure for Adaptive, Software Implemented
+Fault Tolerance." In Proceedings of the 17th IEEE Symposium on Reliable
+Distributed Systems, 1998, pp. 261-267, October 1998.</font>
+<br><font color="#000000">9. R.K. Iyer, Z. Kalbarczyk, K. Whisnant and
+S. Bagchi, "A Flexible Software Architecture for High Availability Computing".
+In Proceedings of the 3rd IEEE International High-Assurance Systems Engineering
+Symposium, pp. 42-49, November 1998.</font>
+<br><font color="#000000">10. S. Bagchi, Z. Kalbarczyk, R. Iyer and K.
+Whisnant, "Software-based Signaturing in Distributed Systems." In Fast
+Abstract of 29th IEEE Fault Tolerant Computer Symposium (FTCS-29), June
+1999.</font>
+<br>&nbsp;
+<p><u><font color="#FF0000"><font size=+2>Previous Work</font></font></u>
+<p><font color="#000000">During my Ph.D. at the University of Illinois,
+I worked on the design and implementation of an adaptive software implemented
+fault-tolerant (SIFT) middleware called Chameleon. <a href="http://www.ece.purdue.edu/~sbagchi/research_uiuc.html">Here</a>
+is a page with the publications and presentations from that work.</font>
+<p><font color="#000000">During my stint at IBM, I worked on publish-subscribe
+protocols. <a href="http://www.ece.purdue.edu/~sbagchi/research_ibm.html">Here</a>
+is a page that describes my work there.</font>
+<br>&nbsp;
+<br>&nbsp;
+</body>
+</html>

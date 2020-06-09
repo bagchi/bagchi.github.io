@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+	<section class="hero medium is-default is-bold">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="columns is-vcentered">
+					<div class="column is-5">
+						<figure class="image is-4by3">
+							<img src="images/me.jpg" alt="saurabh">
+						</figure>
+					</div>
+					<div class="column is-6 is-offset-1">
+						<h1 class="title is-2">
+							Saurabh Bagchi
+						</h1>
+						<h2 class="subtitle is-4">
+							Professor <br />
+							Electrical & Computer Engineering<br />
+							Computer Science<br />
+							Director, CRISP Center
+						</h2>
+						<a href="https://twitter.com/bagchi_saurabh" class="twitter-follow-button" data-show-count="false">Follow
+							@bagchi_saurabh on Twitter</a>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-foot">
+			<div class="container">
+				<div class="tabs is-boxed is-centered main-menu" id="nav">
+					<ul>
+						<li data-target="home.html" id="home" class="is-active">
+							<a>
+								<span>Home</span>
+							</a>
+						</li>
+						</a>
+						<li data-target="research.html" id="research">
+							<a>
+								<span>Research</span>
+							</a>
+						</li>
+						<li id="publications">
+							<a href="https://engineering.purdue.edu/dcsl/publications-by-year/">
+								<span>Publications</span>
+							</a>
+						</li>
+						<li id="CRISP">
+							<a href="https://engineering.purdue.edu/CRISP">
+								<span>CRISP</span>
+							</a>
+						</li>
+						<li data-target="teaching.html" id="teaching">
+							<a>
+								<span>Teaching</span>
+							</a>
+						</li>
+						<li data-target="personal.html" id="personal">
+							<a>
+								<span>Personal</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<section class="section homepage-footer">
+					<div id="panel"></div>
+					<script>$("#panel").load("home.html");</script>
+				</section>
+			</div>
+		</div>
+		<script src="tabs.js"></script>
+	</section>
+
+</body>
+
+</html>

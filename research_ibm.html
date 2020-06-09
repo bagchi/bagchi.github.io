@@ -1,0 +1,256 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (Windows NT 5.0; U) [Netscape]">
+   <title> Research (IBM) </title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1284970-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<link href="styles.css" rel="stylesheet"></head>
+</head>
+<body text="#003327" bgcolor="#FFFFFF" link="#D00000" vlink="#551A8B" alink="#FF0000">
+
+<h2>
+<font color="#000000">Content-based publish-subscribe middleware</font></h2>
+<font color="#000000">I have been working at IBM's Thomas J. Watson Research
+Center in the Distributed Messaging Systems group since December 2000.
+The group works on a project called Gryphon.</font><font color="#000000"></font>
+<p><font color="#000000">Publish/subscribe (pub/sub) is a paradigm for
+interconnecting information providers with information subscribers in a
+distributed environment. Publish- subscribe middleware is currently being
+deployed for information dissemination in many domains including financial,
+entertainment and transportation [1,2]. Information providers publish information
+in the form of <i>events </i>to the pub/sub system, information consumers
+subscribe to particular category of events with the system, and the system
+ensures the delivery of the events to all the interested consumers. The
+providers and consumers are also called
+<i>publishers </i>and <i>subscribers
+</i>respectively. Pub/sub systems are a useful tool for application integration
+in distributed settings because of the anonymity between the publishers
+and the subscribers - the publishers publish events to an information space
+without specifying the destinations.</font><font color="#000000"></font>
+<p><font color="#000000">The earliest pub/sub systems were <i>group-based
+</i>. In these systems, each event is classified as belonging to one of
+a fixed-set of groups. Publishers label each event with the group to which
+it belongs. Subscribers subscribe to a group and thereby receive all events
+in a particular group. For example, a group-based pub-sub system for stock
+trading may define each issue, such as IBM, as a separate group.</font><font color="#000000"></font>
+<p><font color="#000000">An emerging alternative to group-based systems
+is content-based subscription systems. These systems support an event schema
+defining the type of information contained in each event. For example,
+applications interested in stock trades may use the event schema [issue:
+string, price: float, volume: integer]. A content-based subscriber can
+specify filtering criteria along multiple dimensions of the event schema,
+such as (issue=``IBM'' &amp; price > 100 &amp; volume > 1000). A group-based
+system by contrast can only select events by the group name and a subscriber
+in such a system would have to do its own filtering for more specific events.
+The Gryphon project at IBM Research [3,4] is exploring the content-based
+model for pub/sub systems. Gryphon uses a network of <i>brokers </i>that
+are responsible for routing messages between publishers and subscribers.
+Gryphon addresses the key challenges of efficiency and scalability in content-based
+pub/sub system through protocols for efficient matching of subscriptions
+against messages and minimizing message flow through the broker network.</font>
+<br>
+<hr><i><font color="#000000"><font size=-1>[1] 2001 US Open - About this
+site <a href="http://www.usopen.org/info/ibmtechnology/">http://www.usopen.org/info/ibmtechnology/</a></font></font></i>
+<br><i><font color="#000000"><font size=-1>[2] TIBExchange - Customer Success
+Stories
+<a href="http://www.tibcofinance.com/products/exchange/tibexchange/customer.html">http://www.tibcofinance.com/products/exchange/tibexchange/customer.html</a></font></font></i>
+<br><i><font color="#000000"><font size=-1>[3] "Matching events in a content-based
+subscription system", PODC 1999.</font></font></i>
+<br><i><font color="#000000"><font size=-1>[4] "An efficient multicast
+protocol for content-based publish-subscribe systems", ICDCS 1999.</font></font></i>
+<br>
+<hr>
+<p><font color="#000000">Currently I am working on the following research
+problems.</font>
+<ol>
+<li>
+<font color="#000000">Guaranteed exactly-once message delivery in pub-sub
+systems.</font></li>
+
+<li>
+<font color="#000000">Stateful subscriptions in pub-sub systems.</font></li>
+
+<li>
+<font color="#000000">Dependency analysis in distributed systems using
+fault injection.</font></li>
+</ol>
+
+<h2>
+<font color="#000000">Details</font></h2>
+<b><font color="#FF0000">1.</font></b> <b><font color="#FF0000">Guaranteed
+Delivery</font></b>
+<p><font color="#000000">I am involved with the guaranteed delivery project
+within Gryphon. The objective is to augment the best-effort publish-subscribe
+mechanisms with guaranteed exactly-once delivery of messages to subscribers,
+even in the presence of network and node failures. Current protocols use
+the store-and-forward approach due to the complexity of the problem in
+the presence of filtering. Informally, each publisher in the system is
+the source of an ordered event stream. Guaranteed delivery ensures that
+any subscriber who remains connected to the system sees a <i>gapless</i>filtered
+subsequence of this stream, starting from a certain point. A subsequence
+is gapless if for any two adjacent events in this subsequence, there is
+no event in the original stream that is between these events <i>and </i>matches
+the subscriber's filter. The guarantee must be honored in the presence
+of broker and link failures. The service runs a distributed protocol involving
+all the brokers in the system and uses acks and nacks flowing upstream
+from the subscribers to the publishers for maintaining liveness. The work
+also proposed a general knowledge model for propagating information in
+a pub-sub network - both downstream knowledge from publishers to subscribers,
+and upstream curiosity from subscribers to publishers.</font><font color="#000000"></font>
+<p><b><font color="#000000">Current status: </font></b><font color="#000000">The
+implementation has been completed and some performance studies are being
+conducted. It is expected to be included in the next release of the Gryphon
+system.</font><font color="#000000"></font>
+<p><font color="#000000"><b>Fellow researchers:</b> Joshua Auerbach, Sumeer
+Bhola, Marc Kaplan, Robert Strom, Yuanyuan Zhao.</font><font color="#000000"></font>
+<p><font color="#000000"><b>Publications: </b>(For confidentiality reasons,
+it is not possible to provide online versions of most of the publications.
+If you are interested in them, please send me an email.)</font>
+<br><font color="#000000">1. "Exactly-once Delivery in a Content-based
+Publish-Subscribe System". In Proceedings of the IEEE International Conference
+on Dependable Systems and Networks (DSN 02), June 2002.</font>
+<br><font color="#000000">2. "Design and Evaluation of a Logger-based Recovery
+Subsystem for Publish-Subscribe Middleware". In Proceedings of the 2002
+International Symposium on Performance Evaluation of Computer and Telecommunication
+Systems (SPECTS 2002), May 2002.</font>
+<br><font color="#000000">3. "Guaranteed Delivery - Requirements Document".
+IBM Internal Report, January 2001.</font>
+<br><font color="#000000">4. "Guaranteed Delivery - Design Document". IBM
+Internal Report, October 2001.</font>
+<p><b><font color="#FF0000">2. Stateful Subscriptions</font></b>
+<p><font color="#000000">The second project I am involved with is the stateful
+subscription project in the context of the Gryphon system. Stateful pub-sub
+is a crucial paradigm shift from message-oriented pub-sub, where state
+updates are delivered to subscribers instead of messages. A stateful subscription
+is not a request to deliver a selected set of published messages, but instead
+is a request to deliver a state derived from these published messages.
+Two main differences between this paradigm and the current Gryphon model
+are:</font>
+<ul>
+<li>
+<font color="#000000">The subscription is intrinsically durable --- that
+is, the derived state exists (that is, either it is actually stored, or
+else it is derivable from information that is actually stored) independently
+of whether there is a live connection over which an application is receiving
+updates to the state.</font></li>
+
+<li>
+<font color="#000000">The delivered messages represent states or updates
+to the state, and therefore their format will depend on the schema of the
+derived state, which is not necessarily the same as the schema of the initial
+published messages.</font></li>
+</ul>
+<font color="#000000">Consider a simple motivating example. A publisher
+publishes stock quotes grouped by issue ("IBM", "Microsoft") and the subscriber
+wants to obtain the maximum stock price published in that day. The stateful
+sub-system defines a language that allows the subscriber to define a view
+containing the information which she needs. The initial issues that we
+are exploring are:</font>
+<ul><font color="#000000">1. <b>A subscription language that allows the
+subscriber to specify the subscription.</b>While the language is substantially
+like a relational database language like SQL, it needs some enhancements.
+The views in our system can vary in their visibility. In other words, while
+tuples (or rows) in a traditional relation are visible and final for all
+times after the publication, in our system, a tuple can vacillate in its
+visibility. A tuple can become invisible, for example, when it is no longer
+important to track the row. For instance, if the subscription is tracking
+matchable bids for IBM, a buy bid need not be tracked in our system if
+there is no sell bid for a price which is equal to or lower than the buy
+bid's price. In SQL-like languages, individual columns are primitive types,
+while our system imposes a requirement that columns can be relations themselves.
+For example, a sell column in a "Matchable Bids" relation may be the relation
+with two columns - time of the bid and volume of the bid.</font>
+<br><font color="#000000">2. <b>Incremental operators.</b> While traditional
+relational databases have the design point that changes to the relations
+are not very frequent and the system has to be optimized to handle large
+number of queries to these relations, our design point is different. In
+our system, the base relations are fast-changing - with every information
+published by a publisher. The <i>queries </i>are in fact the subscriptions
+which can be looked upon as standing, slowly changing queries to the fast-changing
+relations. Therefore, the operators in our language must be designed to
+perform incremental work with the changing of the base relations. In other
+words, the work done when an event is published should not be proportional
+to the size of the entire table (i.e., all published information), but
+of a constant order. We are working on designing protocols and data structures
+that allow all our language operators to be incremental in nature.</font></ul>
+<font color="#000000"></font>
+<p><br><b><font color="#000000">Current status: </font></b><font color="#000000">A
+prototype implementation of the stateful system was done in summer, 2001.
+The prototype was specifically for a stock trading application where the
+base relation to which the publishers publish are the bids and the trades.
+The subscribers can define various views, such as the matchable IBM bids.
+Currently, we are working to generalize the system so that it can be the
+various objects and operators can be automatically generated from the subscription.
+Parallely, we are finalizing the language and the protocols for the operators.</font><font color="#000000"></font>
+<p><font color="#000000"><b>Fellow researchers:</b> Murat Demirbas (summer
+intern in 2001 from Ohio State University), Robert Strom.</font><font color="#000000"></font>
+<p><b><font color="#000000">Publications:</font></b>
+<br><font color="#000000">1. "Gryphon State Subscriptions Requirement".
+IBM Internal Document, September 2001.</font>
+<br><font color="#000000">2. "Gryphon State Subscriptions Language". IBM
+Internal Document, July, 2001.</font>
+<br><font color="#000000">3. "Stateful Subscriptions Type System". IBM
+Internal Document, December, 2001.</font>
+<p><b><font color="#FF0000">3. Dependency Analysis</font></b>
+<p><font color="#333333">I am involved with a project to perform dependency
+analysis in distributed systems using fault injection. In large-scale distributed
+e-commerce systems, problem isolation, reporting and resolution require
+the understanding of the relations between the various hardware and software
+resources. The objective is to discover the dependencies in an automated
+manner. We are exploring the use of fault injection for this purpose. The
+problem is made challenging by the characteristics of the target systems
+- meant for e-commerce applications running on heterogeneous platforms
+and extremely dynamic. The basic approach is to use fault injection to
+perturb the systems, and discover service dependencies on resources by
+measuring system output under perturbations.</font><font color="#333333"></font>
+<p><b><font color="#333333">Current status: </font></b><font color="#333333">The
+design for the methodology has been completed. A representative system
+configuration for applying the methodology has been identified. Current
+work is looking at setting up the testbed and the fault injection tools
+on it, in collaboration with researchers at the University of Illinois
+at Urbana-Champaign.</font><font color="#333333"></font>
+<p><font color="#333333"><b>Fellow researchers:</b> Gautam Kar, Joe Hellerstein,
+Prof. Ravi Iyer (University of Illinois).</font><font color="#333333"></font>
+<p><b><font color="#333333">Publications:</font></b>
+<br><font color="#333333">1. "Dependency Analysis in Distributed Systems
+using Fault Injection: Application to Problem Determination in an e-commerce
+Environment". Published in the 12th International Workshop on Distributed
+Systems: Operations &amp; Management, October 2001.</font>
+<br><font color="#333333"></font>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<center><table BORDER COLS=3 WIDTH="48%" >
+<tr>
+<td ALIGN=CENTER WIDTH="70">
+<center><a href="http://dynamo.ecn.purdue.edu/~sbagchi"><img SRC="home.gif" height=50 width=50></a>
+<br><font color="#000000">Home Page</font></center>
+</td>
+
+<td ALIGN=CENTER WIDTH="70"><a href="http://www.purdue.edu/"><img SRC="grif.gif" height=50 width=53 align=ABSCENTER></a>
+<br><font color="#000000">Purdue Home Page</font></td>
+
+<td ALIGN=CENTER WIDTH="70"><a href="http://dynamo.ecn.purdue.edu/"><img SRC="ece_logo.gif" height=50 width=52 align=ABSCENTER></a>
+<br><font color="#000000">Purdue ECE Home Page</font></td>
+</tr>
+</table></center>
+
+<hr WIDTH="100%">
+<center><font color="#000000">Saurabh Bagchi</font>
+<br><font color="#000000"><font size=-1>Last modified: January 26, 2003</font></font></center>
+
+</body>
+</html>
