@@ -1,0 +1,9 @@
+AuthUserFile /web/users/sbagchi/Private/web-passwords
+AuthGroupFile /web/users/sbagchi/Private/web-groups
+AuthName "DCSL members"
+AuthType Basic
+AuthBasicProvider file
+
+<limit GET>
+require valid-user
+</limit>

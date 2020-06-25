@@ -1,0 +1,15 @@
+The two databases that we use most for looking up papers are IEEE (called IEEExplore) and ACM (called ACM digital library).
+
+If you are on campus, you can directly access these databases at:
+http://ieeexplore.ieee.org/
+http://www.acm.org/dl
+
+If you are accessing from outside campus, go to the libraries page at:
+https://www.lib.purdue.edu/find/databases
+and search for these databases (IEEE, ACM).
+Then you log in using your Purdue account. It is sometime a pain that you have to log in after a few minutes. So I make my browser remember the login and password I type in there.
+
+For papers that did not appear in either ACM or IEEE, try scholar.google.com. Our library has access to several other databases that you can search through http://www.lib.purdue.edu/ 
+
+Usenix, another relevant organization, has open access policies and you can access papers in its conferences from www.usenix.org
+

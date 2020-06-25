@@ -1,0 +1,25 @@
+What are some desirable and some undesirable features in the introduction of papers.
+
+As we discussed during our group meeting on 10/9/13, based on readings of three papers:
+* Ramesh Chandra, Taesoo Kim, Meelap Shah, Neha Narula, and Nickolai Zeldovich. 2011. Intrusion recovery for database-backed web applications. In Proceedings of the Twenty-Third ACM Symposium on Operating Systems Principles (SOSP '11).
+* Dongsu Han, Ashok Anand, Aditya Akella, and Srinivasan Seshan. 2012. RPT: re-architecting loss protection for content-aware networks. In Proceedings of the 9th USENIX conference on Networked Systems Design and Implementation (NSDI'12). 
+* Zamfir, C.; Altekar, G.; Stoica, I., "Automating the debugging of datacenter applications with ADDA," Dependable Systems and Networks (DSN), 2013 43rd Annual IEEE/IFIP International Conference on , vol., no., pp.1,12, 24-27 June 2013
+
+(+) Competing protocols are clearly identified.
+(+) A figure is given of the workflow of the solution. 
+(+) A clear, high-level problem motivation is presented.
+(+) Clear, high-level claims are presented.
+(+) The contribution of the paper is quantified through numerical results.
+(+) The abstract also has a teaser impressive result.
+(+) The general principles behind the solution in the paper are presented, not just the tricks in the solution.
+(+) It says that this work proves conventional wisdom wrong and gives convincing reasons why. 
+
+(-) There are too many irrelevant details in the introduction.
+(-) The contributions are not clearly specified. Very little mention is made of what existing approaches do. 
+(-) The problem motivation is not explained in a manner that can be understood by a generalist. It is too esoteric or specialized.
+(-) The abstract is too esoteric or specialized.
+
+Incidentally, the papers were ranked as follows, by the aggregation of votes from the DCSL members present:
+* Intrusion recovery (SOSP 11): 2nd (6.1/10)
+* Loss recovery in content aware networks (NSDI 12): 3rd (6.0/10)
+* Debugging datacenter applications (DSN 13): 1st (7.3/10)

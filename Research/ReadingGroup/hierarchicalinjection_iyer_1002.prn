@@ -1,0 +1,1749 @@
+%!PS-Adobe-3.0
+%%Title: Microsoft PowerPoint - hierarchicalinjection_iyer_1002.ppt
+%%Creator: Pscript.dll Version 5.0
+%%CreationDate: 10/10/2002 21:5:37
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Portrait
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (LaserWriter 16/600 PS) (2014.106) 1
+%%LanguageLevel: 2
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 12 15 599 782
+%%EndDefaults
+
+[{
+%%BeginFeature: *JobPatchFile 2
+/filterLineCapBugCTM where {pop false} {true} ifelse
+statusdict begin version cvi 2014 eq revision 1.1 lt end and and
+{ userdict begin
+ /sysdictSc systemdict /scale get def
+ /sysdictSa systemdict /setstrokeadjust get def
+ /sysdictLc systemdict /setlinecap get def
+ /sysdictIm systemdict /initmatrix get def
+ /sysdictCc systemdict /concat get def
+ /sysdictSm systemdict /setmatrix get def
+ /filterLineCapBugCTM matrix def
+ /filterLCBCTM {
+	currentstrokeadjust currentlinecap 2 eq and
+	{
+		filterLineCapBugCTM currentmatrix
+		dup dup 0 get abs exch 3 get abs ne
+		exch dup 1 get abs exch 2 get abs ne or
+		{1 sysdictLc} if
+	} if
+ } bind def
+ /scale {sysdictSc filterLCBCTM} bind def
+ /setlinecap {sysdictLc filterLCBCTM} bind def
+ /setstrokeadjust {sysdictSa filterLCBCTM} bind def
+ /initmatrix {sysdictIm filterLCBCTM} bind def
+ /concat {sysdictCc filterLCBCTM} bind def
+ /setmatrix {sysdictSm filterLCBCTM} bind def
+end 
+/sysdictSc /sysdictSa /sysdictLc
+/sysdictIm /sysdictCc /sysdictSm
+6 {userdict exch undef} repeat
+} if 
+%%EndFeature
+} stopped cleartomark
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_VMErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if showpage initgraphics courier setfont lmargin 720 moveto
+errorname(VMError)eq{PrtVMMsg}if systemdict/showpage get exec(%%[ Error: )print
+errorname =print(; OffendingCommand: )print/command load =print( ]%%)= flush}if
+end end end}dup 0 systemdict put dup 4 $brkpage put bind readonly put
+/currentpacking where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup length dict
+begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding{ISOLatin1Encoding}
+stopped{StandardEncoding}if def currentdict end/ErrFont-Latin1 exch definefont}
+ifelse exch scalefont setfont counttomark 3 div cvi{moveto show}repeat showpage
+quit}{cleartomark}ifelse}bind def
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/ADO_mxRot ~ d/TextInitialised? F d reinitialize E}{U
+/Pscript_Win_Data 230 dict @ ` put/ADO_mxRot ~ d/TextInitialised? F d
+reinitialize}?}b/terminate{!{& self eq{exit}{E}?}loop E}b/suspend/terminate , d
+/resume{` Pscript_Win_Data `}b U `/lucas 21690 d/featurebegin{countdictstack
+lucas[}b/featurecleanup{stopped{cleartomark @ lucas eq{! exit}if}loop
+countdictstack ~ sub @ 0 gt{{E}repeat}{!}?}b E/snap{transform 0.25 sub round
+0.25 add ~ 0.25 sub round 0.25 add ~ itransform}b/dsnap{dtransform round ~
+round ~ idtransform}b/nonzero_round{@ 0.5 ge{round}{@ -0.5 lt{round}{0 ge{1}
+{-1}?}?}?}b/nonzero_dsnap{dtransform nonzero_round ~ nonzero_round ~
+idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ - neg 0 - C}b/irp{4 -2 $ + +S fx 4 2
+$ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/solid{[]0 sd}b/g
+{@ not{U/DefIf_save save put}if U/DefIf_bool 2 ^ put}b/DefIf_El{if U/DefIf_bool
+get not @{U/DefIf_save get restore}if}b/e{DefIf_El !}b/UDF{L2?{undefinefont}{!}
+?}b/UDR{L2?{undefineresource}{! !}?}b/freeVM{/Courier findfont[40 0 0 -40 0 0]
+makefont Ji 2 vmreclaim}b
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *Smoothing False
+
+  2 dict dup /PostRenderingEnhance false put setpagedevice
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *BitsPerPixel None
+
+  2 dict dup /PreRenderingEnhance false put setpagedevice
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *PageSize Letter
+
+   2 dict dup /PageSize [612 792] put dup /ImagingBBox null put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *TraySwitch False
+1 dict dup /TraySwitch false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Resolution 600dpi
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *InstalledMemory 8Meg
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OptionalCassette1 False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OptionalEnvelopeFeeder False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OutputBin OnlyOne
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 0.11999 0 0 -0.11999 11.99905 781.99938 ] def 
+%%EndSetup
+
+%%Page: 1 1
+%%PageBoundingBox: 12 15 599 782
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L2 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T[1 0 0 1 0 0]{PaintData}imagemask E}b & mx makepattern setpattern E fEOFill{O}
+{L}? ;}b
+%%EndResource
+end reinitialize
+/DeviceGray dup setcolorspace /colspABC exch def
+: N 150 150 4592 6092 rp C 
+1 0 scol  L ; 0 0 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{3{~ !}repeat 3 -1 $ ! findfont 1
+^ ~ definefont fM @ @ 5 0 put 4 0 put 90 matrix R matrix concatmatrix makefont
+Pscript_Windows_Font 3 1 $ put}b/UmF{L2?{Pscript_Windows_Font ~ undef}{!}?}b
+/UmF42{@ findfont/FDepVector get{/FontName get undefinefont}forall
+undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font Times-Roman
+F /F0 0 /256 T /Times-Roman mF 
+/F0S64 F0 [100 0 0 -100 0 0 ] mFS
+F0S64 Ji 
+4632 6187 M (1)S 
+: N 487 1180 1867 1396 rp C 
+1 0 scol  L ; : N 471 1164 1883 1412 rp C 
+1 0 scol  L ; 0 Lj 0 Lc 3 Lw solid : 471 1666 1883 64 rc N 471 1704 M 2354 1704 I 471 1691 M 2354 1691 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 471 1668 1883 61 rc N 471 1698 M 2354 1698 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 3 Lw : 567 1164 64 1412 rc N 605 1164 M 605 2576 I 592 1164 M 592 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 569 1164 61 1412 rc N 599 1164 M 599 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 1 Lj 1 Lc 2 Lw : 595 1164 5 3 rc N 597 1164 M 597 1164 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; /F0S49 F0 [73 0 0 -73 0 0 ] mFS
+F0S49 Ji 
+632 1360 M (\223Hierarchical Simulation Approach to Accurate Fault )[33 53 20 31 25 32 24 32 37 20 33 32 20 18 41 21 56 37 20 32 21 20 36 37 18 53 37 37 24 36 33 33
+37 18 20 36 18 53 32 32 37 25 32 21 32 18 41 32 37 20 20  0]xS 
+632 1447 M (Modeling for System Dependability )[65 36 37 32 20 20 38 35 19 24 37 24 18 41 37 28 21 32 56 18 54 31 38 31 37 37 32 37 20 20 20 21
+36  0]xS 
+632 1535 M (Evaluation\224:)[45 36 32 20 37 32 20 21 36 37 32  0]xS 
+
+%%IncludeResource: font Times-Italic
+F /F1 0 /256 T /Times-Italic mF 
+/F1S3F F1 [63 0 0 -63 0 0 ] mFS
+F1S3F Ji 
+1000 1535 M (Kalbarczyk)[42 32 18 31 31 25 28 24 28  0]xS 
+1287 1535 M (, )[15  0]xS 
+1318 1535 M (Iyer)[21 28 27  0]xS 
+1419 1535 M (, )[16  0]xS 
+1451 1535 M (Ries)[37 18 27  0]xS 
+1558 1535 M (, Patel, Lee, )[16 16 37 32 17 28 17 16 16 35 27 28 16  0]xS 
+1875 1535 M (Xiao)[37 18 31  0]xS 
+/F0S3F F0 [63 0 0 -63 0 0 ] mFS
+F0S3F Ji 
+632 1613 M (\(From IEEE Transactions on Computers, Sep/Oct 1999\))[21 34 21 31 49 16 20 39 38 38 16 38 21 28 32 25 28 27 17 18 31 31 25 16 31 31 16 42 31 48 32 31
+18 28 20 24 16 16 35 27 32 18 45 27 18 15 31 32 31 32  0]xS 
+
+%%IncludeResource: font Helvetica
+F /F2 0 /256 T /Helvetica mF 
+/F2S2F F2 [47 0 0 -47 0 0 ] mFS
+F2S2F Ji 
+632 2038 M (October 4, 2002)[37 24 13 26 26 26 16 13 26 13 13 26 26 26  0]xS 
+632 2106 M (Presented By:)[31 16 26 24 26 26 13 26 26 13 31 23  0]xS 
+632 2174 M (Saurabh Bagchi)[31 26 26 16 26 26 26 13 31 26 26 24 26  0]xS 
+632 2242 M (ECE Department, Purdue University)[31 34 31 13 34 26 26 26 16 14 38 26 26 13 13 14 31 26 16 26 26 26 13 34 26 10 25 26 16 24 10 13
+ 0]xS 
+0 Lj 8 Lw : 471 1164 1883 1412 rc N 2350 1168 M 475 1168 I 475 2572 I 2350 2572 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; ; : N 2554 1180 1867 1396 rp C 
+1 0 scol  L ; : N 2538 1164 1883 1412 rp C 
+1 0 scol  L ; /F2S25 F2 [37 0 0 -37 0 0 ] mFS
+F2S25 Ji 
+2684 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 2527 M (2)S 
+4090 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 1446 1883 64 rc N 2538 1484 M 4421 1484 I 2538 1471 M 4421 1471 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2538 1448 1883 61 rc N 2538 1478 M 4421 1478 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 3 Lw : 2632 1164 64 1412 rc N 2670 1164 M 2670 2576 I 2657 1164 M 2657 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2634 1164 61 1412 rc N 2664 1164 M 2664 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 2460 1883 45 rc N 2538 2484 M 4421 2484 I 2538 2480 M 4421 2480 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; /F0S54 F0 [84 0 0 -84 0 0 ] mFS
+F0S54 Ji 
+2699 1359 M (Motivation)[75 42 23 23 41 37 23 23 42  0]xS 
+
+%%IncludeResource: font ZapfDingbats
+F /F3 0 /2 F /ZapfDingbats mF 
+/F3S2C F3 [44 0 0 -44 0 0 ] mFS
+F3S2C Ji 
+2715 1580 M (n)S 
+/F2S3F F2 [63 0 0 -63 0 0 ] mFS
+F2S3F Ji 
+2786 1580 M (We want to evaluate the dependability of systems )[61 34 18 43 35 35 18 17 18 35 18 34 32 35 14 35 34 18 34 18 17 35 35 18 35 34 35 35 35 35 35 35
+14 14 13 18 31 18 34 17 18 32 30 32 18 34 52 32  0]xS 
+2786 1655 M (running real)[21 35 35 35 14 35 35 18 21 35 35  0]xS 
+3118 1655 M (-)S 
+3140 1655 M (world workloads under )[43 35 21 14 35 19 43 35 21 32 14 35 35 35 32 18 35 35 35 34 21  0]xS 
+
+%%IncludeResource: font Helvetica-Oblique
+F /F4 0 /256 T /Helvetica-Oblique mF 
+/F4S3F F4 [63 0 0 -63 0 0 ] mFS
+F4S3F Ji 
+3785 1655 M (real)[20 35 35  0]xS 
+3889 1655 M (-)S 
+3910 1655 M (world)[45 35 21 14  0]xS 
+F2S3F Ji 
+4078 1655 M (faults)[17 35 35 14 17  0]xS 
+F3S2C Ji 
+2715 1745 M (n)S 
+F2S3F Ji 
+2786 1745 M (Faults can appear at various levels)[38 35 35 14 18 31 17 32 35 34 18 35 35 35 35 35 20 18 35 17 17 32 35 21 14 35 34 31 18 14 34 33
+35 13  0]xS 
+/F2S34 F2 [52 0 0 -52 0 0 ] mFS
+F2S34 Ji 
+2809 1823 M <96>S 
+2868 1823 M (Transistor)[31 17 30 28 27 11 27 14 29  0]xS 
+2809 1898 M <96>S 
+2868 1898 M (Circuit)[38 11 17 27 29 11  0]xS 
+2809 1973 M <96>S 
+2868 1973 M (Chip)[38 29 12  0]xS 
+2809 2048 M <96>S 
+2868 2048 M (System)[35 25 27 14 29  0]xS 
+F3S2C Ji 
+2715 2136 M (n)S 
+F2S3F Ji 
+2786 2136 M (We want to simulate the faults fast )[61 34 18 43 35 35 18 17 18 35 17 32 13 53 35 14 34 18 35 17 18 35 34 17 18 35 35 14 17 31 17 18
+35 31 17  0]xS 
+F2S34 Ji 
+2809 2214 M <96>S 
+2868 2214 M (Identify faults which cause errors)[13 29 30 29 15 11 15 25 14 15 30 29 11 14 26 15 38 29 11 27 29 14 26 30 28 26 29 14 30 17 17 29
+18  0]xS 
+2809 2289 M <96>S 
+2868 2289 M (Identify relevant state)[13 29 30 29 15 11 15 25 15 17 30 11 29 27 29 28 15 14 26 14 29 14  0]xS 
+2809 2364 M <96>S 
+2868 2364 M (Inject critical components)[14 29 11 29 27 14 14 26 18 12 14 11 26 30 12 14 26 29 44 28 30 28 30 29 14  0]xS 
+8 Lw solid : 2538 1164 1883 1412 rc N 4417 1168 M 2542 1168 I 2542 2572 I 4417 2572 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; ; : N 487 3830 1867 1396 rp C 
+1 0 scol  L ; : N 471 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 5177 M (3)S 
+2023 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 471 4096 1883 64 rc N 471 4134 M 2354 4134 I 471 4121 M 2354 4121 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 471 4098 1883 61 rc N 471 4128 M 2354 4128 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 3 Lw : 565 3814 64 1412 rc N 603 3814 M 603 5226 I 590 3814 M 590 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 567 3814 61 1412 rc N 597 3814 M 597 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 5110 1883 45 rc N 471 5134 M 2354 5134 I 471 5130 M 2354 5130 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; F0S54 Ji 
+632 4009 M (Approach)[61 42 42 27 42 37 37  0]xS 
+/F3S25 F3 [37 0 0 -37 0 0 ] mFS
+F3S25 Ji 
+648 4214 M (n)S 
+F2S34 Ji 
+719 4214 M (Hierarchical simulation methodology with )[38 11 29 17 29 17 27 29 11 26 30 11 15 26 12 44 29 11 29 15 11 30 28 15 43 29 15 28 29 29 30 11
+30 29 26 14 38 11 15 29  0]xS 
+F2S2F Ji 
+742 4278 M <96>S 
+801 4278 M (Primary faults obtained from ionizing particle entering a device)
+[31 16 11 38 26 16 23 13 13 26 27 10 13 24 13 26 26 13 26 10 26 26 26 14 13 16 26 39 13 10 26 27
+10 24 10 26 26 13 26 26 16 13 10 24 10 26 13 27 26 14 26 16 10 26 26 13 26 13 26 26 25 10 24  0]xS 
+742 4340 M <96>S 
+801 4340 M (Result of fault obtained by simulation and used at the next high)
+[34 26 24 26 10 13 13 26 13 13 13 26 26 10 13 13 26 27 13 26 10 26 26 26 14 26 23 13 24 11 38 27
+10 26 13 11 26 26 13 26 26 26 13 26 24 26 26 13 27 13 13 13 26 26 13 26 26 24 13 13 26 10 26  0]xS 
+2108 4340 M (er level )[26 16 13 10 26 25 26 10  0]xS 
+801 4391 M (of system abstraction)[26 13 13 24 23 24 13 26 38 13 26 26 24 13 16 26 24 13 10 26  0]xS 
+742 4454 M <96>S 
+801 4454 M (Fault dictionary built up which gives impact of fault on subsyst)
+[29 26 26 10 13 13 26 10 24 13 10 26 26 26 17 23 13 26 26 11 10 13 13 26 26 14 33 27 10 24 26 13
+26 10 25 26 24 13 10 38 26 26 24 13 13 26 13 13 13 26 27 10 13 13 26 26 13 24 26 26 24 23 24  0]xS 
+2083 4454 M (em )[26 38  0]xS 
+801 4505 M (behavior)[26 26 26 26 25 10 26  0]xS 
+F3S25 Ji 
+648 4573 M (n)S 
+F2S34 Ji 
+719 4573 M (For the current study levels studied are)[32 29 17 14 15 28 30 14 27 28 17 17 30 29 14 14 27 15 28 30 25 15 11 29 27 29 11 26 14 27 15 28
+30 11 29 29 14 29 17  0]xS 
+F2S2F Ji 
+742 4636 M <96>S 
+801 4636 M (Transistors where faults are radiation particles, outputs are cu)
+[28 16 26 26 24 10 24 13 26 16 24 13 33 26 26 16 26 13 13 26 26 10 13 24 13 26 16 26 13 16 26 26
+10 26 14 10 26 26 13 26 26 16 13 10 24 10 26 24 13 13 27 26 13 26 26 13 24 13 26 16 26 13 24  0]xS 
+2086 4636 M (rrent )[16 16 26 26 13  0]xS 
+801 4687 M (bursts)[26 26 16 24 13  0]xS 
+742 4750 M <96>S 
+801 4750 M (Circuit level \(Manchester Carry Adder\) where outputs are incorre)
+[34 10 16 24 26 10 13 13 10 26 25 26 10 13 16 39 26 26 24 26 26 24 13 26 16 13 34 26 15 16 23 13
+31 26 26 26 16 16 13 33 26 26 16 26 13 26 26 14 26 26 13 24 13 26 16 26 13 10 26 24 26 16 16  0]xS 
+2146 4750 M (ct )[24 13  0]xS 
+801 4801 M (values on circuit latches or flip)[25 26 10 26 26 24 13 26 26 13 24 10 15 24 26 10 13 13 10 26 13 24 26 26 24 13 26 16 13 13 10 10
+ 0]xS 
+1427 4801 M (-)S 
+1443 4801 M (flops)[13 10 26 26  0]xS 
+742 4863 M <96>S 
+801 4863 M (Chip level \(LANAI chip\) where outputs are memory corruption)[34 26 10 26 13 10 26 25 26 10 13 16 26 31 34 32 12 13 24 26 10 26 16 14 33 26 26 16 26 13 26 26
+13 26 26 13 24 13 26 16 26 14 38 27 38 27 16 23 13 24 26 16 16 26 26 13 10 26  0]xS 
+742 4925 M <96>S 
+801 4925 M (System level \(MCP on host interface\) where outputs are program )
+[31 23 24 13 27 38 13 10 26 25 26 10 13 16 39 34 31 13 26 26 13 26 26 24 13 13 10 26 13 26 16 13
+26 24 26 16 13 34 26 26 16 26 13 26 26 13 27 26 13 24 13 26 16 26 13 26 16 26 26 16 26 38  0]xS 
+801 4977 M (misbehavior)[39 10 24 26 26 26 26 25 10 26  0]xS 
+8 Lw solid : 471 3814 1883 1412 rc N 2350 3818 M 475 3818 I 475 5222 I 2350 5222 I C 
+: [ 1 0 0 1 471 3814 ] concat K 
+; ; : N 2554 3830 1867 1396 rp C 
+1 0 scol  L ; : N 2538 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 5177 M (4)S 
+4090 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 4096 1883 64 rc N 2538 4134 M 4421 4134 I 2538 4121 M 4421 4121 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2538 4098 1883 61 rc N 2538 4128 M 4421 4128 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 3 Lw : 2632 3814 64 1412 rc N 2670 3814 M 2670 5226 I 2657 3814 M 2657 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2634 3814 61 1412 rc N 2664 3814 M 2664 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 5110 1883 45 rc N 2538 5134 M 4421 5134 I 2538 5130 M 4421 5130 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; F0S54 Ji 
+2699 4009 M (Experimental Methodology)[51 42 42 37 28 24 63 37 42 23 37 23 21 75 37 23 42 42 42 42 23 42 42  0]xS 
+F3S2C Ji 
+2715 4230 M (n)S 
+F2S3F Ji 
+2786 4230 M (At lowest level, fault model is current burst in the )[42 17 18 14 36 43 35 32 18 18 14 34 32 35 13 17 18 18 35 35 13 17 17 53 35 35 35 14 18 13 31 18
+31 35 21 21 35 34 17 18 35 35 20 32 17 18 14 34 18 17 35 35  0]xS 
+2786 4305 M (transistor)[18 21 35 34 32 14 31 18 35  0]xS 
+F3S2C Ji 
+2715 4395 M (n)S 
+F2S3F Ji 
+2786 4395 M (Fault)[38 35 35 14  0]xS 
+2926 4395 M (-)S 
+2947 4395 M (free and faulty runs to identify deviations)[17 21 35 35 18 34 35 35 17 18 35 35 13 18 31 18 21 35 34 31 17 18 35 18 14 35 34 35 18 13 18 31
+17 35 34 33 14 34 18 14 35 35  0]xS 
+F3S2C Ji 
+2715 4486 M (n)S 
+F2S3F Ji 
+2786 4486 M (Fault dictionary built up and possibly collapsed as )[38 35 35 14 18 18 35 13 31 18 14 35 35 35 21 31 18 34 35 14 14 17 18 35 34 18 35 35 34 18 35 34
+32 32 14 35 14 30 18 32 35 14 14 34 35 32 35 34 18 34 32  0]xS 
+2786 4561 M (optimization)[35 35 18 13 53 14 30 35 18 14 35  0]xS 
+F3S2C Ji 
+2715 4651 M (n)S 
+F2S3F Ji 
+2786 4651 M (Cases which do not cause observable changes of )[45 35 32 35 31 19 43 35 14 32 35 18 35 34 18 35 34 18 17 32 35 34 32 34 18 35 35 31 35 20 33 35
+35 13 35 18 31 35 35 35 35 35 31 18 34 17  0]xS 
+2786 4726 M (behavior are discarded)[35 35 35 34 33 14 35 20 18 35 21 34 18 35 13 32 32 35 21 34 35  0]xS 
+F3S2C Ji 
+2715 4817 M (n)S 
+F2S3F Ji 
+2786 4817 M (At the next higher level, the errors are injected according )[42 17 18 18 35 34 18 35 35 30 18 18 35 13 35 35 35 21 18 13 34 33 35 13 17 18 18 35 34 18 35 21
+20 35 21 31 18 35 20 35 18 14 34 15 34 32 18 35 34 18 34 32 31 35 21 35 14 35 34  0]xS 
+2786 4892 M (to the fault dictionary entries and simulation done)[18 35 17 18 35 34 17 18 35 35 13 18 18 35 13 31 18 14 35 35 35 21 31 18 35 34 18 21 14 34 31 18
+35 35 34 18 32 13 52 35 14 35 18 14 35 34 18 35 35 35  0]xS 
+8 Lw solid : 2538 3814 1883 1412 rc N 4417 3818 M 2542 3818 I 2542 5222 I 4417 5222 I C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; ; LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Page: 2 2
+%%PageBoundingBox: 12 15 599 782
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+: N 150 150 4592 6092 rp C 
+1 0 scol  L ; 0 0 scol F0S64 Ji 
+4632 6187 M (2)S 
+: N 487 1180 1867 1396 rp C 
+1 0 scol  L ; : N 471 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 2527 M (5)S 
+2023 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lj 0 Lc 3 Lw : 471 1446 1883 64 rc N 471 1484 M 2354 1484 I 471 1471 M 2354 1471 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 471 1448 1883 61 rc N 471 1478 M 2354 1478 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 3 Lw : 565 1164 64 1412 rc N 603 1164 M 603 2576 I 590 1164 M 590 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 567 1164 61 1412 rc N 597 1164 M 597 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 2460 1883 45 rc N 471 2484 M 2354 2484 I 471 2480 M 2354 2480 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; F0S54 Ji 
+632 1359 M (Simulation Tricks)[47 23 63 42 24 37 23 23 42 42 21 51 28 23 37 41  0]xS 
+F3S2C Ji 
+648 1580 M (n)S 
+F2S3F Ji 
+719 1580 M (Simulation is done for the period between injection of )[42 14 53 35 14 34 18 14 35 34 18 14 31 18 35 35 35 34 17 18 35 20 18 18 35 34 18 35 35 21 14 35
+34 18 35 34 17 44 35 35 35 18 14 35 15 35 31 18 14 35 34 18 34 18  0]xS 
+719 1655 M (fault and detection of error)[18 35 35 13 18 18 35 35 34 18 35 34 18 34 32 18 14 34 35 18 34 17 18 35 21 21 35  0]xS 
+F2S34 Ji 
+742 1732 M <96>S 
+801 1732 M (Assumption that error recovered from immediately)[35 26 26 29 44 28 15 11 30 28 15 15 28 29 14 14 30 17 17 29 18 14 17 29 26 29 27 29 17 29 29 14
+15 17 29 44 14 12 43 43 30 29 11 29 14 30 12  0]xS 
+742 1808 M <96>S 
+801 1808 M (Good system behavior is not important for this study)[40 29 29 29 14 27 25 27 14 29 43 15 29 30 28 29 27 11 29 17 15 11 26 15 29 29 14 15 11 44 29 29
+17 14 30 29 14 14 15 29 17 14 15 29 11 26 14 27 15 28 30  0]xS 
+742 1883 M <96>S 
+801 1883 M (Challenge to predict occurrence of fault and system state at the)
+[38 28 30 11 12 30 29 28 29 14 14 30 15 28 17 29 30 11 26 15 14 29 26 27 28 18 17 30 28 26 29 14
+29 15 14 15 30 28 12 14 14 30 28 30 14 27 25 26 14 30 43 14 26 14 30 14 29 14 30 14 14 15 28  0]xS 
+801 1946 M (time of occurrence)[14 12 43 29 14 29 15 14 29 26 27 28 18 17 30 28 26  0]xS 
+F3S2C Ji 
+648 2034 M (n)S 
+F2S3F Ji 
+719 2034 M (Cycle accurate simulator of LANAI chip was used)[45 31 32 14 35 18 35 31 32 35 21 34 18 34 17 32 14 53 35 14 34 18 35 20 18 34 18 17 35 42 45 42
+17 17 31 35 14 35 19 43 35 32 18 34 32 35  0]xS 
+F3S2C Ji 
+648 2124 M (n)S 
+F2S3F Ji 
+719 2124 M (Exhaustive simulation is done at lower levels)[42 31 35 35 35 32 18 13 32 34 17 32 14 53 35 14 34 18 14 35 34 18 13 32 18 35 34 35 35 18 34 17
+18 14 36 44 35 21 18 14 34 32 35 14  0]xS 
+F3S2C Ji 
+648 2214 M (n)S 
+F2S3F Ji 
+719 2214 M (Challenges:)[45 35 35 14 14 35 35 35 35 32  0]xS 
+F2S34 Ji 
+742 2291 M <96>S 
+801 2291 M (How to get the golden copy?)[38 29 37 14 15 29 15 28 29 15 14 15 28 30 15 28 29 11 29 30 29 14 26 30 29 25  0]xS 
+742 2367 M <96>S 
+801 2367 M (Cases of multiple errors)[38 29 26 29 26 14 29 15 14 44 29 11 15 12 28 11 30 14 29 17 18 29 17  0]xS 
+8 Lw solid : 471 1164 1883 1412 rc N 2350 1168 M 475 1168 I 475 2572 I 2350 2572 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; ; : N 2554 1180 1867 1396 rp C 
+1 0 scol  L ; : N 2538 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 2527 M (6)S 
+4090 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 1446 1883 64 rc N 2538 1484 M 4421 1484 I 2538 1471 M 4421 1471 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2538 1448 1883 61 rc N 2538 1478 M 4421 1478 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 3 Lw : 2632 1164 64 1412 rc N 2670 1164 M 2670 2576 I 2657 1164 M 2657 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2634 1164 61 1412 rc N 2664 1164 M 2664 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 2460 1883 45 rc N 2538 2484 M 4421 2484 I 2538 2480 M 4421 2480 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; F0S54 Ji 
+2699 1359 M (Important Results)[29 63 42 42 28 23 37 42 23 21 56 37 33 42 23 23  0]xS 
+F3S2C Ji 
+2715 1580 M (n)S 
+F2S3F Ji 
+2786 1580 M (A single circuit level fault may cause multiple errors at )[42 17 32 14 35 35 14 35 17 32 14 20 32 35 13 18 18 14 34 32 35 13 18 17 35 35 14 17 17 53 35 31
+17 32 35 34 32 34 18 52 35 14 18 14 35 14 34 18 35 21 21 35 20 31 18 34 18  0]xS 
+2786 1655 M (the chip level)[18 35 34 18 32 35 14 34 18 14 34 32 35  0]xS 
+F2S34 Ji 
+2809 1732 M <96>S 
+2868 1732 M (Why is this the case?)[51 28 25 15 11 26 14 15 29 11 27 14 15 28 29 15 26 29 26 29  0]xS 
+F3S2C Ji 
+2715 1821 M (n)S 
+F2S3F Ji 
+2786 1821 M (At the highest level, actual MCP program is executed )[42 17 18 18 35 34 18 35 14 35 35 34 31 17 18 14 34 33 35 13 17 18 35 31 18 35 35 13 17 53 45 42
+18 35 20 34 35 21 35 52 18 14 31 18 35 31 34 32 35 18 35 34  0]xS 
+2786 1896 M (and results are categorized as)[35 35 35 18 21 34 32 35 13 18 31 18 35 21 34 17 32 35 18 35 34 35 21 14 30 35 35 18 35  0]xS 
+F2S34 Ji 
+2809 1973 M <96>S 
+2868 1973 M (Good [56.0%])[40 29 29 29 14 14 29 30 14 29 47  0]xS 
+2809 2048 M <96>S 
+2868 2048 M (Dropped [16.4%])[38 17 29 29 28 29 30 14 14 29 30 14 29 46  0]xS 
+2809 2123 M <96>S 
+2868 2123 M (Corrupt [8.0%])[38 29 17 18 29 28 14 15 14 29 14 29 47  0]xS 
+2809 2199 M <96>S 
+2868 2199 M (Hung [19.6%])[38 29 29 28 15 14 29 29 14 30 46  0]xS 
+F3S2C Ji 
+2715 2287 M (n)S 
+F2S3F Ji 
+2786 2287 M (Software vulnerabilities uncovered by fault injection and )[42 35 17 19 43 35 21 35 17 33 35 14 35 35 21 35 35 14 14 13 18 14 34 32 17 35 35 32 34 32 35 21
+35 34 18 34 31 18 18 35 35 13 17 18 14 34 15 35 31 18 14 35 34 18 35 35 34  0]xS 
+2786 2362 M (removing them improves hang result)[21 35 53 34 32 14 35 34 18 18 35 34 52 18 13 53 35 21 34 32 35 31 18 35 35 35 34 18 21 34 32 35
+13  0]xS 
+8 Lw solid : 2538 1164 1883 1412 rc N 4417 1168 M 2542 1168 I 2542 2572 I 4417 2572 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; ; : N 487 3830 1867 1396 rp C 
+1 0 scol  L ; : N 471 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 5177 M (7)S 
+2023 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 471 4096 1883 64 rc N 471 4134 M 2354 4134 I 471 4121 M 2354 4121 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 471 4098 1883 61 rc N 471 4128 M 2354 4128 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 3 Lw : 565 3814 64 1412 rc N 603 3814 M 603 5226 I 590 3814 M 590 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 567 3814 61 1412 rc N 597 3814 M 597 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 5110 1883 45 rc N 471 5134 M 2354 5134 I 471 5130 M 2354 5130 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; F0S54 Ji 
+632 4009 M (Significance of Work )[47 23 41 42 23 29 23 37 37 42 37 37 21 41 29 21 79 42 28 41  0]xS 
+F3S2C Ji 
+648 4230 M (n)S 
+F2S3F Ji 
+719 4230 M (Methodology for raising faults from detailed level \(easier )[53 34 18 35 35 35 35 14 35 35 31 17 18 35 20 18 21 35 13 32 14 35 34 18 18 35 35 13 17 32 17 18
+21 34 52 18 34 35 18 35 14 14 35 34 18 14 34 33 35 13 18 21 35 34 32 14 35 20  0]xS 
+719 4305 M (to reason about faults at that level?\) to more abstract )[18 35 17 21 35 35 32 34 35 18 35 35 34 35 17 17 18 35 35 14 17 31 18 34 18 17 18 35 34 17 18 14
+34 33 35 14 34 21 17 18 35 17 53 35 20 35 18 35 34 31 18 21 34 32 17  0]xS 
+719 4380 M (level)[14 34 33 35  0]xS 
+F2S34 Ji 
+742 4458 M <96>S 
+801 4458 M (Can start at any level of abstraction at which one has a good )
+[38 29 28 14 27 14 29 17 15 14 29 15 14 30 29 25 15 11 29 27 29 11 14 29 15 14 30 28 27 14 17 29
+26 15 11 30 29 14 29 14 15 38 29 11 27 29 14 29 29 29 15 28 29 26 14 30 15 28 29 29 29  0]xS 
+801 4520 M (grasp on faults)[28 17 30 27 28 14 30 28 14 15 30 29 11 14  0]xS 
+F3S2C Ji 
+648 4609 M (n)S 
+F2S3F Ji 
+719 4609 M (Speed up simulation process)[42 35 35 35 35 18 35 34 17 32 14 52 35 14 35 18 14 35 34 18 35 21 34 32 34 32  0]xS 
+F3S2C Ji 
+648 4699 M (n)S 
+F2S3F Ji 
+719 4699 M (Method applied to a real)[53 34 18 35 35 35 17 35 35 35 14 14 35 34 18 18 34 18 34 18 21 35 35  0]xS 
+1393 4699 M (-)S 
+1414 4699 M (world system running real )[43 35 21 14 35 18 32 31 32 18 34 53 17 21 35 35 35 14 35 34 18 21 35 35 13  0]xS 
+719 4774 M (workload)[44 35 21 32 14 35 35  0]xS 
+8 Lw solid : 471 3814 1883 1412 rc N 2350 3818 M 475 3818 I 475 5222 I 2350 5222 I C 
+: [ 1 0 0 1 471 3814 ] concat K 
+; ; : N 2554 3830 1867 1396 rp C 
+1 0 scol  L ; : N 2538 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 5177 M (8)S 
+4090 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 4096 1883 64 rc N 2538 4134 M 4421 4134 I 2538 4121 M 4421 4121 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2538 4098 1883 61 rc N 2538 4128 M 4421 4128 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 3 Lw : 2632 3814 64 1412 rc N 2670 3814 M 2670 5226 I 2657 3814 M 2657 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2634 3814 61 1412 rc N 2664 3814 M 2664 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 5110 1883 45 rc N 2538 5134 M 4421 5134 I 2538 5130 M 4421 5130 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; F0S54 Ji 
+2699 4009 M (Research Issues)[56 37 33 37 37 28 37 42 21 28 33 32 42 37  0]xS 
+F3S2C Ji 
+2715 4230 M (n)S 
+F2S3F Ji 
+2786 4230 M (How to choose the workload?)[45 36 43 18 18 35 18 32 35 35 34 32 34 17 18 35 35 18 43 35 21 32 14 35 35 35  0]xS 
+F3S2C Ji 
+2715 4320 M (n)S 
+F2S3F Ji 
+2786 4320 M (How do we accelerate fault injection?)[45 36 43 18 35 35 19 43 35 18 35 32 32 35 14 35 21 34 18 34 18 18 35 35 13 17 18 14 34 15 35 31
+18 14 35 34  0]xS 
+F3S2C Ji 
+2715 4410 M (n)S 
+F2S3F Ji 
+2786 4410 M (Do we always need to run the fault)[45 35 19 43 35 18 35 15 43 36 31 32 18 35 35 35 34 18 18 34 18 21 35 34 17 18 35 34 18 18 35 35
+13  0]xS 
+3749 4410 M (-)S 
+3769 4410 M (free case?)[18 20 35 35 17 32 35 32 35  0]xS 
+F3S2C Ji 
+2715 4501 M (n)S 
+F2S3F Ji 
+2786 4501 M (Wouldn\222t it help to have a higher fault activation rate?)[61 34 35 14 35 35 13 17 18 14 17 18 35 35 14 34 17 18 35 18 35 34 32 34 18 34 18 35 14 35 35 35
+20 18 17 35 35 13 18 18 34 31 18 13 32 35 18 14 35 34 18 21 34 18 35  0]xS 
+F3S2C Ji 
+2715 4591 M (n)S 
+F2S3F Ji 
+2786 4591 M (The full cycle is still very human intensive)[38 35 35 18 18 35 14 13 17 32 31 32 14 34 18 14 31 17 31 18 14 14 14 17 32 35 21 31 18 35 34 53
+35 34 18 14 34 18 34 35 32 13 33  0]xS 
+F3S2C Ji 
+2715 4681 M (n)S 
+F2S3F Ji 
+2786 4681 M (Can we hope to have fault dictionaries for my )[45 35 35 19 43 35 18 35 35 35 35 17 18 35 18 34 34 33 34 17 18 35 35 13 18 18 35 13 31 18 14 35
+35 35 21 13 35 32 17 18 35 20 17 53 31  0]xS 
+2786 4756 M (workstation/PC/network switch/MP3 player? Dream on!)[44 35 21 32 32 18 34 18 14 35 35 17 42 45 18 35 34 19 43 35 21 32 17 33 43 14 18 32 35 17 53 41
+35 17 35 14 35 31 35 21 35 18 45 21 35 35 52 18 35 33  0]xS 
+8 Lw solid : 2538 3814 1883 1412 rc N 4417 3818 M 2542 3818 I 2542 5222 I 4417 5222 I C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; ; LH
+(%%[Page: 2]%%) = 
+%%PageTrailer
+
+%%Page: 3 3
+%%PageBoundingBox: 12 15 599 782
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+: N 150 150 4592 6092 rp C 
+1 0 scol  L ; 0 0 scol F0S64 Ji 
+4632 6187 M (3)S 
+: N 487 1180 1867 1396 rp C 
+1 0 scol  L ; : N 471 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 2527 M (9)S 
+2023 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lj 0 Lc 3 Lw : 471 1446 1883 64 rc N 471 1484 M 2354 1484 I 471 1471 M 2354 1471 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 471 1448 1883 61 rc N 471 1478 M 2354 1478 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 3 Lw : 565 1164 64 1412 rc N 603 1164 M 603 2576 I 590 1164 M 590 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 567 1164 61 1412 rc N 597 1164 M 597 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 2460 1883 45 rc N 471 2484 M 2354 2484 I 471 2480 M 2354 2480 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; F0S54 Ji 
+632 1359 M (Drawbacks)[61 28 37 60 42 37 37 41  0]xS 
+/F2S2C F2 [44 0 0 -44 0 0 ] mFS
+F2S2C Ji 
+648 1580 M <97>S 
+F2S3F Ji 
+719 1580 M (Detailed simulation not possible for all but the smallest )[45 35 18 35 14 14 35 35 17 32 13 53 35 14 34 18 14 35 35 18 35 34 17 18 35 34 32 32 14 35 14 34
+17 18 35 20 17 35 14 14 18 35 34 18 17 18 35 34 18 31 53 35 14 14 34 31 18  0]xS 
+719 1655 M (systems)[32 31 31 18 34 53  0]xS 
+F2S2C Ji 
+648 1745 M <97>S 
+F2S3F Ji 
+719 1745 M (How do we identify critical components a priori?)[45 36 43 18 35 35 19 43 35 18 14 35 35 35 18 14 18 31 17 32 21 13 18 14 32 35 13 17 32 34 53 35
+35 35 34 35 18 31 18 34 18 35 21 14 35 21 14  0]xS 
+F2S2C Ji 
+648 1836 M <97>S 
+F2S3F Ji 
+719 1836 M (Does not consider timing failures)[45 35 35 32 18 35 34 17 18 32 34 35 32 14 35 35 20 17 18 13 53 14 35 35 17 18 35 14 14 35 21 34
+ 0]xS 
+F2S2C Ji 
+648 1926 M <97>S 
+F2S3F Ji 
+719 1926 M (This is really not a methodology as much as a )[38 35 14 32 18 13 31 18 21 35 35 14 14 31 18 35 34 17 18 35 17 53 34 18 35 35 35 35 14 35 35 30
+18 34 32 17 53 34 32 35 18 34 31 18 34  0]xS 
+F4S3F Ji 
+2009 1926 M (seat)[32 35 34  0]xS 
+2128 1926 M (-)S 
+2149 1926 M (of)[34  0]xS 
+2201 1926 M (-)S 
+719 2001 M (the)[18 35  0]xS 
+807 2001 M (-)S 
+828 2001 M (pants)[35 35 34 17  0]xS 
+F2S3F Ji 
+999 2001 M (approach to a particular system)[35 35 34 21 35 35 31 35 17 18 34 18 35 17 35 35 21 18 13 32 35 14 35 20 17 32 31 32 18 34  0]xS 
+8 Lw solid : 471 1164 1883 1412 rc N 2350 1168 M 475 1168 I 475 2572 I 2350 2572 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; ; : N 2554 1180 1867 1396 rp C 
+1 0 scol  L ; : N 2538 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 2527 M (10)[20  0]xS 
+4090 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 1446 1883 64 rc N 2538 1484 M 4421 1484 I 2538 1471 M 4421 1471 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2538 1448 1883 61 rc N 2538 1478 M 4421 1478 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 3 Lw : 2632 1164 64 1412 rc N 2670 1164 M 2670 2576 I 2657 1164 M 2657 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2634 1164 61 1412 rc N 2664 1164 M 2664 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 2460 1883 45 rc N 2538 2484 M 4421 2484 I 2538 2480 M 4421 2480 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; F0S54 Ji 
+2699 1359 M (What is software fault tolerance?)[79 42 37 23 21 23 33 21 33 41 29 23 60 37 28 37 20 29 37 42 23 23 21 23 42 23 37 28 37 42 37 37
+ 0]xS 
+F3S2C Ji 
+2715 1670 M (n)S 
+F2S3F Ji 
+2786 1670 M (Use the classical definition due to )[45 32 35 17 18 35 34 18 32 14 34 31 32 14 32 35 13 18 35 34 18 14 35 13 18 14 35 35 17 35 35 35
+17 18 34  0]xS 
+3735 1670 M (Avizienis)[41 31 14 30 14 35 35 14  0]xS 
+3981 1670 M (:)S 
+F2S34 Ji 
+2809 1747 M <96>S 
+2868 1747 M (Management of faults originating from the design or )[43 30 28 30 28 29 43 30 29 14 14 29 15 14 15 29 29 11 14 27 14 29 18 12 29 12 28 29 15 12 29 28
+14 15 17 29 44 14 15 28 30 14 30 29 26 12 29 28 14 30 17  0]xS 
+2868 1810 M (implementation of software components)[11 44 29 11 29 43 30 29 14 29 15 11 30 28 15 29 15 14 26 29 15 14 37 29 17 30 14 26 29 44 28 30
+29 30 28 14  0]xS 
+F3S2C Ji 
+2715 1974 M (n)S 
+F2S3F Ji 
+2786 1974 M (How to deal with software faults?)[45 36 43 18 18 35 18 35 35 35 14 18 43 14 18 35 18 32 34 17 19 43 35 21 35 18 18 35 35 13 18 31
+ 0]xS 
+F2S34 Ji 
+2809 2051 M <96>S 
+2868 2051 M (Three classes of techniques)[32 28 17 29 30 14 27 11 29 26 26 29 26 14 29 15 15 14 29 27 29 29 12 29 28 29  0]xS 
+2809 2126 M <96>S 
+2868 2126 M (Robustness)[38 29 29 28 26 15 29 29 26  0]xS 
+2809 2201 M <96>S 
+2868 2201 M (Temporal or spatial redundancy)[31 29 44 29 29 17 30 11 14 29 18 14 27 28 29 15 11 30 11 14 18 29 30 29 28 29 30 28 27  0]xS 
+2809 2276 M <96>S 
+2868 2276 M (Software diversity)[35 29 15 14 37 29 17 29 14 30 11 27 29 17 26 12 15  0]xS 
+8 Lw solid : 2538 1164 1883 1412 rc N 4417 1168 M 2542 1168 I 2542 2572 I 4417 2572 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; ; : N 487 3830 1867 1396 rp C 
+1 0 scol  L ; : N 471 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 5177 M (11)[20  0]xS 
+2023 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 471 4096 1883 64 rc N 471 4134 M 2354 4134 I 471 4121 M 2354 4121 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 471 4098 1883 61 rc N 471 4128 M 2354 4128 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 3 Lw : 565 3814 64 1412 rc N 603 3814 M 603 5226 I 590 3814 M 590 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 567 3814 61 1412 rc N 597 3814 M 597 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 5110 1883 45 rc N 471 5134 M 2354 5134 I 471 5130 M 2354 5130 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; F0S54 Ji 
+632 4009 M (How to deal with software faults?)[61 42 60 21 23 42 21 42 37 37 23 21 60 23 23 42 21 33 41 29 23 60 37 28 37 20 29 37 41 23 23 33
+ 0]xS 
+F3S2C Ji 
+648 4230 M (n)S 
+F2S3F Ji 
+719 4230 M (Robustness: )[45 35 35 35 32 18 35 34 31 32 17  0]xS 
+F2S34 Ji 
+742 4307 M <96>S 
+801 4307 M (Extent to which software can continue to operate correctly )[35 26 14 29 29 14 15 14 29 15 38 29 11 27 28 14 26 29 15 15 37 29 17 30 14 26 30 28 14 26 30 29
+15 12 29 28 29 14 14 30 14 30 29 29 17 29 14 29 14 26 30 17 17 29 26 15 12 26  0]xS 
+801 4370 M (despite introduction of invalid inputs)[29 29 26 29 11 14 30 15 12 28 14 17 29 30 28 27 15 11 30 28 14 29 15 15 12 28 27 29 11 11 30 14
+12 29 29 29 14  0]xS 
+742 4445 M <96>S 
+801 4445 M (Self)[35 29 11  0]xS 
+891 4445 M (-)S 
+908 4445 M (checking software )[27 28 29 27 26 12 29 28 14 26 29 15 15 37 29 17 30  0]xS 
+1340 4445 M <96>S 
+1383 4445 M (checks on output, number of iterations, )[27 28 29 27 25 27 14 30 28 14 30 29 15 29 28 15 14 15 29 29 44 28 29 17 14 29 15 15 11 14 29 18
+29 15 11 30 28 26 15  0]xS 
+801 4508 M (input data)[12 29 29 28 15 14 29 29 14  0]xS 
+742 4583 M <96>S 
+801 4583 M (Advantage: Errors can be detected early and contained)[35 29 27 29 28 14 30 28 29 14 14 36 17 17 29 17 27 14 26 30 28 15 28 30 14 29 29 14 29 27 14 29
+29 14 29 30 17 12 26 14 30 29 29 14 26 30 28 14 30 12 28 29  0]xS 
+742 4658 M <96>S 
+801 4658 M (Disadvantage: Can only handle predicted faulty behavior)[38 11 26 29 29 27 29 28 14 30 29 29 14 14 38 30 29 14 30 28 12 26 15 28 30 28 30 11 29 15 29 17
+29 29 12 26 14 29 29 14 15 30 29 11 15 26 15 28 30 28 29 27 11 29  0]xS 
+8 Lw solid : 471 3814 1883 1412 rc N 2350 3818 M 475 3818 I 475 5222 I 2350 5222 I C 
+: [ 1 0 0 1 471 3814 ] concat K 
+; ; : N 2554 3830 1867 1396 rp C 
+1 0 scol  L ; : N 2538 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 5177 M (12)[20  0]xS 
+4090 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 4096 1883 64 rc N 2538 4134 M 4421 4134 I 2538 4121 M 4421 4121 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2538 4098 1883 61 rc N 2538 4128 M 4421 4128 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 3 Lw : 2632 3814 64 1412 rc N 2670 3814 M 2670 5226 I 2657 3814 M 2657 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2634 3814 61 1412 rc N 2664 3814 M 2664 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 5110 1883 45 rc N 2538 5134 M 4421 5134 I 2538 5130 M 4421 5130 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; F0S54 Ji 
+2699 4009 M (How to deal with software faults?)[61 42 60 21 23 42 21 42 37 37 23 21 60 23 23 42 21 33 41 29 23 60 37 28 37 20 29 37 41 23 23 33
+ 0]xS 
+F3S2C Ji 
+2715 4320 M (n)S 
+F2S3F Ji 
+2786 4320 M (Temporal redundancy)[38 35 53 35 35 21 35 13 18 21 35 35 35 35 35 35 34 32  0]xS 
+F2S34 Ji 
+2809 4397 M <96>S 
+2868 4397 M (Reexecution )[38 29 29 26 29 26 29 14 11 30 29  0]xS 
+3172 4397 M (of a program when an error is encountered)[29 15 14 29 15 28 17 30 29 17 29 44 14 38 29 30 28 14 30 28 14 30 17 17 29 18 15 11 26 15 29 28
+26 30 29 29 14 29 17 29  0]xS 
+2809 4473 M <96>S 
+2868 4473 M (Error has to be detectable)[35 17 17 29 17 15 28 29 27 14 14 30 15 28 29 14 29 29 15 29 26 14 30 29 11  0]xS 
+2809 4548 M <96>S 
+2868 4548 M (Possible if temporary circumstances caused the error)[35 29 26 26 12 29 11 29 15 11 15 14 14 29 44 29 29 17 29 18 26 14 27 11 17 27 28 43 27 14 30 28
+26 29 27 14 26 30 28 26 29 30 14 15 28 29 14 30 17 17 29  0]xS 
+2809 4623 M <96>S 
+2868 4623 M (If repeated attempts fail, force the software to a )[13 15 14 17 30 29 29 29 14 29 29 14 30 14 14 30 44 28 14 27 14 15 29 11 12 14 14 15 29 17 26 29
+15 15 28 29 14 26 29 15 15 37 29 17 30 14 15 29 14 29  0]xS 
+/F4S34 F4 [52 0 0 -52 0 0 ] mFS
+F4S34 Ji 
+3970 4623 M (safe)[26 29 14  0]xS 
+F2S34 Ji 
+4083 4623 M (state)[26 14 30 14  0]xS 
+2809 4698 M <96>S 
+2868 4698 M (Disadvantage: Only possible if program has loose time )[38 11 26 29 29 27 29 28 14 30 29 29 14 15 41 29 12 25 15 28 29 26 27 12 29 11 29 15 11 15 15 28
+17 30 28 18 29 43 15 28 30 27 14 11 29 29 26 30 14 15 11 43 30  0]xS 
+2868 4761 M (constraints)[26 29 28 27 14 17 30 12 28 14  0]xS 
+8 Lw solid : 2538 3814 1883 1412 rc N 4417 3818 M 2542 3818 I 2542 5222 I 4417 5222 I C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; ; LH
+(%%[Page: 3]%%) = 
+%%PageTrailer
+
+%%Page: 4 4
+%%PageBoundingBox: 12 15 599 782
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+: N 150 150 4592 6092 rp C 
+1 0 scol  L ; 0 0 scol F0S64 Ji 
+4632 6187 M (4)S 
+: N 487 1180 1867 1396 rp C 
+1 0 scol  L ; : N 471 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 2527 M (13)[20  0]xS 
+2023 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lj 0 Lc 3 Lw : 471 1446 1883 64 rc N 471 1484 M 2354 1484 I 471 1471 M 2354 1471 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 471 1448 1883 61 rc N 471 1478 M 2354 1478 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 3 Lw : 565 1164 64 1412 rc N 603 1164 M 603 2576 I 590 1164 M 590 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 567 1164 61 1412 rc N 597 1164 M 597 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 2460 1883 45 rc N 471 2484 M 2354 2484 I 471 2480 M 2354 2480 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; F0S54 Ji 
+632 1359 M (How to deal with software faults?)[61 42 60 21 23 42 21 42 37 37 23 21 60 23 23 42 21 33 41 29 23 60 37 28 37 20 29 37 41 23 23 33
+ 0]xS 
+F3S2C Ji 
+648 1670 M (n)S 
+F2S3F Ji 
+719 1670 M (Software diversity)[42 35 17 19 43 35 21 35 18 35 13 33 35 20 32 13 18  0]xS 
+F2S34 Ji 
+742 1747 M <96>S 
+801 1747 M (Provides fault masking)[35 17 29 27 11 29 29 26 14 15 29 29 11 15 14 43 29 27 26 12 29  0]xS 
+742 1823 M <96>S 
+801 1823 M (Permits uninterrupted execution under faults through multiple )
+[35 29 17 43 12 14 26 15 29 29 12 29 14 29 17 18 29 29 14 29 29 14 29 26 29 27 29 15 11 30 28 15
+29 28 29 30 17 14 15 29 29 11 15 26 14 15 28 17 30 29 29 29 14 44 29 11 15 12 29 11 29  0]xS 
+801 1885 M (implementations of a given functional process)[11 44 29 11 29 43 30 29 14 29 15 11 30 28 27 14 29 15 14 29 15 29 11 27 29 28 14 16 29 28 26 15
+11 30 28 30 11 15 28 17 30 26 30 26  0]xS 
+742 1961 M <96>S 
+801 1961 M (Two major approaches )[32 37 29 15 43 29 12 29 17 14 30 29 29 17 29 29 27 28 29 26  0]xS 
+F2S2F Ji 
+836 2030 M <95>S 
+883 2030 M (N)S 
+917 2030 M (-)S 
+932 2030 M (version programming)[25 26 15 24 10 26 26 13 26 16 26 26 16 26 39 39 10 26  0]xS 
+836 2098 M <95>S 
+883 2098 M (Recovery blocks)[34 26 24 25 25 26 16 23 13 26 10 26 24 23  0]xS 
+8 Lw solid : 471 1164 1883 1412 rc N 2350 1168 M 475 1168 I 475 2572 I 2350 2572 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; ; : N 2554 1180 1867 1396 rp C 
+1 0 scol  L ; : N 2538 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 2527 M (14)[20  0]xS 
+4090 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 1446 1883 64 rc N 2538 1484 M 4421 1484 I 2538 1471 M 4421 1471 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2538 1448 1883 61 rc N 2538 1478 M 4421 1478 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 3 Lw : 2632 1164 64 1412 rc N 2670 1164 M 2670 2576 I 2657 1164 M 2657 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2634 1164 61 1412 rc N 2664 1164 M 2664 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 2460 1883 45 rc N 2538 2484 M 4421 2484 I 2538 2480 M 4421 2480 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; F0S54 Ji 
+2699 1359 M (N)S 
+2760 1359 M (-)S 
+2787 1359 M (version programming)[41 37 28 33 23 42 42 21 42 28 42 41 28 38 64 64 23 43  0]xS 
+F3S2C Ji 
+2715 1580 M (n)S 
+F2S3F Ji 
+2786 1580 M (Independent generation of N>=2 functionally equivalent )[18 35 35 35 35 35 35 35 35 34 17 18 35 35 35 35 21 34 18 14 35 34 18 34 18 18 45 36 37 34 18 18
+35 34 32 18 14 35 34 35 14 14 31 18 35 35 35 13 32 35 14 35 34 18  0]xS 
+2786 1655 M (programs called versions)[35 21 35 35 21 35 52 31 18 32 35 14 14 34 35 17 32 35 20 32 14 35 34  0]xS 
+F3S2C Ji 
+2715 1745 M (n)S 
+F2S3F Ji 
+2786 1745 M (Each version starts from the same initial specification)[42 35 32 34 17 33 34 21 32 14 35 34 17 32 17 35 21 17 31 18 17 21 35 52 17 18 35 34 18 32 34 53
+34 18 14 34 14 18 14 35 14 17 32 35 34 32 13 18 14 32 34 18 14 35  0]xS 
+F3S2C Ji 
+2715 1836 M (n)S 
+F2S3F Ji 
+2786 1836 M (Each version furnishes same output format)[42 35 32 34 17 33 34 21 32 14 35 34 17 18 35 21 35 13 32 35 34 32 17 32 34 53 34 18 35 35 18 34
+35 17 17 18 35 20 53 35  0]xS 
+F3S2C Ji 
+2715 1926 M (n)S 
+F2S3F Ji 
+2786 1926 M (An acceptance program that )[42 35 18 34 32 32 34 35 18 35 34 32 34 18 35 21 35 35 21 34 52 17 18 35 35 17  0]xS 
+F4S3F Ji 
+3591 1926 M (collates)[32 35 14 14 34 18 35  0]xS 
+F2S3F Ji 
+3822 1926 M (the output of each )[18 34 35 18 35 34 18 35 34 17 18 35 17 18 35 34 32 34  0]xS 
+2786 2001 M (version to produce a single output for the module)[32 35 20 32 14 35 35 17 18 34 18 35 21 35 35 34 32 34 18 35 17 32 14 35 35 14 34 18 35 34 18 35
+34 18 17 18 34 21 17 18 35 35 17 53 35 35 35 14  0]xS 
+F2S34 Ji 
+2809 2078 M <96>S 
+2868 2078 M (Typically majority voting)[32 26 29 11 26 30 12 12 25 14 43 30 11 30 17 12 15 25 14 27 29 14 12 29  0]xS 
+F3S2C Ji 
+2715 2167 M (n)S 
+F2S3F Ji 
+2786 2167 M (Important design decision: how frequently to do )[18 52 35 35 21 17 35 35 17 18 35 34 32 14 35 34 18 35 35 32 13 32 14 35 34 17 18 35 36 43 18 18
+21 35 34 35 35 35 18 14 31 17 18 34 18 35 34  0]xS 
+2786 2242 M (comparison and voting?)[32 34 53 35 35 21 14 32 34 35 18 35 34 35 17 32 34 18 14 35 35  0]xS 
+F3S2C Ji 
+2715 2332 M (n)S 
+F2S3F Ji 
+2786 2332 M (Voting must be done in fault)[42 35 18 14 35 34 17 53 35 31 17 18 35 34 18 35 35 35 34 18 14 35 17 18 35 35 13  0]xS 
+3564 2332 M (-)S 
+3584 2332 M (tolerant manner)[18 35 14 35 21 35 34 17 18 52 35 35 35 35  0]xS 
+8 Lw solid : 2538 1164 1883 1412 rc N 4417 1168 M 2542 1168 I 2542 2572 I 4417 2572 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; ; : N 487 3830 1867 1396 rp C 
+1 0 scol  L ; : N 471 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 5177 M (15)[20  0]xS 
+2023 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 471 4096 1883 64 rc N 471 4134 M 2354 4134 I 471 4121 M 2354 4121 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 471 4098 1883 61 rc N 471 4128 M 2354 4128 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 3 Lw : 565 3814 64 1412 rc N 603 3814 M 603 5226 I 590 3814 M 590 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 567 3814 61 1412 rc N 597 3814 M 597 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 5110 1883 45 rc N 471 5134 M 2354 5134 I 471 5130 M 2354 5130 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; F0S54 Ji 
+632 4009 M (N)S 
+693 4009 M (-)S 
+720 4009 M (version programming)[41 37 28 33 23 42 42 21 42 28 42 41 28 38 64 64 23 43  0]xS 
+F3S2C Ji 
+648 4230 M (n)S 
+F2S3F Ji 
+719 4230 M (What does independent generation of versions hope to )[61 34 34 18 17 35 35 35 31 18 14 35 35 35 35 34 35 35 35 35 17 18 35 35 35 34 21 35 18 14 35 34
+17 35 18 17 32 35 20 32 14 35 34 32 17 35 35 35 35 17 18 34  0]xS 
+719 4305 M (achieve?)[35 32 35 14 34 32 35  0]xS 
+F3S2C Ji 
+648 4395 M (n)S 
+F2S3F Ji 
+719 4395 M (What should be the hardware on which the versions )[61 34 34 18 17 32 35 35 35 14 34 18 35 34 17 18 35 34 18 35 35 21 35 43 35 21 35 18 35 35 19 43
+35 15 32 35 17 18 35 34 17 32 35 20 32 14 35 35 31  0]xS 
+719 4471 M (run?)[21 35 35  0]xS 
+F3S2C Ji 
+648 4561 M (n)S 
+F2S3F Ji 
+719 4561 M (What is the cost of voting?)[61 34 34 18 18 13 31 17 18 35 35 17 32 34 32 17 18 34 17 17 33 34 18 14 35 35  0]xS 
+F3S2C Ji 
+648 4651 M (n)S 
+F2S3F Ji 
+719 4651 M (Examples of common problems for which multiple )[42 31 35 53 35 14 34 32 18 34 17 18 32 34 52 53 35 34 18 35 21 35 35 14 34 52 32 17 18 35 20 17
+44 35 14 32 35 18 53 35 13 18 14 35 14 35  0]xS 
+719 4726 M (versions possible)[32 35 20 32 14 35 35 31 18 35 34 32 32 13 35 14  0]xS 
+F2S34 Ji 
+742 4804 M <96>S 
+801 4804 M (Sorting)[35 29 17 14 12 29  0]xS 
+742 4879 M <96>S 
+801 4879 M (Writing a database query)[51 17 11 14 11 29 29 14 29 14 29 30 14 30 28 29 26 29 15 29 29 29 18  0]xS 
+8 Lw solid : 471 3814 1883 1412 rc N 2350 3818 M 475 3818 I 475 5222 I 2350 5222 I C 
+: [ 1 0 0 1 471 3814 ] concat K 
+; ; : N 2554 3830 1867 1396 rp C 
+1 0 scol  L ; : N 2538 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 5177 M (16)[20  0]xS 
+4090 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 4096 1883 64 rc N 2538 4134 M 4421 4134 I 2538 4121 M 4421 4121 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2538 4098 1883 61 rc N 2538 4128 M 4421 4128 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 3 Lw : 2632 3814 64 1412 rc N 2670 3814 M 2670 5226 I 2657 3814 M 2657 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2634 3814 61 1412 rc N 2664 3814 M 2664 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 5110 1883 45 rc N 2538 5134 M 4421 5134 I 2538 5130 M 4421 5130 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; F0S54 Ji 
+2699 4009 M (Recovery block)[56 37 37 42 41 37 29 40 21 42 23 42 38  0]xS 
+F3S2C Ji 
+2715 4230 M (n)S 
+F2S3F Ji 
+2786 4230 M (In its simplest form has three elements)[18 35 18 13 17 31 18 32 13 53 35 14 34 32 17 17 18 35 20 53 17 35 35 31 17 18 35 21 35 34 18 35
+14 34 53 34 35 18  0]xS 
+F2S34 Ji 
+2809 4307 M <96>S 
+2868 4307 M (A primary routine which executes critical software function)[35 14 29 17 12 43 29 18 26 14 17 30 28 15 12 28 30 14 38 29 11 27 29 14 29 26 29 27 28 15 29 26
+14 26 18 12 14 11 26 30 12 14 26 29 15 14 37 30 17 29 14 15 29 29 26 15 11 30  0]xS 
+2809 4382 M <96>S 
+2868 4382 M (An acceptance test)[35 28 14 29 27 26 30 28 14 30 28 26 30 14 14 29 27  0]xS 
+2809 4458 M <96>S 
+2868 4458 M (One or more alternate routines which perform same function as )
+[41 28 29 14 29 18 14 43 29 17 30 14 30 11 14 29 18 28 30 14 29 14 18 30 28 15 12 28 29 26 15 38
+29 11 27 28 15 29 29 17 15 29 18 43 14 26 29 43 30 14 15 29 28 27 14 11 30 29 14 29 26  0]xS 
+2868 4520 M (primary routine)[28 18 12 43 29 18 25 15 17 30 28 15 12 28  0]xS 
+F3S2C Ji 
+2715 4684 M (n)S 
+F2S3F Ji 
+2786 4684 M (Differences with n)[45 14 18 18 35 21 35 34 32 34 32 18 43 14 18 35 18  0]xS 
+3285 4684 M (-)S 
+3305 4684 M (version programming)[33 34 21 32 14 35 34 18 35 21 35 34 21 35 52 53 14 35  0]xS 
+F2S34 Ji 
+2809 4761 M <96>S 
+2868 4761 M (Only a single routine runs at a time)[41 28 12 26 14 29 14 27 12 29 29 11 29 15 17 30 28 15 12 28 29 15 18 29 28 26 14 30 14 14 29 15
+14 12 43  0]xS 
+2809 4836 M <96>S 
+2868 4836 M (Acceptability of results determined by a test)[35 26 26 29 29 14 30 28 12 12 11 15 26 14 29 15 14 17 29 27 29 11 14 27 14 29 29 14 29 18 44 12
+28 29 29 15 29 26 14 29 14 14 30 26  0]xS 
+2809 4911 M <96>S 
+2868 4911 M (Primary and alternate routines are deliberately designed to use )
+[35 17 11 43 30 18 25 14 30 28 30 14 30 11 14 29 18 28 30 14 29 14 17 30 29 15 12 28 29 26 14 30
+17 29 14 29 30 12 12 28 29 17 29 15 29 12 25 14 29 29 27 12 29 28 29 30 14 14 30 15 28 26 29  0]xS 
+2868 4974 M (uncorrelated designs)[29 28 26 30 17 17 30 11 29 14 29 30 14 29 29 26 12 29 29  0]xS 
+8 Lw solid : 2538 3814 1883 1412 rc N 4417 3818 M 2542 3818 I 2542 5222 I 4417 5222 I C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; ; LH
+(%%[Page: 4]%%) = 
+%%PageTrailer
+
+%%Page: 5 5
+%%PageBoundingBox: 12 15 599 782
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+: N 150 150 4592 6092 rp C 
+1 0 scol  L ; 0 0 scol F0S64 Ji 
+4632 6187 M (5)S 
+: N 487 1180 1867 1396 rp C 
+1 0 scol  L ; : N 471 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 2527 M (17)[20  0]xS 
+2023 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lj 0 Lc 3 Lw : 471 1446 1883 64 rc N 471 1484 M 2354 1484 I 471 1471 M 2354 1471 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 471 1448 1883 61 rc N 471 1478 M 2354 1478 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 3 Lw : 565 1164 64 1412 rc N 603 1164 M 603 2576 I 590 1164 M 590 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 567 1164 61 1412 rc N 597 1164 M 597 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 2460 1883 45 rc N 471 2484 M 2354 2484 I 471 2480 M 2354 2480 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; F0S54 Ji 
+632 1359 M (Recovery block)[56 37 37 42 41 37 29 40 21 42 23 42 38  0]xS 
+F3S2C Ji 
+648 1573 M (n)S 
+F2S3F Ji 
+719 1573 M (How to design good acceptance tests?)[45 36 43 18 18 35 18 35 35 32 14 35 34 18 35 35 35 34 18 34 31 32 35 35 17 35 35 32 34 17 18 35
+31 17 32  0]xS 
+F2S34 Ji 
+742 1644 M <96>S 
+801 1644 M (Must be simple to design)[43 29 26 14 15 28 30 14 27 11 44 29 11 29 15 14 29 14 29 29 27 12 29  0]xS 
+742 1713 M <96>S 
+801 1713 M (Must be able to handle variations in output produced by the )[43 29 26 14 15 28 30 14 30 29 11 29 14 14 30 15 28 30 28 30 11 29 14 27 29 17 11 30 14 12 30 28
+26 15 12 28 14 30 29 15 29 28 15 15 28 17 29 30 29 26 29 29 15 29 26 14 15 28 29  0]xS 
+801 1770 M (primary and secondary routines)[28 18 12 43 29 18 25 14 30 28 30 14 26 29 26 30 28 29 30 18 25 14 17 30 29 15 12 28 29  0]xS 
+742 1839 M <96>S 
+801 1839 M (Example of a case where it is possible: Square root of a number)
+[35 26 29 44 28 11 30 14 29 15 14 29 14 26 29 26 30 14 38 29 29 17 29 15 11 15 14 12 26 15 28 29
+26 27 12 29 11 29 15 14 36 29 29 29 17 29 14 17 29 30 14 14 29 15 14 29 15 29 29 44 28 29  0]xS 
+742 1908 M <96>S 
+801 1908 M (Example of a case where it is not possible: Differentiating an )
+[35 26 29 44 28 11 30 14 29 15 14 29 14 26 29 26 30 14 38 29 29 17 29 15 11 15 14 12 26 15 28 29
+15 15 28 29 26 27 12 29 11 29 14 15 38 11 15 15 29 17 29 28 15 11 29 15 12 29 29 14 30 28  0]xS 
+801 1965 M (expression)[29 26 29 17 29 26 27 11 30  0]xS 
+F3S2C Ji 
+648 2045 M (n)S 
+F2S3F Ji 
+719 2045 M (Refinements to acceptance test)[45 35 18 14 35 35 53 35 34 17 31 18 18 34 18 34 32 32 34 35 18 35 34 32 34 17 18 35 31  0]xS 
+F2S34 Ji 
+742 2116 M <96>S 
+801 2116 M (For real)[32 29 17 14 17 29 30  0]xS 
+980 2116 M (-)S 
+997 2116 M (time applications must test correct timing also)[15 12 43 29 14 30 29 29 12 11 26 29 15 11 30 28 27 14 44 28 26 15 14 14 29 27 14 14 26 30 17 17
+29 26 15 14 15 11 44 12 29 28 14 30 11 26  0]xS 
+742 2185 M <96>S 
+801 2185 M (Acceptance test broken up into two parts: test input data before)
+[35 26 26 29 29 14 30 28 26 29 15 14 29 26 14 15 29 17 30 25 30 28 15 29 29 15 12 28 14 29 15 15
+37 29 15 28 29 18 14 26 15 14 14 30 26 14 15 12 29 29 28 14 14 30 29 14 29 15 28 29 15 29 17  0]xS 
+801 2242 M (entry to routine, test output data after routine)[29 28 15 18 25 15 14 29 14 17 30 29 15 12 28 29 14 15 14 29 26 15 14 30 28 15 29 28 15 14 29 29
+14 30 14 29 15 14 29 17 14 18 30 28 15 12 29  0]xS 
+F3S2C Ji 
+648 2323 M (n)S 
+F2S3F Ji 
+719 2323 M (Overheads: hardware, performance, memory, software )[48 33 35 21 35 35 34 35 31 17 18 35 35 21 35 43 35 21 35 18 18 35 35 21 18 35 20 53 35 34 32 34
+17 18 52 35 53 34 21 31 17 18 32 34 17 19 43 35 21 35  0]xS 
+719 2390 M (development cost)[35 34 33 35 14 35 34 53 35 34 18 17 32 34 32  0]xS 
+8 Lw solid : 471 1164 1883 1412 rc N 2350 1168 M 475 1168 I 475 2572 I 2350 2572 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; ; : N 2554 1180 1867 1396 rp C 
+1 0 scol  L ; : N 2538 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 2527 M (18)[20  0]xS 
+4090 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 1446 1883 64 rc N 2538 1484 M 4421 1484 I 2538 1471 M 4421 1471 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2538 1448 1883 61 rc N 2538 1478 M 4421 1478 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 3 Lw : 2632 1164 64 1412 rc N 2670 1164 M 2670 2576 I 2657 1164 M 2657 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2634 1164 61 1412 rc N 2664 1164 M 2664 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 2460 1883 45 rc N 2538 2484 M 4421 2484 I 2538 2480 M 4421 2480 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; F0S54 Ji 
+2699 1309 M (Estimation of failure probability with recovery )[51 33 23 24 63 37 23 23 42 42 21 42 29 20 29 37 23 23 42 28 37 21 42 27 42 42 37 42 23 23 23 24
+40 21 60 24 23 42 21 28 37 37 42 41 37 29 41  0]xS 
+2699 1409 M (block)[42 23 42 37  0]xS 
+F3S2C Ji 
+2715 1627 M (n)S 
+F2S3F Ji 
+2786 1627 M (Recovery block with a primary and one alternate)[45 35 32 34 33 35 21 30 18 35 14 35 31 31 19 43 14 18 35 18 34 18 35 21 13 53 35 21 31 18 35 35
+34 18 34 35 35 18 35 13 18 35 21 35 34 18  0]xS 
+F3S2C Ji 
+2715 1717 M (n)S 
+F2S3F Ji 
+2786 1717 M (Four states)[38 35 35 21 18 31 18 34 18 34  0]xS 
+F2S34 Ji 
+2809 1794 M <96>S 
+2868 1794 M (S1: Primary operates successfully)[35 29 14 14 35 18 11 43 29 18 26 14 30 28 29 17 30 14 29 26 14 27 29 26 26 29 26 26 15 29 12 12
+ 0]xS 
+2809 1870 M <96>S 
+2868 1870 M (S2: Failure in primary is detected)[35 29 14 14 32 29 12 12 29 17 29 15 12 28 15 28 18 12 43 29 18 25 15 11 27 14 29 29 14 29 27 14
+29  0]xS 
+2809 1945 M <96>S 
+2868 1945 M (S3: Alternate operates successfully)[35 29 14 14 35 12 14 29 18 28 30 14 29 14 30 28 29 17 30 14 29 26 14 27 29 26 26 29 26 26 15 29
+12 12  0]xS 
+2809 2020 M <96>S 
+2868 2020 M (S4: Recovery block fails)[35 29 14 14 38 29 26 29 27 29 17 26 15 28 12 29 27 25 14 15 29 12 11  0]xS 
+3933 2400 M (0.998)[29 14 29 29  0]xS 
+3678 2400 M (S)S 
+2757 2400 M (Success of alternate)[35 28 26 26 29 26 27 14 29 15 14 29 12 14 29 18 28 30 14  0]xS 
+3933 2256 M (0.900)[29 14 29 29  0]xS 
+3678 2256 M (U)S 
+2757 2256 M (Uncorrelatedness )[38 28 26 29 18 17 29 12 29 14 29 30 28 29 26 27  0]xS 
+3180 2256 M (of failure of primary )[29 15 14 15 29 11 12 29 17 29 14 29 15 15 28 18 11 43 30 18 25  0]xS 
+2757 2319 M (and alternate)[29 28 30 14 29 12 14 29 18 28 29 15  0]xS 
+3933 2175 M (0.900)[29 14 29 29  0]xS 
+3678 2175 M (C)S 
+2757 2175 M (Coverage)[38 29 27 29 17 29 28  0]xS 
+3933 2093 M (0.180)[29 14 29 29  0]xS 
+3678 2093 M (F)S 
+2757 2093 M (Primary failure)[35 17 11 43 30 18 25 14 15 29 12 12 28 18  0]xS 
+0 Lc 3 Lw solid N 2738 2114 M 4221 2114 I : [ 1 0 0 1 2538 1164 ] concat K 
+; 2 Lc 6 Lw N 2738 2482 M 4221 2482 I : [ 1 0 0 1 2538 1164 ] concat K 
+; N 2738 2033 M 2738 2482 I : [ 1 0 0 1 2538 1164 ] concat K 
+; 0 Lc 3 Lw N 3659 2033 M 3659 2482 I : [ 1 0 0 1 2538 1164 ] concat K 
+; N 3914 2033 M 3914 2482 I : [ 1 0 0 1 2538 1164 ] concat K 
+; 2 Lc 6 Lw N 4221 2033 M 4221 2482 I : [ 1 0 0 1 2538 1164 ] concat K 
+; 0 Lc 3 Lw N 3659 2033 M 3914 2033 I : [ 1 0 0 1 2538 1164 ] concat K 
+; 2 Lc 6 Lw N 2738 2033 M 3659 2033 I : [ 1 0 0 1 2538 1164 ] concat K 
+; N 3914 2033 M 4221 2033 I : [ 1 0 0 1 2538 1164 ] concat K 
+; 0 Lc 3 Lw N 2738 2196 M 4221 2196 I : [ 1 0 0 1 2538 1164 ] concat K 
+; N 2738 2340 M 4221 2340 I : [ 1 0 0 1 2538 1164 ] concat K 
+; 1 Lc 8 Lw : 2538 1164 1883 1412 rc N 4417 1168 M 2542 1168 I 2542 2572 I 4417 2572 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; ; : N 487 3830 1867 1396 rp C 
+1 0 scol  L ; : N 471 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 5177 M (19)[20  0]xS 
+2023 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 471 4096 1883 64 rc N 471 4134 M 2354 4134 I 471 4121 M 2354 4121 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 471 4098 1883 61 rc N 471 4128 M 2354 4128 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 3 Lw : 565 3814 64 1412 rc N 603 3814 M 603 5226 I 590 3814 M 590 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 567 3814 61 1412 rc N 597 3814 M 597 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 5110 1883 45 rc N 471 5134 M 2354 5134 I 471 5130 M 2354 5130 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; F0S54 Ji 
+632 3959 M (Estimation of failure probability with recovery )[51 33 23 24 63 37 23 23 42 42 21 42 29 20 29 37 23 23 42 28 37 21 42 27 42 42 37 42 23 23 23 24
+40 21 60 24 23 42 21 28 37 37 42 41 37 29 41  0]xS 
+632 4059 M (block)[42 23 42 37  0]xS 
+F3S2C Ji 
+648 4383 M (n)S 
+F2S3F Ji 
+719 4383 M (System failure probability is sum of probability of all )[42 31 32 18 34 52 17 18 35 14 14 35 21 35 17 35 21 35 35 35 35 14 14 13 18 31 18 13 32 17 32 34
+52 18 35 17 18 34 21 35 35 35 35 14 14 14 18 31 18 34 17 18 35 14 13  0]xS 
+719 4458 M (paths starting at state 1 and ending at state 4)[35 35 18 34 32 17 31 18 35 20 18 14 35 35 18 34 17 17 32 18 34 18 34 18 34 18 35 35 35 17 35 35
+35 14 35 34 17 35 18 17 31 18 34 18 35 18  0]xS 
+F3S2C Ji 
+648 4639 M (n)S 
+F2S3F Ji 
+719 4639 M (P\(failure of recovery block\) = P\(1)[42 21 18 35 14 14 35 21 34 18 34 18 17 21 35 32 34 32 35 21 30 18 35 14 35 31 32 20 18 36 18 42
+21  0]xS 
+1634 4639 M (-)S 
+1655 4639 M (4\) + P\(1)[35 21 17 37 18 42 20  0]xS 
+1880 4639 M (-)S 
+1901 4639 M (2\)*P\(2)[35 21 24 42 21  0]xS 
+2079 4639 M (-)S 
+2100 4639 M (4\) + )[35 20 18 36  0]xS 
+719 4714 M (P\(1)[42 21  0]xS 
+817 4714 M (-)S 
+838 4714 M (2\)*P\(2)[35 21 25 41 21  0]xS 
+1016 4714 M (-)S 
+1037 4714 M (3\)*P\(3)[35 21 24 42 21  0]xS 
+1215 4714 M (-)S 
+1236 4714 M (4\))[35  0]xS 
+648 4804 M (= F\(1)[37 18 38 21  0]xS 
+797 4804 M (-)S 
+818 4804 M (C\) + CF\(1)[45 20 18 36 18 45 38 21  0]xS 
+1094 4804 M (-)S 
+1115 4804 M (U\) + CFU\(1)[45 21 18 36 18 45 38 45 21  0]xS 
+1437 4804 M (-)S 
+1458 4804 M (S\))[42  0]xS 
+648 4894 M (= 0.034, compared to 0.180 with just primary)[37 18 34 18 35 35 34 17 18 32 34 53 35 35 21 35 34 17 18 34 18 35 17 35 35 35 18 43 14 18 35 18
+14 35 31 17 18 35 21 13 53 35 21  0]xS 
+8 Lw solid : 471 3814 1883 1412 rc N 2350 3818 M 475 3818 I 475 5222 I 2350 5222 I C 
+: [ 1 0 0 1 471 3814 ] concat K 
+; ; : N 2554 3830 1867 1396 rp C 
+1 0 scol  L ; : N 2538 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 5177 M (20)[20  0]xS 
+4090 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 4096 1883 64 rc N 2538 4134 M 4421 4134 I 2538 4121 M 4421 4121 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2538 4098 1883 61 rc N 2538 4128 M 4421 4128 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 3 Lw : 2632 3814 64 1412 rc N 2670 3814 M 2670 5226 I 2657 3814 M 2657 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 4 Lw : 2634 3814 61 1412 rc N 2664 3814 M 2664 5226 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 5110 1883 45 rc N 2538 5134 M 4421 5134 I 2538 5130 M 4421 5130 I : [ 1 0 0 1 2538 3814 ] concat K 
+; ; F0S54 Ji 
+2699 4009 M (Distributed recovery block)[61 23 33 23 28 23 42 42 23 37 42 21 28 37 37 42 41 37 28 40 21 42 23 42 38  0]xS 
+/F3S22 F3 [34 0 0 -34 0 0 ] mFS
+F3S22 Ji 
+2715 4696 M (n)S 
+F2S2F Ji 
+2786 4696 M (Primary and alternate both replicated and resident on multiple n)
+[31 16 11 38 26 16 23 13 26 26 26 13 27 10 13 26 16 26 26 13 26 13 26 26 14 26 13 16 26 26 10 10
+24 26 13 26 26 13 27 26 26 13 16 26 24 10 26 27 26 13 13 26 26 14 38 26 10 14 10 26 10 26 14  0]xS 
+4107 4696 M (odes)[26 26 26  0]xS 
+F3S22 Ji 
+2715 4759 M (n)S 
+F2S2F Ji 
+2786 4759 M (Normal case: Primary node runs primary routine, backup node runs)
+[34 26 16 38 26 10 13 24 26 24 26 13 13 31 16 11 39 26 16 23 13 26 26 26 26 13 16 26 26 24 13 26
+16 11 38 26 16 23 13 16 26 26 14 10 26 26 14 13 26 26 24 23 26 26 13 26 26 26 26 13 16 26 26  0]xS 
+4198 4759 M (backup )[26 26 24 23 26 26  0]xS 
+2786 4810 M (routine, primary node\222s output taken)[16 26 26 13 10 26 26 13 13 26 16 11 38 26 16 23 14 26 26 26 26 10 24 13 26 26 13 26 26 13 14 13
+26 23 26  0]xS 
+F3S22 Ji 
+2715 4872 M (n)S 
+F2S2F Ji 
+2786 4872 M (Primary node failure case: Backup node already running backup ro)
+[31 16 11 38 26 16 23 13 26 26 26 26 13 14 26 10 11 26 16 26 13 24 26 24 26 13 13 31 26 24 23 26
+26 13 26 26 26 26 13 27 10 16 26 26 26 23 14 16 26 26 26 10 26 26 13 26 26 24 23 26 26 13 16  0]xS 
+4174 4872 M (utine, )[26 14 10 26 26 13  0]xS 
+2786 4923 M (backup node\222s output taken)[26 26 24 23 26 26 13 26 26 26 26 10 24 13 26 26 13 26 26 14 13 13 26 23 26  0]xS 
+F3S22 Ji 
+2715 4986 M (n)S 
+F2S2F Ji 
+2786 4986 M (Primary and alternate nodes\222 roles interchange at each failure)
+[31 16 11 38 26 16 23 13 26 26 26 13 27 10 13 26 16 26 26 13 26 13 26 26 27 26 24 10 13 16 26 10
+26 24 13 10 26 13 26 16 24 26 26 26 26 26 13 27 13 13 26 26 24 26 13 13 26 10 10 26 16  0]xS 
+F3S22 Ji 
+2715 5048 M (n)S 
+F2S2F Ji 
+2786 5048 M (Desirable that two nodes execute different try blocks)[34 26 24 10 16 26 26 10 26 13 13 26 26 13 13 14 33 26 13 26 26 26 26 24 13 26 24 26 24 26 13 26
+13 26 10 13 13 26 16 26 26 13 13 13 17 23 13 26 10 27 24 23  0]xS 
+solid N 3374 4171 M 2883 4171 I 2883 4579 I 3374 4579 I C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; 1 Lj N 2943 4202 M 2930 4202 2919 4214 2919 4227 -c 2919 4364 I 2919 4378 2930 4389 2943 4389 -c 3043 4389 I 3057 4389 3068 4378 3068 4364 -c 3068 4227 I 3068 4214 3057 4202 3043 4202 -c C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; N 3202 4202 M 3189 4202 3178 4214 3178 4227 -c 3178 4364 I 3178 4378 3189 4389 3202 4389 -c 3302 4389 I 3316 4389 3327 4378 3327 4364 -c 3327 4227 I 3327 4214 3316 4202 3302 4202 -c C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; 0 Lj N 3283 4461 M 2958 4461 I 2958 4524 I 3283 4524 I C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; /F0S2A F0 [42 0 0 -42 0 0 ] mFS
+F0S2A Ji 
+2974 4504 M (Logic & Time AT)[25 20 21 13 18 11 32 11 26 12 33 18 11 29  0]xS 
+1 Lj N 2985 4387 M 2985 4454 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 2979 4452 M 2986 4466 I 2992 4452 I C 
+ O N 3252 4422 M 3252 4454 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3246 4452 M 3252 4466 I 3259 4452 I C 
+ O N 3127 4524 M 3127 4559 I 3428 4559 I : [ 1 0 0 1 2538 3814 ] concat K 
+; /F0S34 F0 [52 0 0 -52 0 0 ] mFS
+F0S34 Ji 
+2972 4311 M (A)S 
+3236 4319 M (B)S 
+N 2994 4406 M 2994 4401 2990 4397 2985 4397 -c 2980 4397 2976 4401 2976 4406 -c 2976 4411 2980 4416 2985 4416 -c 2990 4416 2994 4411 2994 4406 -c C 
+: 0.172 0 scol  O ; : [ 1 0 0 1 2538 3814 ] concat K 
+; N 2994 4436 M 2994 4431 2990 4427 2985 4427 -c 2980 4427 2976 4431 2976 4436 -c 2976 4441 2980 4446 2985 4446 -c 2990 4446 2994 4441 2994 4436 -c C 
+: 0.172 0 scol  O ; : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3252 4389 M 3252 4406 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3252 4406 M 3276 4425 I : [ 1 0 0 1 2538 3814 ] concat K 
+; 0 Lj N 3973 4173 M 3483 4173 I 3483 4581 I 3973 4581 I C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; 1 Lj N 3543 4204 M 3529 4204 3518 4215 3518 4229 -c 3518 4366 I 3518 4379 3529 4390 3543 4390 -c 3642 4390 I 3656 4390 3667 4379 3667 4366 -c 3667 4229 I 3667 4215 3656 4204 3642 4204 -c C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; N 3802 4204 M 3788 4204 3777 4215 3777 4229 -c 3777 4366 I 3777 4379 3788 4390 3802 4390 -c 3901 4390 I 3915 4390 3926 4379 3926 4366 -c 3926 4229 I 3926 4215 3915 4204 3901 4204 -c C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; 0 Lj N 3883 4463 M 3557 4463 I 3557 4526 I 3883 4526 I C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; F0S2A Ji 
+3573 4506 M (Logic & Time AT)[25 20 21 13 18 11 32 11 26 12 33 18 11 29  0]xS 
+1 Lj N 3584 4388 M 3584 4456 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3578 4454 M 3584 4468 I 3591 4454 I C 
+ O N 3851 4424 M 3851 4456 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3845 4454 M 3852 4468 I 3858 4454 I C 
+ O F0S34 Ji 
+3573 4312 M (B)S 
+3834 4320 M (A)S 
+N 3594 4408 M 3594 4403 3589 4399 3584 4399 -c 3579 4399 3575 4403 3575 4408 -c 3575 4412 3579 4417 3584 4417 -c 3589 4417 3594 4412 3594 4408 -c C 
+: 0.172 0 scol  O ; : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3594 4438 M 3594 4433 3589 4429 3584 4429 -c 3579 4429 3575 4433 3575 4438 -c 3575 4442 3579 4447 3584 4447 -c 3589 4447 3594 4442 3594 4438 -c C 
+: 0.172 0 scol  O ; : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3851 4391 M 3851 4408 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3851 4408 M 3875 4426 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3722 4525 M 3721 4555 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3722 4558 M 3572 4558 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3429 4558 M 3548 4558 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3572 4555 M 3522 4525 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3426 4559 M 3426 4597 I : [ 1 0 0 1 2538 3814 ] concat K 
+; N 3435 4559 M 3435 4554 3431 4550 3426 4550 -c 3421 4550 3417 4554 3417 4559 -c 3417 4564 3421 4568 3426 4568 -c 3431 4568 3435 4564 3435 4559 -c C 
+ O N 3416 4595 M 3426 4616 I 3437 4595 I C 
+ O F0S3F Ji 
+2680 4316 M (Node 1:)[45 31 32 28 16 32  0]xS 
+2680 4391 M (Initial)[20 32 18 17 18 28  0]xS 
+2680 4467 M (Primary )[35 21 18 48 28 21 30  0]xS 
+2680 4542 M (Node)[45 31 32  0]xS 
+4000 4314 M (Node 2:)[45 31 32 28 16 32  0]xS 
+4000 4390 M (Initial)[20 32 18 17 18 28  0]xS 
+4000 4465 M (Backup)[42 28 28 31 31  0]xS 
+4000 4540 M (Node)[45 31 32  0]xS 
+0 Lj 8 Lw : 2538 3814 1883 1412 rc N 4417 3818 M 2542 3818 I 2542 5222 I 4417 5222 I C 
+: [ 1 0 0 1 2538 3814 ] concat K 
+; ; LH
+(%%[Page: 5]%%) = 
+%%PageTrailer
+
+%%Page: 6 6
+%%PageBoundingBox: 12 15 599 782
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+: N 150 150 4592 6092 rp C 
+1 0 scol  L ; 0 0 scol F0S64 Ji 
+4632 6187 M (6)S 
+: N 487 1180 1867 1396 rp C 
+1 0 scol  L ; : N 471 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 2527 M (21)[20  0]xS 
+2023 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lj 0 Lc 3 Lw : 471 1446 1883 64 rc N 471 1484 M 2354 1484 I 471 1471 M 2354 1471 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 471 1448 1883 61 rc N 471 1478 M 2354 1478 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 3 Lw : 565 1164 64 1412 rc N 603 1164 M 603 2576 I 590 1164 M 590 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 4 Lw : 567 1164 61 1412 rc N 597 1164 M 597 2576 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 2460 1883 45 rc N 471 2484 M 2354 2484 I 471 2480 M 2354 2480 I : [ 1 0 0 1 471 1164 ] concat K 
+; ; F0S54 Ji 
+632 1359 M (Algorithm)[61 23 41 42 28 23 23 43  0]xS 
+980 1359 M (-)S 
+1007 1359 M (based fault tolerance)[42 37 33 37 42 21 29 37 42 23 23 21 23 42 23 37 28 37 41 37  0]xS 
+F3S2C Ji 
+648 1580 M (n)S 
+F2S3F Ji 
+719 1580 M (Lower overhead fault tolerance)[35 36 43 35 21 18 35 33 34 21 35 35 35 34 18 18 35 35 13 17 17 18 35 14 35 21 35 34 32  0]xS 
+F3S2C Ji 
+648 1670 M (n)S 
+F2S3F Ji 
+719 1670 M (Three steps:)[38 35 21 35 35 17 32 18 35 34 31  0]xS 
+F2S34 Ji 
+742 1747 M <96>S 
+801 1747 M (Input data is encoded)[14 29 29 29 14 14 29 30 14 29 15 11 26 14 30 29 26 29 29 29  0]xS 
+742 1823 M <96>S 
+801 1823 M (Algorithm works on encoded data)[35 12 28 29 18 11 15 29 43 15 37 29 18 25 27 14 30 28 14 30 28 27 29 29 29 29 14 29 29 15  0]xS 
+742 1898 M <96>S 
+801 1898 M (Resultant output data is also encoded from which actual output )
+[38 29 26 29 11 14 30 29 14 14 30 28 15 29 29 14 14 29 30 14 29 15 11 26 14 30 11 26 30 14 30 28
+26 29 29 29 29 14 15 17 30 43 15 38 29 11 27 28 14 29 27 15 28 30 11 14 30 28 15 29 29 14  0]xS 
+801 1961 M (recovered and validity checked)[17 29 26 29 27 29 17 29 29 14 30 28 29 14 27 29 12 11 29 12 15 25 14 27 28 30 27 25 29  0]xS 
+F3S2C Ji 
+648 2049 M (n)S 
+F2S3F Ji 
+719 2049 M (Example for matrix multiplication:)[42 31 35 53 35 14 34 18 18 35 20 17 53 34 18 21 14 31 17 53 35 13 18 14 35 14 14 32 34 18 14 35
+34  0]xS 
+solid N 910 2102 M 754 2102 I 754 2282 I 910 2282 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; N 1275 2102 M 1118 2102 I 1118 2282 I 1275 2282 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; N 1648 2110 M 1491 2110 I 1491 2290 I 1648 2290 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; 1 Lj N 987 2180 M 1034 2227 I : [ 1 0 0 1 471 1164 ] concat K 
+; N 985 2225 M 1032 2178 I : [ 1 0 0 1 471 1164 ] concat K 
+; 0 Lj N 910 2292 M 755 2292 I 755 2329 I 910 2329 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; N 1326 2104 M 1285 2104 I 1285 2282 I 1326 2282 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; N 1648 2302 M 1493 2302 I 1493 2339 I 1648 2339 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; N 1705 2110 M 1664 2110 I 1664 2288 I 1705 2288 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; 1 Lj N 1385 2204 M 1430 2204 I : [ 1 0 0 1 471 1164 ] concat K 
+; N 1385 2214 M 1430 2214 I : [ 1 0 0 1 471 1164 ] concat K 
+; /F0S25 F0 [37 0 0 -37 0 0 ] mFS
+F0S25 Ji 
+755 2319 M (Checksum)[25 19 16 16 18 14 19  0]xS 
+/F0S00IFFFFFFDB F0 [0 -37 -37 0 0 0 ] mFS
+F0S00IFFFFFFDB Ji 
+1320 2277 M (Checksum)[-25 -19 -16 -16 -18 -14 -19  0]yS 
+F0S25 Ji 
+1494 2337 M (Checksum)[25 19 16 16 18 14 19  0]xS 
+F0S00IFFFFFFDB Ji 
+1699 2275 M (Checksum)[-25 -19 -16 -16 -18 -14 -19  0]yS 
+0 Lj N 1705 2300 M 1662 2300 I 1662 2335 I 1705 2335 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; F0S25 Ji 
+1677 2325 M (c)S 
+F0S2A Ji 
+817 2207 M (A)S 
+1187 2204 M (B)S 
+1552 2217 M (C)S 
+8 Lw : 471 1164 1883 1412 rc N 2350 1168 M 475 1168 I 475 2572 I 2350 2572 I C 
+: [ 1 0 0 1 471 1164 ] concat K 
+; ; : N 2554 1180 1867 1396 rp C 
+1 0 scol  L ; : N 2538 1164 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+2684 2527 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+3436 2527 M (22)[20  0]xS 
+4090 2527 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 2538 1446 1883 64 rc N 2538 1484 M 4421 1484 I 2538 1471 M 4421 1471 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2538 1448 1883 61 rc N 2538 1478 M 4421 1478 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 3 Lw : 2632 1164 64 1412 rc N 2670 1164 M 2670 2576 I 2657 1164 M 2657 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 4 Lw : 2634 1164 61 1412 rc N 2664 1164 M 2664 2576 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 2538 2460 1883 45 rc N 2538 2484 M 4421 2484 I 2538 2480 M 4421 2480 I : [ 1 0 0 1 2538 1164 ] concat K 
+; ; F0S54 Ji 
+2699 1359 M (Algorithm)[61 23 41 42 28 23 23 43  0]xS 
+3047 1359 M (-)S 
+3074 1359 M (based fault tolerance)[42 37 33 37 42 21 29 37 42 23 23 21 23 42 23 37 28 37 41 37  0]xS 
+F3S2C Ji 
+2715 1580 M (n)S 
+F2S3F Ji 
+2786 1580 M (Example of matrix multiplication for 2X2 matrices)[42 31 35 53 35 14 34 18 35 17 17 53 34 18 21 14 31 17 53 35 13 18 14 35 14 14 32 34 18 14 35 34
+17 18 35 21 17 35 41 35 18 53 34 18 21 14 32 34  0]xS 
+1 Lj solid N 2786 1693 M 2766 1693 2750 1699 2750 1706 -c 2750 1836 I 2750 1843 2766 1849 2786 1849 -c : [ 1 0 0 1 2538 1164 ] concat K 
+; F0S34 Ji 
+2784 1756 M (a   b)[23 13 13 13  0]xS 
+2784 1819 M (c   d)[23 13 13 13  0]xS 
+N 2874 1853 M 2894 1853 2910 1847 2910 1840 -c 2910 1710 I 2910 1703 2894 1697 2874 1697 -c : [ 1 0 0 1 2538 1164 ] concat K 
+; 0 Lj N 2957 1878 M 2735 1878 I 2735 1935 I 2957 1935 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; 2743 1924 M (C1    C2)[35 26 13 13 13 13 35  0]xS 
+1 Lj N 3048 1750 M 3095 1797 I : [ 1 0 0 1 2538 1164 ] concat K 
+; N 3046 1795 M 3093 1748 I : [ 1 0 0 1 2538 1164 ] concat K 
+; N 3245 1703 M 3225 1703 3209 1709 3209 1716 -c 3209 1846 I 3209 1853 3225 1859 3245 1859 -c : [ 1 0 0 1 2538 1164 ] concat K 
+; 3243 1767 M (e   f)[23 13 13 13  0]xS 
+3243 1829 M (g   h)[26 13 13 13  0]xS 
+N 3339 1860 M 3359 1860 3375 1854 3375 1847 -c 3375 1717 I 3375 1710 3359 1704 3339 1704 -c : [ 1 0 0 1 2538 1164 ] concat K 
+; 0 Lj N 3462 1705 M 3390 1705 I 3390 1867 I 3462 1867 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; 3392 1768 M (C3)[35  0]xS 
+3392 1843 M (C4)[35  0]xS 
+1 Lj N 3545 1773 M 3590 1773 I : [ 1 0 0 1 2538 1164 ] concat K 
+; N 3545 1792 M 3590 1792 I : [ 1 0 0 1 2538 1164 ] concat K 
+; N 3716 1708 M 3696 1708 3680 1714 3680 1721 -c 3680 1850 I 3680 1858 3696 1863 3716 1863 -c : [ 1 0 0 1 2538 1164 ] concat K 
+; 3713 1771 M (i    j)[14 13 13 13 13  0]xS 
+3713 1834 M (k   l)[26 13 13 13  0]xS 
+N 3810 1864 M 3829 1864 3846 1859 3846 1851 -c 3846 1722 I 3846 1715 3829 1709 3810 1709 -c : [ 1 0 0 1 2538 1164 ] concat K 
+; 0 Lj N 3933 1709 M 3861 1709 I 3861 1871 I 3933 1871 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; 3863 1772 M (C7)[35  0]xS 
+3863 1847 M (C8)[35  0]xS 
+N 3864 1892 M 3675 1892 I 3675 1949 I 3864 1949 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; 3683 1937 M (C5  C6)[35 26 13 13 35  0]xS 
+F2S3F Ji 
+2717 2042 M (i = a*e + b*g; j = a*f + b*h; k = c*e + d*g; l = c*f + d*h )[14 18 36 18 35 25 34 17 37 18 34 25 34 18 17 14 17 37 18 34 24 18 17 37 18 34 25 34 18 17 31 18
+36 17 32 25 34 18 36 17 35 25 35 17 18 13 18 36 17 32 24 18 17 36 18 35 25 34  0]xS 
+2717 2132 M (C5 = i + k = a*e + b*g + c*e + d*g )[45 35 18 36 18 14 17 37 17 31 18 36 18 35 24 35 17 37 18 34 25 34 18 36 17 32 25 34 18 36 18 34
+25 35  0]xS 
+2804 2222 M (= e*\(a+c\) + g*\(b+d\))[36 18 35 25 21 34 36 32 21 17 36 18 35 25 21 34 37 35  0]xS 
+2717 2313 M (C6 = f*\(a+c\) + h*\(b+d\))[45 35 18 36 18 17 25 21 35 36 32 20 18 36 18 34 25 21 35 37 35  0]xS 
+2717 2403 M (c = C5+C6 = \(e+f\)*\(a+c\) + \(g+h\)*\(b+d\) = C3*C1 + C4*C2)[32 17 36 18 45 35 37 45 35 17 37 18 21 34 36 18 21 25 21 34 37 31 21 17 37 17 21 35 37 35 20 25
+21 35 36 35 21 18 36 18 45 35 25 45 34 18 36 18 45 35 25 45  0]xS 
+N 3937 1884 M 3877 1884 I 3877 1968 I 3937 1968 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; F0S34 Ji 
+3897 1946 M (c)S 
+8 Lw : 2538 1164 1883 1412 rc N 4417 1168 M 2542 1168 I 2542 2572 I 4417 2572 I C 
+: [ 1 0 0 1 2538 1164 ] concat K 
+; ; : N 487 3830 1867 1396 rp C 
+1 0 scol  L ; : N 471 3814 1883 1412 rp C 
+1 0 scol  L ; F2S25 Ji 
+617 5177 M (Dept. of ECE, Purdue University)[27 20 21 10 10 9 21 10 10 25 26 25 10 10 24 21 11 21 21 20 9 27 21 7 17 20 13 19 7 11  0]xS 
+1369 5177 M (23)[20  0]xS 
+2023 5177 M (Saurabh Bagchi)[25 20 21 12 20 21 21 9 25 20 20 18 21  0]xS 
+0 Lc 3 Lw : 471 4096 1883 64 rc N 471 4134 M 2354 4134 I 471 4121 M 2354 4121 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 471 4098 1883 61 rc N 471 4128 M 2354 4128 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 3 Lw : 565 3814 64 1412 rc N 603 3814 M 603 5226 I 590 3814 M 590 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 4 Lw : 567 3814 61 1412 rc N 597 3814 M 597 5226 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; 1 Lc 2 Lw [ 0 4 ] 0 sd : 471 5110 1883 45 rc N 471 5134 M 2354 5134 I 471 5130 M 2354 5130 I : [ 1 0 0 1 471 3814 ] concat K 
+; ; F0S54 Ji 
+632 4009 M (Readings)[56 37 37 42 23 42 41  0]xS 
+F3S2C Ji 
+648 4223 M (n)S 
+F2S3F Ji 
+719 4223 M ([Prad96] D. K.)[18 42 21 35 35 35 34 17 18 45 17 18 41  0]xS 
+1130 4223 M (Pradhan)[42 21 35 35 35 35  0]xS 
+1367 4223 M (, ed., Fault Tolerant Computer)[17 18 35 35 17 17 18 38 35 35 14 17 18 37 35 14 35 21 35 35 17 18 45 35 53 35 34 18 35  0]xS 
+719 4291 M (System Design,  New Jersey: Prentice)[42 31 32 18 34 52 18 45 35 32 14 35 34 17 18 18 45 35 43 18 32 35 21 32 35 31 17 18 42 20 35 35
+18 13 32  0]xS 
+1786 4291 M (-)S 
+1807 4291 M (Hall, 1996. )[45 35 14 14 17 18 35 35 35 34 17  0]xS 
+719 4359 M (Chapter 7)[45 35 35 35 18 35 21 17  0]xS 
+F3S2C Ji 
+648 4442 M (n)S 
+F2S3F Ji 
+737 4442 M ([SiSw92] D. P.)[17 42 14 43 43 35 35 18 18 45 17 18 41  0]xS 
+1158 4442 M (Siewiorek)[42 14 35 43 14 35 21 35  0]xS 
+1447 4442 M (and R. S.)[35 35 35 18 45 17 18 41  0]xS 
+1725 4442 M (Swarz)[43 43 35 22  0]xS 
+1898 4442 M (, Reliable )[18 18 45 35 14 14 35 35 14 35  0]xS 
+719 4509 M (Computer Systems )[45 35 53 35 35 18 34 21 18 42 30 32 17 35 52 31  0]xS 
+1270 4509 M (-)S 
+1308 4509 M (Design and Evaluation, Digital )[45 35 32 14 35 34 18 35 35 34 18 41 31 35 14 35 35 18 14 35 34 18 18 45 14 35 13 18 35 13  0]xS 
+719 4577 M (Press , 1992, 2nd edition.  )[42 21 35 31 32 17 17 18 35 35 35 34 17 18 35 35 35 17 35 35 14 18 14 35 34 17 17  0]xS 
+F3S2C Ji 
+648 4660 M (n)S 
+F2S3F Ji 
+719 4660 M (A.)[42  0]xS 
+796 4660 M (Avizienis)[41 32 14 30 14 35 35 14  0]xS 
+1043 4660 M (, "The N)[17 18 22 38 35 35 18  0]xS 
+1271 4660 M (-)S 
+1292 4660 M (Version Approach to Fault)[42 35 20 32 14 35 34 18 42 35 35 21 35 34 32 35 17 18 34 18 38 35 35 13  0]xS 
+2017 4660 M (-)S 
+2038 4660 M (Tolerant )[38 35 14 35 21 35 34 18  0]xS 
+719 4727 M (Software," )[42 35 17 19 43 35 21 35 18 22  0]xS 
+F4S3F Ji 
+1023 4727 M (IEEE Transactions on Software Engineering)[18 42 42 41 18 38 21 35 34 32 35 31 18 14 35 34 31 18 35 35 17 42 35 17 18 45 35 21 35 17 42 35
+35 14 35 35 35 21 14 35  0]xS 
+F2S3F Ji 
+2247 4727 M (, )[17  0]xS 
+719 4795 M (vol. SE)[32 35 13 18 17 42  0]xS 
+918 4795 M (-)S 
+939 4795 M (11, no.12, Dec. 1985, pp.1491)[35 34 17 18 35 35 18 34 35 17 18 45 35 31 17 18 35 35 35 34 18 17 35 35 18 35 34 35  0]xS 
+1782 4795 M (-)S 
+1803 4795 M (1501.)[35 35 35 35  0]xS 
+F3S2C Ji 
+648 4878 M (n)S 
+F2S3F Ji 
+719 4878 M (K.)[42  0]xS 
+779 4878 M (-)S 
+800 4878 M (H. Huang and J. A. Abraham, "Algorithm)[45 17 18 45 35 35 35 34 18 35 35 34 18 31 17 18 41 18 17 42 35 21 35 35 34 53 17 18 22 42 13 35
+35 21 14 18 34  0]xS 
+1923 4878 M (-)S 
+1944 4878 M (Based Fault )[42 34 32 35 34 18 38 35 35 14 17  0]xS 
+719 4945 M (Tolerance for Matrix Operations," )[38 35 14 35 21 35 35 32 34 18 18 34 21 17 53 34 18 21 14 30 18 49 35 35 21 34 18 14 35 34 32 18
+21  0]xS 
+F4S3F Ji 
+1657 4945 M (IEEE Trans. on )[18 41 42 42 18 38 21 35 34 31 18 18 35 34  0]xS 
+719 5013 M (Computers)[45 35 52 35 35 18 35 20  0]xS 
+F2S3F Ji 
+1026 5013 M (, vol. C)[17 17 32 35 13 18 18  0]xS 
+1221 5013 M (-)S 
+1242 5013 M (33, no.6, June 1984, pp. 518)[35 34 17 18 35 34 18 35 17 17 32 35 35 34 18 35 34 35 35 17 18 35 35 17 18 35 35  0]xS 
+2040 5013 M (-)S 
+2060 5013 M (528.)[35 35 35  0]xS 
+8 Lw solid : 471 3814 1883 1412 rc N 2350 3818 M 475 3818 I 475 5222 I 2350 5222 I C 
+: [ 1 0 0 1 471 3814 ] concat K 
+; ; LH
+(%%[Page: 6]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 12 15 599 782
+%%DocumentNeededResources: 
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica
+%%+ font ZapfDingbats
+%%+ font Helvetica-Oblique
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_VMErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L2 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+%%Pages: 6
+(%%[LastPage]%%) = 
+%%EOF
+

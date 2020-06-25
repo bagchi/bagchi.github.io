@@ -1,0 +1,491 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Research impact</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	width: 960px;
+	background-color: #FFFFFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+header {
+	background-color: #ADB96E;
+}
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the block elements. The elements within these blocks have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the block itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the block element and place a second block element within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a block set to float right). Many times, padding can be used instead. For blocks where this rule must be broken, you should add a "display:inline" declaration to the block element's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar blocks could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the left instead of the right, simply float these columns the opposite direction (all left instead of all right) and they'll render in reverse order. There's no need to move the blocks around in the HTML source.
+
+*/
+.sidebar1 {
+	float: right;
+	width: 180px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px 0;
+	width: 780px;
+	float: right;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+nav ul{
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+nav a, nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #C6D580;
+}
+nav a:hover, nav a:active, nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ The footer ~~ */
+footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, article, figure {
+	display: block;
+}
+div.MsoListParagraphCxSpFirst {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+div.MsoListParagraphCxSpLast {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+div.MsoListParagraphCxSpMiddle {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+div.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoListParagraphCxSpFirst {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoListParagraphCxSpLast {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoListParagraphCxSpMiddle {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpFirst {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpLast {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpMiddle {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+span.StyleBookmanBold {mso-style-name:"Style Bookman Bold";
+	mso-style-unhide:no;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+-->
+</style><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--></head>
+
+<body>
+
+<div class="container">
+  <header><a href="https://engineering.purdue.edu/dcsl"><img src="../images/dcsl_logo.JPG" width="225" alt=""/></a></header>
+  <div class="sidebar1">
+  <aside>
+      <p><h4>Five topics of research impact</h4></p>
+  </aside>
+  <nav>
+    <ul>
+      <li><a href="#impact-item-1">1: Embedded security</a></li>
+      <li><a href="#impact-item-2">2: Wireless reprogramming</a></li>
+      <li><a href="#impact-item-3">3: Approximation with reliability</a></li>
+      <li><a href="#impact-item-4">4: Security monitoring wireless networks</a></li>
+      <li><a href="#impact-item-5">5: Distributed debugging</a></li>
+    </ul>
+    </nav>
+    
+  <!-- end .sidebar1 --></div>
+  <article class="content">
+    <h1>Research Impact</h1>
+    <section>
+    <div class=WordSection1>
+      <p class=MsoNormal align=center style='text-align:center;text-indent:0in'><span
+class=StyleBookmanBold><span style='font-size:14.0pt'>
+        <o:p></o:p>
+      </span></span><span class=StyleBookmanBold>
+        <o:p>&nbsp;</o:p>
+        </span></p>
+      <p>[ <strong><a href="research_impact.pdf">PDF version</a></strong> ]</p>
+      <p><strong>The broad goal of our research is to design practical dependable  distributed systems. </strong>This finds expression in various domains, which  currently include, embedded &ldquo;bare metal&rdquo; systems, networks of interdependent  assets from multiple ownership domains, cellular and wireless systems, enterprise  networks, and supercomputing clusters. Our work is motivated by the fact that  systems are increasing in scale, both in terms of the number of executing  elements and the amount of data that they need to process and existing  dependability techniques are increasingly failing to meet the demands of such  scaling. Further, systems are heterogeneous, both in terms of hardware (GPU,  DSP, FPGA, etc. coupled with traditional CPUs) and software (software from  multiple parties being integrated to provide end-user functionality). The  faults that bedevil such systems may be due to accidental (or natural) causes,  or, relevant to this position, malicious (or induced) causes and we deal with  both classes in our work. Our work deals with faults by providing the  functionality of detection, diagnosis, containment, and in some cases,  prediction (of an impending failure, so that proactive mitigation actions can  be triggered). The dependability mechanisms must not overly impact the  application or the execution environment, in terms of performance impact or  level of changes required. Our work can be characterized as &ldquo;systems-y&rdquo;. It  derives from solid theoretical underpinnings, expanding them to address domain-specific  challenges, and then developing them for practical use.  <br>
+      </p>
+      <p>Below  I list five areas in which I believe our work has had long-lasting impact and  refer to the related publications next to each area&rsquo;s description. </p>
+<ol type="A">
+  <a name="impact-item-1"></a>
+    </ol>
+      <div style="background-color:orange;border:2px solid black;border-radius:5px">
+        <ol>
+          <li><strong>Secure design for bare-metal embedded devices and networks </strong>([1]-[5])</li>
+        </ol>
+      </div>
+      <p>&nbsp;</p>
+      <p><strong>Problem Statement:</strong> <br>
+        With  more than 9 billion embedded processors in use today, the number of embedded  devices has surpassed the number of humans. With the rise of the &ldquo;Internet of  Things&rdquo; (IoT), the number of embedded devices and their connectivity is  exploding. These connected &ldquo;things&rdquo; include fitness trackers, smart light bulbs  and thermostats, home assistants, utility smart meters, and smart locks. The  increasing network connectivity alongside the ubiquity of these devices makes  securing IoT systems critical. Evidence of the dangers of insecure IoT systems  abounds. For example, in 2016, hijacked smart devices like CCTV cameras and  digital video recorders launched the largest distributed denial of service  attack ever to date. Many of these devices are low cost with software running  directly on the hardware, known as &ldquo;bare-metal systems&rdquo;. The application runs  as privileged, low-level software with direct access to resources of the  microcontroller and its peripherals. Unlike desktop systems, there are no  intervening operating system software layers to control access to the resources  in a secure manner. Making matters worse, embedded systems largely lack  protection against code injection, control-flow hijacking, and data corruption  attacks.<br>
+        The  security and robustness of large-scale systems built out of the IoT devices  (such as the power grid, industrial plants, and networks of users with embedded  healthcare devices) depend critically on the decisions that are made by the  people who use and manage those systems. While there has been a great deal of  work that relies on classical models of perfectly rational and optimal behavior  to represent the human decision-makers, we know from behavioral economics and  psychology that humans are only partially rational and thus, consistently  deviate from classical models. For example, human perceptions of risks, rewards,  and losses can differ substantially from their true values, and these  perceptions can have a significant impact on the investments made to protect  the systems that they are managing. The objective of our research is to  comprehensively characterize the decisions made by humans to protect their  systems using more realistic models of behavioral decision-making.<br>
+        <strong>Our Contributions: </strong><br>
+        We have  a suite of techniques to protect against control-flow hijacking, code reuse  attacks, and information disclosure for embedded systems. One key technical  innovation has been the design of a privilege overlay that restricts the  privileges and capabilities of different regions of the application to the  lowest level necessary to perform intended operations. This is done without  needing application modification and with limited user annotations. We achieve  this through new static and dynamic analyses to identify security and  functionality characteristics of each part of the application. We also bring to  bear new runtime techniques that enforce the desired security properties while  minimizing the performance impact. Our research on the security decision making  by users and system owners is identifying the impact of behavioral  decision-making in settings where different components of a large  interconnected cyber-physical system are owned by multiple stakeholders. The  security decisions are also managed in a distributed manner, with the different  stakeholders deciding upon how much to invest in securing their owned assets.  One novel aspect of our work is in characterizing the security impact of  partial knowledge sharing among the stakeholders. Our research provides guidance  to the design of more secure large-scale interconnected systems.<br>
+        <a name="_Ref533588271"><strong>Supporting  Papers:</strong></a></p>
+      <ol>
+        <li>Abraham A Clements, Eric Gustafson, Tobias  Scharnowski, Paul Grosen, David Fritz, Christopher Kruegel, Giovanni Vigna, <strong>Saurabh Bagchi</strong>, and Mathias Payer,  &quot;HALucinator: Firmware Re-hosting Through Abstraction Layer  Emulation,&quot; In Minor Revision for 29th USENIX Security (<strong>USENIX Sec</strong>) Symposium, pp. 1-17, 2020. </li>
+        <li>Naif Almakhdhub, Abraham Clements, Mathias  Payer, and <strong>Saurabh Bagchi</strong>,  &ldquo;BenchIoT: A benchmark for the things in the Internet of Things,&rdquo; At the 49th  IEEE/IFIP International Symposium on Dependable Systems and Networks (<strong>DSN</strong>), pp. 234-246,  June 24-27, 2019, Portland, OR. (Acceptance rate: 54/252 = 21.4%) </li>
+        <li>Abraham A. Clements, Naif S. Almakhdhub, <strong>Saurabh Bagchi</strong>, and Mathias Payer,  &quot;ACES: Automatic Compartments for Embedded Systems,&quot; In Proceedings  of the 27th USENIX Security Symposium (<strong>USENIX  Sec</strong>), pp. 65−82, Aug 15−17, 2018, Baltimore, MD.</li>
+        <li>Ashish R. Hota, Abraham A. Clements, <strong>Saurabh Bagchi</strong>, and Shreyas Sundaram,  &ldquo;A Game-Theoretic Framework for Securing Interdependent Assets in Networks,&rdquo; In  Springer &ldquo;Game Theory for Security Risk Management: From Theory to Practice&rdquo;,  editors: Stefan Rass, Stefan Schauer, pp. 157-184, 2018.</li>
+        <li>Abraham A. Clements, Naif S. Almakhdhub,  Khaled Saab, Prashast Srivastava, Jinkyu Koo, <strong>Saurabh Bagchi</strong>, and Mathias Payer, &ldquo;Protecting Bare-metal Embedded  Systems with Privilege Overlays,&rdquo; In Proceedings of the IEEE International  Symposium on Security and Privacy (<strong>Oakland/S&amp;P</strong>),  pp. 289-303, May 22-26, 2017, San Jose, CA.</a></li>
+        
+      </ol>
+      <ol type="A" start="2">
+        <a name="impact-item-2"></a>
+      </ol>
+      <div style="background-color:orange;border:2px solid black;border-radius:5px">
+        <ol start=2>
+          <li><strong>Reprogramming embedded wireless      devices in situ </strong>([6]-[10])<strong></strong></li>
+        </ol>
+      </div>
+      
+	  
+        <p>&nbsp;</p>
+        <p><strong>Problem Statement:</strong><br>
+          Wireless reprogramming of  embedded wireless networks is an essential requirement for long-lived networks  since the software functionality changes over time. In this, a network of  devices is to be reprogrammed, while the devices are deployed <em>in situ</em>, <em>i.e.</em>,  in the environment. The amount of information that needs to be wirelessly  transmitted during reprogramming should be minimized since reprogramming time  and energy depend chiefly on the amount of radio transmissions. In practice,  software running on a node evolves, with incremental changes to functionality,  or modification of the parameters that control current functionality. Thus the  difference between the currently executing code and the new code is often much  smaller than the entire code. This makes incremental reprogramming attractive  because only the changes to the code need to be transmitted and the entire code  can be reassembled at the node from the existing code and the received changes.  This notion of sending deltas has been widely adopted in traditional computing  systems, for reprograming a directly connected node. However, it turns out to  be a challenge to do it in wireless networks, over multiple hops and for a  large network of nodes. The goal of incremental reprogramming of embedded  wireless networks is to transfer a small delta (difference between the old and  the new software) so that reprogramming time and energy can be minimized.  However, incremental programming was considered challenging for the target  class of wireless networks because of limited support for dynamic linking or  position independent code on the node itself.</p>
+        </p>
+        <p>The fundamental questions we  asked in this work were:<br>
+        <br>
+        <em>What is the most bandwidth-preserving manner of reprogramming a wireless  network in situ? How can the technique be made self-adjusting to different  kinds of network configurations (such as, density)? How can we incorporate  incremental reprogramming with limited static infrastructure on the nodes?</em><br>
+        <strong></strong><br>
+  <strong>Our Contributions: </strong><br>
+        We developed a suite of  multi-hop incremental reprogramming protocols that transferred the delta  between the old and the new software and let the wireless nodes rebuild the new  software using the received delta and the old software [8, 9, 10]. Our technique did not  need dynamic linking on the node and did not transfer symbol and relocation  tables. It used an optimized version of the Rsync algorithm to perform  byte-level comparison between the old and the new code binaries. However, what  we observed was that even an optimized difference computation at the low level  generated large deltas because of changes in the position of application  components. Therefore, before performing byte-level comparison, we performed  carefully designed application-level modifications, the most important of which  was to use function call indirections to mitigate the effects of changes in the  location of functions caused by software modification. Our work gave 3 orders  of magnitude improvement in the number of bytes transferred, over the standard  software (non-incremental) package for wireless reprogramming and a 50X  improvement over the best incremental reprogramming technique [8]. There was a US patent  granted to us on this work [6].<br>
+  &nbsp; <br>
+        This work highlighted how software on embedded wireless devices evolve through  multiple revisions. We took these evolution paths into account and showed how  our technique could create optimized small deltas for reprogramming under all  the common paths. Often in coordinating multiple nodes to do a concerted  activity, it is needed to have synchronized clocks at all the devices. This is  challenging to achieve when there is a premium on sending out synchronization  beacons due to energy issues and not all the nodes are within broadcast range.  Therefore, we adapted our bandwidth-efficient reprogramming protocol to  communicate limited amount of synchronization information and still synchronize  the network. The desirable fallout of the small number of bytes transmitted by  our technique was that there were few collisions and the synchronization action  completed fast. This work was commercialized by two PhD graduates from our lab  in a company for IoT reliability and security called SensorHound LLC [6]. <br>
+  <br>
+        This work has gathered renewed importance now with our <u><a href="http://purduewhin.ecn.purdue.edu/">center-scale project called WHIN</a></u> where  we are creating large-scale IoT systems for sensing and analyzing data from  production Indiana farms and advanced manufacturing facilities. As there is a  strong desire to deploy the networks and keep them running for long periods  without intervention by the research team, we need to remotely reprogram the  networks to make changes and push out new in-sensor analytics functionality.</p>
+      <p><strong>Supporting Papers:</strong></p>
+      <ol start="6">
+        <li><a name="_Ref533588274">Patent No: 10,007,592, Debugging  non-deterministic embedded systems; issued: June 26, 2018; priority date:  October 22, 2013.</a></li>
+        <li>Jinkyu Koo, Rajesh K. Panta, <strong>Saurabh Bagchi</strong>, and Luis Montestruque,  &ldquo;A Tale of Two Synchronizing Clocks,&rdquo; At the 7th ACM Conference on Embedded  Networked Sensor Systems (<strong>SenSys</strong>),  pp. 239-252, November 4-6, 2009, Berkeley, California. (Acceptance rate: 21/119  = 17.6%)</li>
+        <li>Rajesh K. Panta, <strong>Saurabh Bagchi</strong>, and Samuel P. Midkiff, &ldquo;Zephyr: Efficient  Incremental Reprogramming of Sensor Nodes using Function Call Indirections and  Difference Computation,&rdquo; At the USENIX Annual Technical Conference (<strong>USENIX ATC</strong>), June 14-19, 2009, pp.  411-424, San Diego, CA. (Acceptance rate: 32/191 = 16.8%)</li>
+        <li>Mark D. Krasniewski, Rajesh K. Panta, <strong>Saurabh Bagchi</strong>, Chin-Lung Yang, and  William J. Chappell,  &ldquo;Energy-efficient,  On-demand Reprogramming of Large-scale Sensor Networks,&rdquo; ACM Transactions on  Sensor Networks (<strong>TOSN</strong>), Volume 4,  Issue 1, pp. 1-38, January 2008.</li>
+        <li>Rajesh K. Panta, Issa Khalil, and <strong>Saurabh Bagchi</strong>, &ldquo;Stream: Low Overhead  Wireless Reprogramming for Sensor Networks,&rdquo; At the 26th Annual IEEE Conference  on Computer Communications (<strong>INFOCOM</strong>),  pp. 928-936, May 6-12 2007, Anchorage, Alaska, USA. (Acceptance rate: 252/~1400  = 18%)</a></li>
+        </ol>
+        <ol type="A" start="3">
+        <a name="impact-item-3"></a>
+		</ol>
+      
+        <div style="background-color:orange;border:2px solid black;border-radius:5px">
+          <ol start=3>
+            <li><strong>Approximate computing with reliability      guarantees </strong>([11]-[15])<strong></strong></li>
+          </ol>
+        </div>
+<p>&nbsp;</p>
+<p><strong>Problem Statement:</strong> <br>
+  Many  computations are inherently approximate¾they  trade off quality of results for lower execution time or lower energy.  Approximate computing has recently emerged as an area that exposes additional  sources of approximation at the computer system level, e.g., in programming  languages, compilers, runtime systems, operating systems, and hardware  architectures, thereby enabling us to re-define how we think about programs  that implement novel solutions to an important class of problems. One challenge  of the area of approximate computing has been that the accuracy and performance  of applying approximate system-level techniques to a specific application and  input sets are hard to predict and control. This may lead to missed  optimization opportunities, unacceptable quality outputs, and even incorrect  executions. While the current approximate computing approaches show that the  techniques have a lot of promise, making robust predictions about accuracy and  performance is a key challenge to successful adoption of approximate computing  in real-world applications.<strong></strong><br>
+  <strong>Our Contributions:</strong><strong> </strong><br>
+  We have developed core  principles to apply approximate computing techniques to real-world  applications, while providing predictable performance/accuracy [14, 15]. Our work is driven by  applications from two domains, streaming video analytics and scientific  computation. Our investigation is answering three questions fundamental for  approximate computing in general: (1) identify application phases, i.e., the  execution parts with similar performance and accuracy characteristics so as to  control the approximation in a fine-grained manner; (2) perform on-line search  for optimal approximation settings, i.e., lowest energy or fastest execution  subject to a probabilistic guarantee that the error will be below a bound; (3)  provide input-specific approximation by adapting the approximation strategy to  changes in the input characteristics.<br>
+  <br>
+  We have developed approximation techniques so that streaming video analytics  (such as, object detection or object recognition) can execute on  resource-constrained mobile devices or embedded platforms, while keeping up  with the streaming rate [13]. We have also developed  approximation techniques for large-scale scientific computation codes that are  the proxy applications used by Department of Energy for evaluating their  clusters, such as LULESH, a large hydrodynamics code [11, 12].</p>
+<p><br>
+  <strong>Supporting Papers:</strong></p>
+      <ol start="11">
+        <li><a name="_Ref17593001">Pradeep Kotipalli, Ranvijay Singh, Paul  Wood, Ignacio Laguna (Lawrence Livermore National Lab), and <strong>Saurabh Bagchi</strong>, &ldquo;AMPT-GA: Automatic  Mixed Precision Floating Point Tuning for GPU Applications,&rdquo; At the 33rd ACM  International Conference on Supercomputing (<strong>ICS</strong>), pp. 160-170, Jun 26-28, 2019, Phoenix, AZ. (Acceptance rate:  45/193 = 23.3%)</a></li>
+        <li>Ignacio Laguna  (Lawrence Livermore National Lab),  Paul C. Wood, Ranvijay Singh, and <strong>Saurabh  Bagchi</strong>, &ldquo;GPUMixer: Performance-Driven Floating-Point Tuning for GPU  Scientific Applications,&rdquo; At the International Supercomputing Conference (<strong>ISC</strong>), pp. 227-246, Jun 17-19, 2019, Frankfurt,  Germany. (Acceptance rate: 17/72 = 23.6%) <strong>(Hans Meuer Award winner for best paper)</strong></li>
+        <li>Ran Xu, Jinkyu Koo, Rakesh Kumar, Peter  Bai, Subrata Mitra (Adobe Research), Sasa Misailovic (University of Illinois  Urbana-Champaign), and <strong>Saurabh Bagchi</strong>,  &quot;VideoChef: Efficient Approximation for Streaming Video Processing  Pipelines,&quot; In Proceedings of the 2018 USENIX Annual Technical Conference  (<strong>USENIX ATC</strong>), pp. 43−56, July 11−13,  2018, Boston, MA. (Acceptance rate: 76/378 = 20.1%) </li>
+        <li>Subrata Mitra, Manish Gupta, Sasa Misailovic (U of Illinois at  Urbana-Champaign), and <strong>Saurabh Bagchi</strong>,  &ldquo;Phase-Aware Optimization in Approximate Computing,&rdquo; In Proceedings of the 2017  IEEE/ACM International Symposium on Code Generation and Optimization (CGO), pp.  185-196, Feb 4-8, 2017, Austin, TX. (Acceptance rate: 26/114 = 22.8%)</li>
+        <li>Subrata Mitra, Greg Bronevetsky, Suhas Javagal, and <strong>Saurabh Bagchi</strong>, &ldquo;Dealing with the  Unknown: Resilience to Prediction Errors,&rdquo; At the 24th International Conference  on Parallel Architectures and Compilation Techniques (<strong>PACT</strong>), pp. 331-342, October 18-21, 2015, San Francisco, CA.  (Acceptance rate: 38/179 = 21.2%)</a></li>
+    </ol>
+      <ol type="A" start="4">
+        <a name="impact-item-4"></a>
+      </ol>
+      <div style="background-color:orange;border:2px solid black;border-radius:5px">
+        <ol start=4>
+          <li><strong>Distributed security monitoring for wireless networks </strong>([16]-[20])<strong></strong></li>
+        </ol>
+      </div>
+<p>&nbsp;</p>
+<p><strong>Problem Statement:</strong> <br>
+  We were looking at the security problem in  wireless networks, specifically targeted to multi-hop wireless networks. This  was important in the realm of ad hoc and sensor networks and has seen a  resurgence of interest with embedded devices that form parts of the cyber  physical systems that are supposed to surround us. The open nature of the  wireless communication, the fast deployment practices, and the fact that these  networks are deployed in areas that are not physically secured, make them  vulnerable to a wide range of security attacks against both control and data traffic.  These attacks could involve eavesdropping, message tampering, or identity  spoofing, that have been addressed by customized cryptographic primitives in  the wired domain. Alternately, the attacks may be targeted to the control or  the data traffic in wireless networks, such as the blackhole attack and the  rushing attack. Since many multi-hop wireless environments are resource-constrained  (e.g., bandwidth, power, or processing), providing detection and  countermeasures to such attacks often turn out to be more challenging than in  wired networks. An additional challenge was that many of the attacks could be  launched without compromising the cryptographic protocols or performing  cryptanalysis to reveal the keys.  <strong></strong><br>
+</p>
+<p><strong>Our Contributions:</strong><strong> </strong><br>
+  We were the first to  leverage the fact that most wireless embedded networks use omni-directional  antennas and therefore neighbors can overhear communication in and out of nodes  [20]. We used this to develop a  powerful primitive called &ldquo;<em>local monitoring</em>&rdquo; which we used for detection  of sophisticated attacks, like blackhole or wormhole, which degrade the  throughput of large networks to close-to-zero. This primitive has since been  used by many researchers and commercial wireless packet sniffers. We  subsequently refined this solution for more sophisticated attacks such as with  collusion [18], mobility [Securecomm-06],  and multi-antenna, multi-channel devices [19, IEEETMC-16]. We also  developed a customized hardware-software approach to perform monitoring without  affecting timing properties of the applications [17]. Progressing logically to  the comparatively resource-rich devices, we unveiled the common failure modes  for the OSes on mobile phones (Android) [16, ISSRE-10] and on wearable  devices (Wear OS) [DSN-18]. The first work led to fundamental changes by Google  to the exception handling architecture of Android (in Android 4.0, Ice Cream  Sandwich, 2011) resulting in higher resilience to NullPointerExceptions.</p>
+<p><strong>Supporting Papers:</strong></p>
+      <ol start="16">
+        <li><a name="_Ref17593010">Amiya K. Maji, Fahad A. Arshad, <strong>Saurabh  Bagchi</strong>, and Jan S. Rellermeyer, &ldquo;An Empirical Study of the Robustness of  Inter-component Communication in Android,&rdquo; At the 42nd Annual IEEE/IFIP  International Conference on Dependable Systems and Networks (<strong>DSN</strong>), pp. 1-12, June 25-28, 2012,  Boston, MA. (Acceptance rate: 51/236 = 21.6%)</a></li>
+        <li>Matthew Tan Creti, Mohammad Sajjad Hossain, <strong>Saurabh Bagchi</strong>, and Vijay Raghunathan,  &ldquo;Aveksha: A Hardware-Software  Approach for Non-intrusive Tracing and Profiling of Wireless Embedded Systems,&rdquo;  At the 9th ACM Conference on Embedded Networked Sensor Systems (<strong>SenSys</strong>), pp. 288-301, Seattle,  Washington, November 1-4, 2011. (Acceptance rate: 24/123  = 19.5%) <strong>(Winner of best paper award) </strong></li>
+        <li>Issa  Khalil and <strong>Saurabh Bagchi</strong>, &ldquo;Stealthy  Attacks in Wireless Ad Hoc Networks: Detection and Countermeasure,&rdquo; IEEE  Transactions on Mobile Computing (<strong>TMC</strong>),  vol. 10, issue 8, pp. 1096-1112, August 2011. </li>
+        <li>Dong-Hoon Shin and Saurabh Bagchi, &ldquo;Optimal  Monitoring In Multi-Channel Multi-Radio Wireless Mesh Networks,&rdquo; At the 10th  ACM International Symposium on Mobile Ad Hoc Networking and Computing  (Mobihoc), May 18-21, 2009, pp. 229-238, New Orleans, Louisiana. (Acceptance  rate: 31/175 = 17.7%)</a></li>
+        <li>Issa Khalil, <strong>Saurabh Bagchi</strong>, and Ness B. Shroff, &ldquo;LiteWorp: A Lightweight Countermeasure for the Wormhole  Attack in Multihop Wireless Networks,&rdquo; International Conference on Dependable  Systems and Networks (<strong>DSN</strong>), pp.  612-621, Yokohama, Japan, June 28 - July 1, 2005. (Acceptance rate: PDS track  24/115 = 20.9%</a>) </li>
+    </ol>
+      <ol type="A" start="5">
+        <a name="impact-item-5"></a>
+      </ol>
+      <div style="background-color:orange;border:2px solid black;border-radius:5px">
+        <ol start=5>
+          <li><strong>Distributed error detection and debugging for large-scale distributed applications </strong>([21]-[25])<strong></strong></li>
+        </ol>
+      </div>
+<p>&nbsp;</p>
+<p><strong>Problem Statement:</strong><br>
+  Distributed  systems and applications are pervasive in today&rsquo;s world providing the core  infrastructures for the largest commercial and scientific applications. With  their increasing complexity and scale, it becomes challenging to have efficient  error detection without significantly slowing down the main applications and  that scale to the size of the largest systems, namely, the country&rsquo;s largest  supercomputers at the Department of Energy (DOE) labs. Debugging production  systems also becomes increasingly challenging as the number of concurrent tasks  increases overwhelming human cognitive abilities. Hence, we were called upon by  multiple DOE labs to develop scalable techniques for error detection and  problem localization in distributed applications for their clusters. <br>
+</p>
+<p>Current  techniques for resilience are insufficient for exascale systems and unless radical  changes are made across the software stack, exascale systems may <em>never</em> compute reliable scientific results. At the high level of parallelism in  exascale design, hard and soft failures will be commonplace. The model of  hardware being correct all the time, on all regions of the chip will become  prohibitively expensive to maintain, in manufacturing and energy costs. Blind  replication of all tasks will at least halve the available performance, wasting  CPU cycles and energy on redundant work.<br>
+  </p>
+<p><strong>Our Contributions: </strong><br>
+  We  developed a targeted approach to allow large-scale runtime systems to isolate  regions where faults occur and replicate only those parts of the system, rather  than the standard practice of replicating entire computations. To enable this,  we developed runtime systems that monitor and analyze their own behavior to  determine when to take preventive action. This type of analysis had been  investigated before, but prior approaches aggregated system-wide data to a  central point for analysis, which was not scalable and time-consuming. Further,  existing analyses assumed that application behavior is relatively homogeneous  across nodes and tasks. Our developments made them applicable to the large  majority of today&rsquo;s large-scale distributed applications and their executions  on heterogeneous platforms. <br>
+  </p>
+<p>We  developed an error-detection and problem-localization technique, called  AutomaDeD [DSN-10, 25], that helps application  developers find the period of time, task, and code region where a fault is  first manifested in an application. We developed an innovative statistical  model for the behavior of parallel tasks and then analyzed the behavior using  scalable data analytic methods to pinpoint the location of errors [24]. We then developed a novel  formulation of a&nbsp; progress-dependence graph of all the tasks and by  finding the least-progressed task, could determine probabilistically the  process that was the originator of the hang or the performance problem [23]. This technique was used  at Lawrence Livermore National Lab (LLNL) to set a new supercomputing record in  fluid dynamics running on its Sequoia supercomputer. The team went on to win  the 2013 Gorden Bell Prize for outstanding achievement in HPC. The software  artifact was released as an open source project jointly by LLNL and our group  and has become part of the standard software stack that runs on DOE  supercomputers. Our work has laid out the principles that are used today for  debugging large-scale applications running on high-performance computing  applications [22]. A principle from this  work has also been shown by us to be effective in recovering from failures in  storage systems in data centers [21] and this work has been  patented and commercialized by AT&amp;T through incorporating the technique in  the ceph file system that is part of its commercial offerings in  software-defined storage for the cloud. </p>
+<p><br>
+  <strong>Supporting Papers:</strong></p>
+      <ol start="21">
+        <li><a name="_Ref17593016">Subrata Mitra, Rajesh Krishna Panta  (AT&amp;T Labs), Moo-Ryong Ra (AT&amp;T Labs), and <strong>Saurabh Bagchi</strong>, &quot;Partial-parallel-repair (PPR): a distributed  technique for repairing erasure coded storage,&quot; At the European Conference  on Computer Systems (<strong>EuroSys</strong>), pp.  1-16, April 18-21, 2016, London, UK. (Acceptance rate: 38/180 = 21.1%)</a></li>
+        <li>Ignacio  Laguna, Dong H. Ahn, Bronis R. de Supinski, Todd Gamblin, Greg L. Lee, Martin  Schulz (LLNL), <strong>Saurabh Bagchi</strong>, Milind Kulkarni, Bowen Zhou (Purdue), Zhezhe  Chen, Feng Qin (Ohio State), &quot;Debugging  high-performance computing applications at massive scales.&quot; <em>Communications  of the ACM</em> (<strong>CACM</strong>), 58, no. 9,  pp. 72-81, September 2015.</li>
+        <li>Subrata Mitra,  Ignacio Laguna, Dong H. Ahn (LLNL), <strong>Saurabh  Bagchi</strong>, Martin Schulz (LLNL), and Todd Gamblin (LLNL), &ldquo;Accurate  Application Progress Analysis for Large-Scale Parallel Debugging,&rdquo; At the ACM  International Symposium on Programming Language Design and Implementation (<strong>PLDI</strong>), pp. 193-203, Edinburgh, UK, June  9-11, 2014. (Acceptance rate: 52/287 = 18.1%)</li>
+        <li>Greg Bronevetsky, Ignacio Laguna, <strong>Saurabh Bagchi</strong>, and Bronis R. de  Supinski, &ldquo;Automatic Fault Characterization via Abnormality-Enhanced  Classification,&rdquo; At the 42nd Annual IEEE/IFIP International Conference on Dependable  Systems and Networks (<strong>DSN</strong>), pp.  1-12, June 25-28, 2012, Boston, MA. (Acceptance rate: 51/236 = 21.6%)</li>
+        <li>Ignacio  Laguna, Todd Gamblin, Bronis R. de Supinski, <strong>Saurabh Bagchi</strong>, Greg Bronevetsky, Dong H. Anh, Martin Schulz, and Barry  Rountree, &ldquo;Large Scale Debugging of Parallel Tasks with AutomaDeD,&rdquo; At the  IEEE/ACM International Conference for High Performance Computing, Networking,  Storage, and Analysis (<strong>Supercomputing</strong>),  pp. 1-12, Seattle, Washington, November 12-18, 2011. (Acceptance rate: 74/352 =  21%)</a>		</li>
+    </ol>
+      <p class=StyleBookmanBold>&nbsp;</p>
+    </div></section>
+    <section> </section>
+    <!-- end .content --></article>
+  <footer></footer>
+<!-- end .container --></div>
+</body>
+</html>

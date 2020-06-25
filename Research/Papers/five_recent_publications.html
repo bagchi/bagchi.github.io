@@ -1,0 +1,398 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Five recent publications</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	width: 960px;
+	background-color: #FFFFFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+header {
+	background-color: #ADB96E;
+}
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the block elements. The elements within these blocks have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the block itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the block element and place a second block element within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a block set to float right). Many times, padding can be used instead. For blocks where this rule must be broken, you should add a "display:inline" declaration to the block element's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar blocks could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the left instead of the right, simply float these columns the opposite direction (all left instead of all right) and they'll render in reverse order. There's no need to move the blocks around in the HTML source.
+
+*/
+.sidebar1 {
+	float: right;
+	width: 180px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px 0;
+	width: 780px;
+	float: right;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+nav ul{
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+nav a, nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #C6D580;
+}
+nav a:hover, nav a:active, nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ The footer ~~ */
+footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, article, figure {
+	display: block;
+}
+div.MsoListParagraphCxSpFirst {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+div.MsoListParagraphCxSpLast {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+div.MsoListParagraphCxSpMiddle {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+div.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoListParagraphCxSpFirst {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoListParagraphCxSpLast {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoListParagraphCxSpMiddle {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpFirst {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpLast {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpMiddle {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+span.StyleBookmanBold {mso-style-name:"Style Bookman Bold";
+	mso-style-unhide:no;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+-->
+</style><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--></head>
+
+<body>
+
+<div class="container">
+  <header><img src="../../images/dcsl_logo.JPG" width="225" alt=""/></header>
+  <div class="sidebar1">
+  <aside>
+      <p>5 Recent Papers</a></p>
+  </aside>
+  <nav>
+    <ul>
+      <li> <a href="#paper 1">Paper 1</a> </li>
+      <li> <a href="#paper 2">Paper 2</a> </li>
+      <li> <a href="#paper 3">Paper 3</a> </li>
+      <li> <a href="#paper 4">Paper 4</a> </li>
+      <li> <a href="#paper 5">Paper 5</a> </li>
+    </ul>
+    </nav>
+    
+  <!-- end .sidebar1 --></div>
+  <article class="content">
+    <h1>Five Recent Publications</h1>
+    <section>
+    <div class=WordSection1>
+      <p class=MsoNormal align=center style='text-align:center;text-indent:0in'><span
+class=StyleBookmanBold><span style='font-size:14.0pt'>
+        <o:p></o:p>
+      </span></span><span class=StyleBookmanBold>
+        <o:p>&nbsp;</o:p>
+        </span></p>
+      <p class=StyleBookmanBold><span class="MsoNormal">Here are five recent and important publications from our research group, DCSL.</span>
+        <o:p></o:p>
+      </p>
+      <p class=StyleBookmanBold><em>Last update: 
+        <!-- #BeginDate format:Am1 -->June 3, 2018<!-- #EndDate -->
+      </em>      </p>
+      <ol>
+        <li>
+          <h4><a name="paper 1"></a>&ldquo;<a href="https://engineering.purdue.edu/dcsl/publications/papers/2018/aces_usenixsec18_revision.pdf">ACES: Automatic Compartments for Embedded Systems</a>,&rdquo; Abraham A. Clements, Naif Saleh Almakhdhub, Saurabh Bagchi, and Mathias Payer. Accepted to appear at the 27th USENIX Security Symposium (<strong>USENIX Sec</strong>), pp. 1-18, August 15-17, 2018, Baltimore, MD. (Acceptance rate: 100/524 = 19.1%) (Under shepherding)</h4>
+        </li>
+This paper shows how to automatically partition an embedded application running on a bare-metal IoT device for the purpose of enforcing the principle of least privileges, i.e., give a piece of code the minimum amount of privilege that it needs to execute. This is standard on server and desktop-class systems but is surprisingly hard to pull off on low-end embedded devices because they do not have OS or hardware support. We show how through static analysis you can approximately decide the partitions and then at runtime, using a hardware feature called Memory Protection Unit, enforce checks when transition happens from one protection domain to another. We show how much more lightweight and secure we are compared to ARM's mBed OS. 
+        <p>&nbsp;</p>
+        <li>
+          <h4><a name="paper 2"> </a>&ldquo;<a href="https://engineering.purdue.edu/dcsl/publications/papers/2018/final_videochef_usenixatc18_cameraready.pdf">VideoChef: Efficient Approximation for Streaming Video Processing Pipelines</a>,&rdquo; Ran Xu, Jinkyu Koo, Rakesh Kumar, Peter Bai; Subrata Mitra (Adobe Research); Sasa Misailovic (University of Illinois Urbana-Champaign); Saurabh Bagchi. Accepted to appear at the 2018 USENIX Annual Technical Conference (<strong>USENIX ATC</strong>), pp. 1-14, July 11-13, 2018, Boston, MA. (Acceptance rate: 76/378 = 20.1%)</h4>
+        </li>
+        <p> Approximate computing has become an important area of work where algorithms reduce the precision of the output and in the process reduce the execution time or save on the energy of computation. An important use case that has been proposed is video analytics, especially as the desire is for the analytics to run on embedded platforms. In this work, which we call VIDEOCHEF, we initially reproduce the prior result that the configuration of the approximation scheme has a great bearing on how much speedup is possible for what level of error. Then we show that the best configuration is dependent on the content of the stream. Then we identify the optimal configuration parameter while the stream is being processed, taking care to re-do the search for the optimal configuration only when needed. We evaluate our approach on 106 videos obtained from YouTube, on a set of 9 video processing pipelines with a total of 10 distinct filters. Our results show significant performance improvement over the baseline and the previous approach that uses summarized content-dependent inputs. We also perform a user study that shows that the videos produced by VIDEOCHEF are often acceptable to human subjects.</p>
+
+        <li>
+          <h4><a name="paper 3"> </a>&ldquo;<a href="https://engineering.purdue.edu/dcsl/publications/papers/2018/final_android-wear-robustness_dsn18_cameraready.pdf">How Reliable is my Wearable: A Fuzz Testing-based Study</a>,&rdquo; Edgardo Barsallo Yi, Amiya K. Maji, Saurabh Bagchi. Accepted to appear at the 48th IEEE/IFIP International Conference on Dependable Systems and Networks (<strong>DSN</strong>), pp. 1-8, June 25-28, 2018, Luxembourg City, Luxembourg. (Acceptance rate: 62/221 = 28.1%)</h4>
+        </li>
+        <p>We asked the question about how reliable is the software that runs on wearable devices. This recalls our earlier work (DSN-12, ISSRE-10) where we were the first to analyze the reliability of the Android OS (and Symbian, the OS from Nokia). The standard OS on wearables is Android Wear and in this paper, we use a directed fuzz injection campaign to evaluate the reliability of the software stack on two versions of an Android Watch. We develop and open source a fuzz testing tool for Android Wear apps and services, called Qui- Gon Jinn (QGJ). We perform an extensive fault injection study by mutating inter-process communication messages and UI events and direct about 1.5M such mutated events at 46 apps. These apps are divided into two categories: health/fitness and other. The results of our study show some patterns distinct from prior studies of Android. Over the years, input validation has improved and fewer NullPointerExceptions are seen, however, Android Wear apps crash from unhandled IllegalStateExceptions at a higher rate. There are occasional troubling cases of the entire device rebooting due to unprivileged mutated messages. Reassuringly the apps are quite robust to mutations of UI events with only 0.05% of them causing an app crash. </p>
+        <p>&nbsp;</p>
+        <li>
+          <h4><a name="paper 4"> </a>&ldquo;<a href="https://engineering.purdue.edu/dcsl/publications/papers/2018/final_game-theory-security_springerbook18.pdf">A Game-Theoretic Framework for Securing Interdependent Assets in Networks</a>,&rdquo; Ashish R. Hota, Abraham A. Clements, Saurabh Bagchi, Shreyas Sundaram, Book chapter in Springer &ldquo;Game Theory for Security Risk Management: From Theory to Practice&rdquo;, editors: Stefan Rass, Stefan Schauer, pp. 1-28, 2018.</h4>
+      </li>
+        <p>Many large-scale distributed systems have to be secured since they run important applications, such as, industrial control systems or the power grid. But these systems typically have lots of legacy components and subsets of the assets belong to different stakeholders. Therefore, it is not possible for commercial or administrative reasons to secure all the assets at the same time. In this work, we shed light on which assets to protect and to what extent.        We model the interdependencies between the assets that belong to possibly different defenders as a directed graph referred to as an interdependency graph. We present two complementary game-theoretic formulations. In both settings, the defenders assign defense resources to reduce attack success probabilities on the edges of the interdependency graph, but with different objectives. We establish the existence of a pure Nash equilibrium (PNE) in the security risk minimization game, and a generalized Nash equilibrium (GNE) in the defense cost minimization game. For both settings, we show that a defender can compute its best response (i.e., its optimal defense allocation for a given allocation by other defenders) by solving appropriately defined convex optimization problems. We demonstrate how our framework can be used to identify certain important aspects of MTD deployment; specifically, how frequently the configurations should be updated to meet security requirements. We illustrate the application of our framework in two case studies arising in diverse applications---a distributed power grid and a multi-vendor e-commerce application.</p>
+        <p><br>
+        </p>
+        <li>
+          <h4><a name="paper 5"> </a> &ldquo;<a href="https://engineering.purdue.edu/dcsl/publications/papers/2017/final_rafiki_middleware17_cameraready.pdf">Rafiki: A Middleware for Parameter Tuning of NoSQL Datastores for Dynamic Metagenomics Workloads</a>,&rdquo; Ashraf Mahgoub, Paul Wood, Sachandhan Ganesh, Subrata Mitra (Adobe Research), Wolfgang Gerlach (Argonne National Laboratory), Travis Harrison (Argonne National Laboratory), Folker Meyer (Argonne National Laboratory), Ananth Grama, Saurabh Bagchi, and Somali Chaterji. At the ACM/IFIP/USENIX <strong>Middleware</strong> Conference, pp. 28-40, Dec 11-15, 2017, Las Vegas, Nevada. (Acceptance rate: 20/85 = 23.5%)
+            </h4>
+        </li>
+        </ol>
+      <blockquote>
+        <p>Tuning database configurations has been a technical challenge for many years now. The rise of NoSQL database engines has exacerbated this challenge.  For example, the NoSQL database engine Cassandra offers 50+ configuration parameter, and each parameter value can impact overall performance in different ways. We demonstrate that the performance difference between the best and worst configurations for Cassandra can be as high as 102.5% of throughput for a read-heavy workload. Further, the optimal configuration setting for one type of workload is suboptimal for another. In this paper, we present Rafiki, an analysis technique and statistical model for optimizing database configuration parameters to alleviate I/O pressures, and 
+          we test it using Cassandra, when handling dynamic metagenomics workloads. Rafiki identifies the significance of configuration parameters using ANOVA. Next, it applies neural networks using the most significant parameters and their workload-dependent mapping to predict database throughput, as a surrogate model. Then, it optimizes the configuration using genetic algorithms on the surrogate to maximize the workload-dependent performance. We apply it to the Cassandra datastore of MG-RAST, the largest metagenomics portal run by our NIH collaborator at Argonne National Lab, and find that Rafiki can continually tune the database as workload configurations change. </p>
+      </blockquote>
+      <p class=MsoNormal1 style='margin-left:27.0pt;mso-add-space:
+auto;text-indent:-27.0pt;mso-list:l7 level1 lfo12'>
+        <o:p></o:p>
+  </p>
+    </div></section>
+    <section> </section>
+    <!-- end .content --></article>
+  <footer></footer>
+<!-- end .container --></div>
+</body>
+</html>

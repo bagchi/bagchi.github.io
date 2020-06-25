@@ -1,0 +1,43 @@
+EndNote(R) End User 
+License Agreement 
+
+THE TERMS AND CONDITIONS OF THIS AGREEMENT SHALL NOT APPLY IF YOU HAVE OBTAINED ACCESS TO THIS PRODUCT PURSUANT TO A MULTI-USER LICENSE. UNDER SUCH CIRCUMSTANCES, YOUR USE OF THIS PRODUCT SHALL BE GOVERNED SOLELY BY THE TERMS AND CONDITIONS OF THE MULTI-USER LICENSE.
+
+BACKGROUND. Thomson ResearchSoft (“ResearchSoft”), a division of Thomson Scientific, Inc., has developed a proprietary computer program designated "ENDNOTE" (the "Software"). You (the “End User”) may use the Software to create personal bibliographic databases and to search those databases. By using the Software and/or its accompanying manuals (the “Documentation” and together with the Software, the “Product”), you agree with ResearchSoft to be bound by the terms and conditions set forth herein. ResearchSoft is willing to permit you to use the Product only upon the condition that you accept and comply with all of the terms of this agreement (“Agreement”).
+
+THEREFORE, for good and valuable consideration, including the rights and license granted in this Agreement, and intending to be legally bound, ResearchSoft and End User agree as follows:
+
+1. LICENSE. ResearchSoft hereby grants to End User a non-exclusive, non-transferable, individual license to use the Product, subject to the terms and conditions of this Agreement. End User may (a) install one copy of the Software on up to two computers for End User’s personal use and (b) make one copy of the Software solely for backup or archival purposes. It is expressly understood that two people will not use the program at the same time on different computers. End User may not make any copies of the Documentation or any portion thereof. 
+
+2. RESTRICTIONS. End User may not modify, translate, decompile, reverse engineer, retransmit in any form or by any means (electronic, mechanical, photocopied, recorded or otherwise), resell or redistribute the Product, or any portion thereof, without the prior written consent of ResearchSoft. Except as expressly set forth in this Agreement, End User may not make any use of the Product.
+
+3. TERMINATION. Without prejudice to any other rights, ResearchSoft may terminate the license granted hereunder if End User fails to comply with any of the terms and conditions of this Agreement. In such event, End User shall immediately discontinue any further use of the Product and destroy all copies of the Software and Documentation in its possession or control. 
+
+4. PROPRIETARY RIGHTS OF RESEARCHSOFT. End User agrees that ResearchSoft is the sole and exclusive owner of all rights in the Product. The Product is protected by United States copyright and other laws, as well as international treaty provisions, and End User must treat the Product as any other copyrighted and legally protected material. All rights in the Product not expressly granted herein are reserved by ResearchSoft. 
+
+5. REPLACEMENT POLICY. ResearchSoft will correct or replace any defective diskette if returned to ResearchSoft within ninety (90) days after the purchase date with a description of the defect, provided such defect is not due to misuse by End User.
+
+6. NO WARRANTY. THE PRODUCT AND ALL CONTENT AND INFORMATION CONTAINED THEREIN ARE BEING PROVIDED TO YOU "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE WITH RESPECT TO THE PRODUCT OR THE USE THEREOF. RESEARCHSOFT DOES NOT MAKE ANY WARRANTY THAT THE SOFTWARE IS COMPATIBLE OR OPERABLE WITH THE END USER'S COMPUTER EQUIPMENT OR SOFTWARE, OR THAT THE SOFTWARE WILL PERFORM WITHOUT INTERRUPTION OR FREE OF ERRORS. END USER AGREES THAT THE PRODUCT IS NOT CONSUMER GOODS FOR PURPOSES OF FEDERAL OR STATE WARRANTY LAWS.
+
+No salesperson or other representative involved in the licensing of the Product is authorized to make any warranties with respect to the Product. Oral statements do not constitute warranties, shall not be relied upon by End User, and are not a part of this Agreement.
+
+7. LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL RESEARCHSOFT OR ITS AFFILIATES OR ITS OR THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, AGENTS OR REPRESENTATIVES (COLLECTIVELY "THOMSON SCIENTIFIC PARTIES") BE LIABLE OR RESPONSIBLE FOR DAMAGES OF ANY KIND (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF INFORMATION OR DATA, OR ANY OTHER INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES) ARISING OUT OF THE USE OF OR INABILITY TO USE THE PRODUCT OR OTHERWISE IN CONNECTION WITH THIS AGREEMENT, EVEN IF RESEARCHSOFT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY EVENT, THE ISI PARTIES’ TOTAL AGGREGATE LIABILITY TO YOU FOR ALL DAMAGES OF EVERY KIND AND TYPE (REGARDLESS OF WHETHER BASED IN CONTRACT OR TORT) SHALL NOT EXCEED THE PURCHASE PRICE OF THE PRODUCT. 
+
+IT IS EXPRESSLY UNDERSTOOD AND AGREED THAT IN THE EVENT ANY REMEDY HEREUNDER IS DETERMINED TO HAVE FAILED OF ITS ESSENTIAL PURPOSE, ALL LIMITATIONS OF LIABILITY AND EXCLUSIONS OF DAMAGES SET FORTH HEREIN SHALL REMAIN IN EFFECT.
+
+8. INJUNCTIVE RELIEF. End User agrees that ResearchSoft will have the right to obtain an injunction against any unauthorized use of the Product by End User, in addition to any other rights and remedies to which ResearchSoft may be entitled.
+
+9. SEVERABILITY. If any provision of this Agreement is held to be invalid or unenforceable by a court of competent jurisdiction, then such provision shall be adjusted to the minimum extent necessary for validity or enforceability, and in any event, the remaining provisions will nevertheless remain in full force and effect.
+
+10. ENTIRE AGREEMENT. This Agreement constitutes the entire understanding and agreement between ResearchSoft and you with respect to the subject matter of this Agreement and supercedes all prior or contemporaneous oral or written communications with respect thereto. This Agreement may not be modified, except to the extent of a written agreement to do so by an authorized representative of ResearchSoft.
+
+11. CHOICE OF LAW. This Agreement shall be interpreted, construed and enforced in all respects in accordance with the internal laws of the State of Pennsylvania, without regard to its principles of conflicts of law.
+
+12. ACKNOWLEDGMENT. Use of the Product affirms that End User has read this Agreement, understands it, and agrees to be bound by its contents.
+
+
+
+
+1
+22283-1
+
