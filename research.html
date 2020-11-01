@@ -1,32 +1,46 @@
 <head>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-	<link rel="stylesheet" href="/css/style.css">
+	<style>
+	table#sponsortable {
+	    table-layout: fixed ;
+	    width: 100%; 
+	    border: 1px solid black;
+	    padding: 15px;
+	    text-align: center;
+	}
+	table#sponsortable, th, td {
+	    width: 33%; 
+	    border: 1px solid black;
+	    padding: 15px;
+	    text-align: center;
+	}
+	</style>
 </head>
 <body style="margin: 15px;">
-<div class="content">
+	<div class="content">
 
-	<h2 class="title">Research Interests</h2>
+		<h2 class="title">Research Interests</h2>
 
-	<h3><em style="color: red">&quot;Dependability meets Data Analytics, and at Large Scales&quot;</em>
-	</h3>
-	<p>The above sums up our current research direction. We work on software systems to enable them to perform their
-		functionality in the face of natural and malicious failures. We apply and adapt data analytic techniques to work
-		with
-		the noise of computer systems and at large system scales. Current application domains come from distributed software
-		systems, embedded systems, cellular systems, and bioinformatics.<span style='font-size:12.0pt;line-height:150%'>
-			<o:p></o:p>
-		</span></p>
+		<h3><em style="color: red">&quot;Dependability meets Data Analytics, and at Large Scales&quot;</em>
+		</h3>
+		<p>The above sums up our current research direction. We work on software systems to enable them to perform their
+			functionality in the face of natural and malicious failures. We apply and adapt data analytic techniques to work
+			with
+			the noise of computer systems and at large system scales. Current application domains come from distributed software
+			systems, embedded systems, cellular systems, and bioinformatics.<span style='font-size:12.0pt;line-height:150%'>
+				<o:p></o:p>
+			</span></p>
 
-	<p><strong>The broad goal of our research is to design practical dependable distributed systems. </strong>This finds
-		expression in various domains, which currently include, embedded &ldquo;bare metal&rdquo; systems, networks of
-		interdependent assets from multiple ownership domains, cellular and wireless systems, enterprise networks, and
-		supercomputing clusters. </p>
+		<p><strong>The broad goal of our research is to design practical dependable distributed systems. </strong>This finds
+			expression in various domains, which currently include, embedded &ldquo;bare metal&rdquo; systems, networks of
+			interdependent assets from multiple ownership domains, cellular and wireless systems, enterprise networks, and
+			supercomputing clusters. </p>
 
-	<p style='margin-top:12.0pt'>For details of my research projects, take a look
-		at the home page of the <a href="https://engineering.purdue.edu/dcsl">Dependable Computing Systems Lab (DCSL)</a>,
-		its
-		<a href="https://engineering.purdue.edu/dcsl/project-new">Projects page</a>, and
-		the <a href="https://engineering.purdue.edu/dcsl/about/research-overview/">Research Overview document</a>. </p>
+		<p style='margin-top:12.0pt'>For details of my research projects, take a look
+			at the home page of the <a href="https://engineering.purdue.edu/dcsl">Dependable Computing Systems Lab (DCSL)</a>,
+			its
+			<a href="https://engineering.purdue.edu/dcsl/project-new">Projects page</a>, and
+			the <a href="https://engineering.purdue.edu/dcsl/about/research-overview/">Research Overview document</a>. </p>
 
 	<h3><em style="color: red">Hot links:</em>
 	</h3>
@@ -140,43 +154,33 @@
 		</div>
 	</div>
 
-	<!-- 
-	<table width="945" border="1">
-		<caption>
-			<span class="style5">Project thrusts at DCSL </span>
-		</caption>
-		<tr>
-			<th width="353" scope="col"><span class="style3">Project</span></th>
-			<th width="576" scope="col"><span class="style3">Summary</span></th>
-		</tr>
-		<tr>
-			<td><a href="https://engineering.purdue.edu/dcsl/project/" class="style3">Fault tolerance for distributed
-					applications</a></td>
-			<td><span class="style3">Error detection, prediction, and localization for a variety of distributed applications,
-					currently, scientific clusters and applications, web services, and storage systems</span></td>
-		</tr>
-		<tr>
-			<td><a href="https://engineering.purdue.edu/dcsl/project/" class="style3">Intelligent wireless networks</a></td>
-			<td><span class="style3">Reliability of emerging class of wireless platforms - resource-constrained embedded
-					wireless networks and cellular networks</span></td>
-		</tr>
-		<tr>
-			<td><a href="https://engineering.purdue.edu/dcsl/project/" class="style3">Distributed intrusion tolerant systems</a></td>
-			<td><span class="style3">Detection of intrusion attempts against distributed infrastructure and intrusion prevention
-					and response</span></td>
-		</tr>
-	</table>
--->
+	<h3><em style="color: red">Funding sources</em>
+	</h3>
+	<table id="sponsortable" style="width:100%">
+	  <tr>
+	    <td><img src="images/Sponsor-images/nsf.jpg"><br><b>National Science Foundation</b><br>(CPS, SaTC, CCRI, SPX)</td>
+	    <td><img src="images/Sponsor-images/nih.png"><br><b>National Institutes of Health</b><br>(NIAID)</td>
+	    <td><img src="images/Sponsor-images/doe.jpg"><br><b>Department of Energy</b><br>(Sandia, Argonne)</td>
+	  </tr>
+	  <tr>
+	    <td><img src="images/Sponsor-images/arl.jpg"><br><b>Department of Defense</b><br><b>(Army Research Lab)</b></td>
+	    <td><img src="images/Sponsor-images/lilly-endowment.jpg"><br><b>Eli Lilly</b></td>
+	    <td><img src="images/Sponsor-images/northrop-grumman.jpg"><br><b>Northrop Grumman</b></td>
+	  </tr>
+	  <tr>
+	    <td><img src="images/Sponsor-images/google.gif"><br><b>Google</b><br><b>(Faculty Research Award)</b></td>
+	    <td><img src="images/Sponsor-images/adobe.png"><br><b>Adobe Research</b></td>
+	    <td><img src="images/Sponsor-images/amazon.png"><br><b>Amazon Web Service (AWS)</b></td>
+	  </tr>
+	</table> 
 
-	<p>Our funding comes from the National Science Foundation, Department of Defense (Army Research Lab, Missile Defense
-		Agency), Department of Energy, NIH, multiple private organizations (Northrop Grumman, Adobe, Google,
-		AT&amp;T), and Purdue's Research Foundation. 
-		Past funding has also come from Indiana 21st Century Research and
-		Technology Fund and
-		private organizations (GE Research, IBM, Lockheed Martin, Avaya, Tellabs, Motorola, Intel). If you are
+	<p>Past funding has also come from the Missile Defense Agency (MDA), Indiana 21st Century Research and Technology Fund, private organizations (AT&T Labs, GE Research, IBM, Lockheed Martin, Avaya, Tellabs, Motorola, Intel), and Purdue Research Foundation. </p>
+    <p> If you are
 		interested in working in the
 		research group, please take a look at the process for this outlined <a href="newstudents.html">here</a>.
 		</span>&nbsp;</span></p>
 	
 </div>
+
+
 </body>
