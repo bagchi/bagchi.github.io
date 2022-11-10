@@ -1,0 +1,211 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1100px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 1088px;
+  height: 918px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  margin: 60px 0 0 auto;
+}
+
+.u-section-1 .u-image-1 {
+  width: 690px;
+  height: 691px;
+  object-position: 0% 50%;
+  background-position: 50% 50%;
+  background-image: url("images/purdue-drum-091621-getty-ftrjpg_kmh5xthn6su31mqairf370qoi.jpg");
+  --animation-custom_in-translate_x: 50px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 180deg;
+  --animation-custom_in-scale: 0.3;
+  margin: -862px 115px 0 auto;
+}
+
+.u-section-1 .u-shape-2 {
+  width: 227px;
+  height: 228px;
+  background-image: linear-gradient(#c37cd8, #ab4ec7);
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: -35px 78px 0 auto;
+}
+
+.u-section-1 .u-group-1 {
+  background-image: none;
+  width: 541px;
+  min-height: 441px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.15);
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: -481px auto 100px 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 24px 40px;
+}
+
+.u-section-1 .u-text-1 {
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin: 32px auto 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+  margin: 21px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: none;
+  margin: 14px 9px 0 auto;
+  padding: 15px 46px 15px 45px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-shape-1 {
+    width: 940px;
+    margin-top: 80px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 660px;
+    height: 660px;
+    margin-top: -842px;
+    margin-right: 69px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 490px;
+    min-height: 417px;
+    margin-top: -459px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1026px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 816px;
+    margin-top: 60px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 509px;
+    height: 509px;
+    margin-top: -753px;
+    margin-right: 30px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 415px;
+    min-height: 415px;
+    margin-top: -408px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1169px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 535px;
+    width: 519px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 377px;
+    height: 377px;
+    margin-top: -464px;
+    margin-right: 38px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 426px;
+    min-height: 427px;
+    margin-top: 12px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 913px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 378px;
+    width: 328px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 271px;
+    height: 271px;
+    margin-top: -355px;
+    margin-right: 20px;
+  }
+
+  .u-section-1 .u-group-1 {
+    min-height: 363px;
+    margin-top: 36px;
+    margin-bottom: 57px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.125rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 3rem;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
+}
