@@ -9,6 +9,7 @@ $(document).ready(function () {
     });
 });
 
+
 function processData(allText) {
     allTextLines = allText.split("\n");
     allTextLines.shift();
@@ -20,16 +21,34 @@ function processData(allText) {
         var description_1 = data[3].substring(1, data[3].length - 2);
         var description = description_1.replace(/\\n/g,'<br>');
 
+
+
+        // Sets up carousel items and indicators following this structure:
+        
+        // div carousel
+            // div carousel item
+                // div column container
+                    // iframe
+                    // div video description
+                        // p title
+                        // p date
+                        // p description
+        
+        // div carousel indicator
+            // button
+        
         if(i == 0) {
-            document.getElementById("video-list").innerHTML += '<div class="carousel-item active">\n<div class="column-container flex-grow-1" id="video-list">\n<iframe class="d-block video" src=' + video + '></iframe>\n<div class="video-description">\n<p class="fs-2 fw-medium text-white">' + title + '</p>\n<p class="fs-6 fw-light text-white">' + date + '</p>\n<p class="fs-6 fw-light text-white">' + description + '</p>\n</div>\n</div>\n';
-            //document.getElementById("video-list").innerHTML += '<div class="video-description">\n<p class="fs-2 fw-medium" id="">' + data[0] + '</p>\n</div>\n';
+            document.getElementById("video-list").innerHTML += '<div class="carousel-item active">\n<div class="column-container flex-grow-1">\n<iframe class="d-block video" src=' + video + ' allowfullscreen></iframe>\n<div class="video-description">\n<p class="fs-2 fw-medium text-white">' + title + '</p>\n<p class="fs-6 fw-light text-white">' + date + '</p>\n<p class="fs-6 fw-light text-white">' + description + '</p>\n</div>\n</div>\n';
             document.getElementById("video-list").innerHTML += '</div>\n';
+
+            document.getElementById("video-indicators").innerHTML += '<button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="' + i + '" class="active" aria-current="true"></button>\n';
         } else {
-            document.getElementById("video-list").innerHTML += '<div class="carousel-item">\n<div class="column-container flex-grow-1" id="video-list">\n<iframe class="d-block video" src=' + video + '></iframe>\n<div class="video-description">\n<p class="fs-2 fw-medium text-white">' + title + '</p>\n<p class="fs-6 fw-light text-white">' + date + '</p>\n<p class="fs-6 fw-light text-white">' + description + '</p>\n</div>\n</div>\n';
-            //document.getElementById("video-list").innerHTML += '<div class="video-description">\n<p class="fs-2 fw-medium" id="">' + data[0] + '</p>\n</div>\n';
+            document.getElementById("video-list").innerHTML += '<div class="carousel-item">\n<div class="column-container flex-grow-1">\n<iframe class="d-block video" src=' + video + ' allowfullscreen></iframe>\n<div class="video-description">\n<p class="fs-2 fw-medium text-white">' + title + '</p>\n<p class="fs-6 fw-light text-white">' + date + '</p>\n<p class="fs-6 fw-light text-white">' + description + '</p>\n</div>\n</div>\n';
             document.getElementById("video-list").innerHTML += '</div>\n';
+        
+            document.getElementById("video-indicators").innerHTML += '<button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="' + i + '" class="" aria-current="true"></button>\n';
         }
-        console.log(document.getElementById("video-list").innerHTML);
+
     }
 
 }
