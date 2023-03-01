@@ -33,6 +33,7 @@ a:hover {
     overflow-y: auto;
     height: 530px;
     padding: 30px;
+    padding-top: 0;
     width: 30%;
 }
 
