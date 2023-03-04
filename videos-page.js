@@ -23,7 +23,7 @@ function processData(allText) {
             var video_img = data[3].substring(1, data[3].length - 1).replace("https://www.youtube.com/embed/", "https://img.youtube.com/vi/") + "/0.jpg";
         } else {
             var video = data[3];
-            var video_img = '/images/armstrong.jpg';
+            var video_img = 'images/armstrong.jpg';
         }
         var description_1 = data[4].substring(1, data[4].length - 2);
         var description = description_1.replace(/\\n/g, '<br>');
