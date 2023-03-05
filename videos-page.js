@@ -15,18 +15,18 @@ function processData(allText) {
     allTextLines.shift();
     for (var i = 0; i < allTextLines.length; i++) { // CSV is title, date, link, description
         var data = allTextLines[i].split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
-        var title = data[0]?.substring(1, data[0].length - 1);
-        var date = data[1]?.substring(1, data[1].length - 1);
-        var event = data[2]?.substring(1, data[2].length - 1);
-        if (data[3]?.includes("https://www.youtube.com/embed/")) {
-            var video = data[3]?.substring(0, data[3].length - 1) + "?autoplay=0\"";
-            var video_img = data[3]?.substring(1, data[3].length - 1)?.replace("https://www.youtube.com/embed/", "https://img.youtube.com/vi/") + "/0.jpg";
+        var title = data[0].substring(1, data[0].length - 1);
+        var date = data[1].substring(1, data[1].length - 1);
+        var event = data[2].substring(1, data[2].length - 1);
+        if (data[3].includes("https://www.youtube.com/embed/")) {
+            var video = data[3].substring(0, data[3].length - 1) + "?autoplay=0\"";
+            var video_img = data[3].substring(1, data[3].length - 1).replace("https://www.youtube.com/embed/", "https://img.youtube.com/vi/") + "/0.jpg";
         } else {
             var video = data[3];
             var video_img = 'images/armstrong.jpg';
         }
-        var description_1 = data[4]?.substring(1, data[4].length - 2);
-        var description = description_1?.replace(/\\n/g, '<br>');
+        var description_1 = data[4].substring(1, data[4].length - 2);
+        var description = description_1.replace(/\\n/g, '<br>');
 
         addToCarousel(title, date, event, video, description, i);
         addToVideoList(title, date, event, video_img, data[3], description);
