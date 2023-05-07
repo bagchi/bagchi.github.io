@@ -1,0 +1,463 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ten significant publications</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	width: 960px;
+	background-color: #FFFFFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+header {
+	background-color: #ADB96E;
+}
+/* ~~ These are the columns for the layout. ~~
+
+1) Padding is only placed on the top and/or bottom of the block elements. The elements within these blocks have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the block itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the block element and place a second block element within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a block set to float right). Many times, padding can be used instead. For blocks where this rule must be broken, you should add a "display:inline" declaration to the block element's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar blocks could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the left instead of the right, simply float these columns the opposite direction (all left instead of all right) and they'll render in reverse order. There's no need to move the blocks around in the HTML source.
+
+*/
+.sidebar1 {
+	float: right;
+	width: 180px;
+	background-color: white;
+	padding-bottom: 10px;
+}
+.content {
+	margin: auto;
+	padding: 25px 0;
+	width: 780px;
+	float: center;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+nav ul{
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+nav a, nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #C6D580;
+}
+nav a:hover, nav a:active, nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+.color-red {
+	text-decoration-color: red;
+	color: red;
+}
+
+/* ~~ The footer ~~ */
+footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, article, figure {
+	display: block;
+}
+div.MsoListParagraphCxSpFirst {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+div.MsoListParagraphCxSpLast {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+div.MsoListParagraphCxSpMiddle {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+div.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoListParagraphCxSpFirst {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoListParagraphCxSpLast {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoListParagraphCxSpMiddle {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+li.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpFirst {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpLast {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpMiddle {mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+span.StyleBookmanBold {mso-style-name:"Style Bookman Bold";
+	mso-style-unhide:no;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:12.25pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+-->
+</style><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--></head>
+
+<body>
+
+<div class="container">
+  <article class="content">
+    <h1>Ten Most Significant Publications</h1>
+    <section>
+    <div class=WordSection1>
+      <p class=MsoNormal align=center style='text-align:center;text-indent:0in'><span
+class=StyleBookmanBold><span style='font-size:14.0pt'>
+        <o:p></o:p>
+      </span></span><span class=StyleBookmanBold>
+        <o:p>&nbsp;</o:p>
+        </span></p>
+      <p class=StyleBookmanBold><span class="MsoNormal">Here we list the highest impact 10 publications,
+		with some attention to spread across the years. After each entry, we give a brief statement of each publication’s
+		key contribution and impact.
+</span>
+        <o:p></o:p>
+      </p>
+      <ol>
+        <li>
+          <p> Bingrui Foo, Yu-Sung Wu, Yu-Chun Mao, <b>Saurabh Bagchi</b>, and Eugene Spafford, “Adepts: Adaptive Intrusion Response using Attack Graphs in an E-Commerce Environment,” In the International Conference on Dependable Systems and Networks <b>(DSN)</b>, pp. 508-517, Yokohama, Japan, June 28 - July 1, 2005. (Acceptance rate: 54/204 = 26.8%)
+		</li>
+	<p> Distributed systems with multiple interacting services, especially e-commerce systems, were (and are) ripe targets for malicious attacks because of the potential financial impact. This paper was the first to present the design of automated response mechanisms in an intrusion tolerant system called ADEPTS. This paper started prolific activity in the research community in intrusion tolerant systems (including a series of workshops WRAITS that Prof. Saurabh Bagchi initiated in 2007 and which then ran till 2012) and the architecture showed up in many commercial systems. </p>
+        <li>
+          <p> Rajesh Krishna Panta, Issa Khalil, and <b>Saurabh Bagchi</b>, “Stream: Low Overhead Wireless Reprogramming for Sensor Networks,” At the 26th Annual IEEE Conference on Computer Communications <b>(INFOCOM)</b>, pp. 928-936, May 6-12 2007, Anchorage, Alaska, USA. (Acceptance rate: 252/~1400 = 18%)
+		</li>
+	<p> Wireless reprogramming of a sensor network is useful for uploading new code or for changing the functionality of existing code. This paper introduced a fundamentally different method of wireless reprogramming that could transfer only the increments in the code. It showed an order of magnitude reduction in energy and reprogramming time compared to the industry standard, Deluge. USPTO granted a patent on this innovation and it still remains the fastest way to reprogram any multi-hop wireless network. </p>
+        <li>
+          <p> Sarah Sellke, Ness B. Shroff, and <b>Saurabh Bagchi</b>, “Modeling and Automated Containment of Worms,” IEEE Transactions on Dependable and Secure Computing <b>(TDSC)</b>, volume 5, issue 2, pp. 71-86, April-June 2008.
+		</li>
+	<p> Self-propagating codes, called worms, had drawn significant attention due to their enormously adverse impact on the Internet. This paper was the first to model both uniform scanning worms and preference scanning worms, extending a stochastic branching process model. Further, it showed how to contain such worms by limiting the number of scans to dark-address space. The containment mechanism became the de facto way to deal with worms, both in academic and industrial tools. </p>
+        <li>
+          <p> Amiya K. Maji, Fahad A. Arshad, <b>Saurabh Bagchi</b>, and Jan S. Rellermeyer (IBM), “An Empirical Study of the Robustness of Inter-component Communication in Android,” At the 42nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks <b>(DSN)</b>, pp. 1-12, June 25-28, 2012, Boston, MA. (Acceptance rate: 51/236 = 21.6%) <span class="color-red">(Test-of-Time Award Winner in DSN 2022)</span>
+		</li>
+	<p> This paper for the first time (in open literature) investigated the reliability of mobile Operating Systems, specifically Android and Symbian OS. This paper spawned off the active area of research on reliability of mobile OSes, in three distinct communities — reliability, software engineering, and security. The paper had an almost immediate impact on practice through a release of the Android OS, which hardened the Inter Process Communication (IPC) mechanism, Android 4.2 Jelly Bean API Level 17, released in October 2012.</p>
+        <li>
+          <p> Wilke, Andreas, Jared Bischof, Wolfgang Gerlach, Elizabeth Glass, Travis Harrison, Kevin P. Keegan, Tobias Paczian, William L Trimble (Argonne National Lab); <b>Saurabh Bagchi</b>, Ananth Grama, Somali Chaterji; and Folker Meyer (Argonne National Lab), "The MG-RAST metagenomics database and portal in 2015." <b>Nucleic Acids Research</b> 44, no. D1 (2016): D590-D594.
+		</li>
+	<p> MG-RAST (<a target="_blank" rel="noopener noreferrer" href="http://metagenomics.anl.gov">http://metagenomics.anl.gov</a>) is an open-submission data portal for processing, analyzing, sharing and disseminating metagenomic datasets. This was, at the time, the largest such public resource hosting over 200,000 datasets. Saurabh’s work, funded by the National Institutes of Health, enabled it to scale up by handling larger amounts of data. This paper reported on the novel NoSQL database design and implementation for the production system, without causing a single outage. </p>
+		<li>
+			<p> Subrata Mitra, Rajesh Krishna Panta (AT&T Labs), Moo-Ryong Ra (AT&T Labs), <b>Saurabh Bagchi</b>, "Partial-parallel-repair (PPR): a distributed technique for repairing erasure coded storage," At the European Conference on Computer Systems <b>(EuroSys)</b>, pp. 1-16, April 18-21, 2016, London, UK. (Acceptance rate: 38/180 = 21.1%)</p>
+		</li>
+	<p> With the tremendous amount of data being stored in datacenters, there was the imperative to store them in a failure-proof manner. Erasure codes (EC) had gained favor and increasing adoption as an alternative to data replication because they incur significantly less storage overhead, while maintaining equal (or better) reliability. However, it suffered from a severe serial bottleneck while recovering from concurrent failures. This paper came up with a distributed algorithm to relieve this bottleneck. Done jointly with AT&T, the work was patented and adopted by AT&T and then in an open source storage software called Ceph. </p>
+		<li>
+			<p> Abraham A Clements, Naif Saleh Almakhdhub, Khaled Saab, Prashast Srivastava, Jinkyu Koo, <b>Saurabh Bagchi</b>, and Mathias Payer, “Protecting Bare-metal Embedded Systems with Privilege Overlays,” In Proceedings of the IEEE International Symposium on Security and Privacy <b>(S&P/Oakland)</b>, pp. 289-303, May 22-26, 2017, San Jose, California. (Acceptance rate: 60/450 = 13.3%)</p>
+		</li>
+	<p> There was a rising crisis in embedded system software, the ones that ran on hardware without an intervening operating system (called bare-metal systems). The crisis was caused by the fact that such software ran with all privileges at all times and there was no operating system protection to safeguard such systems if any part of the software was attacked. This paper showed how to achieve that through a software interposition layer and one that could be inserted without needing any application modification. This has gone on to define how such software systems are protected today with uptake by ARM and numerous other vendors.</p>
+		<li>
+			<p> Shreyas Sen, Jinkyu Koo, and <b>Saurabh Bagchi</b>, “TRIFECTA: Security, Energy Efficiency, and Communication Capacity Comparison for Wireless IoT Devices,” in <b>IEEE Internet Computing</b>, vol. 22, no. 1, pp. 74-81, Jan/Feb 2018.</p>
+		</li>
+	<p> The widespread proliferation of sensor nodes in the era of the Internet of Things (IoT) has been ongoing for more than 8 years now. There is a tradeoff in wireless devices between what kinds of communication capability they have, how much and how quickly do they consume energy, and how easy it is to secure such devices from external attacks. This paper first laid out this three dimensional landscape in a systematic way and then profiled 6 prominent classes of wireless devices to show where they fit in this three-dimensional landscape. </p>
+		<li>
+			<p> <b>Saurabh Bagchi</b>, Muhammad-Bilal Siddiqui, Paul Wood, and Heng Zhang. “Dependability in edge computing,” Communications of the ACM <b>(CACM)</b>, vol. 63, no. 1, pp. 58-66, January 2020. </p>
+		</li>
+	<p> Edge computing is the practice of placing computing resources at the edges of the Internet in close proximity to devices and information sources. While the community had been embracing it for various practical use cases (like Industrial Internet of Things or IIoT), the dependability of such systems had never been discussed. This paper extrapolated from the known metrics of the components to the dependability of an overall edge system. It also looked forward and laid out a roadmap for what needed to happen for us to rely on edge systems for critical use cases.</p>
+		<li>
+			<p> Ashraf Mahgoub, Edgardo Barsallo Yi, Karthick Shankar (Carnegie Mellon University), Eshaan Minocha, Somali Chaterji, Sameh Elnikety (Microsoft Research), and <b>Saurabh Bagchi</b>, “WISEFUSE: Workload Characterization and Optimized Execution Plans for Serverless DAG Workflows,” At the 2022 ACM <b>SIGMETRICS conference</b>, pp. 1–28, June 2022. (Acceptance rate: 59/303 = 19.5%) <span class="color-red">(Best paper award)</span></p>
+		</li>
+	<p> Serverless computing has become a very popular model for the public cloud. Increasingly we have been running complex workloads on serverless platforms, with products from all the leading cloud vendors in this space. However, there was no way to provide any performance guarantees for such executions. This paper, working with Microsoft Azure and releasing the public traces, unveiled a method to provide probabilistic guarantees to serverless DAG executions. </p>
+
+
+	  </ol>
+	  <!--
+      <p class=MsoNormal1 style='margin-left:27.0pt;mso-add-space:
+auto;text-indent:-27.0pt;mso-list:l7 level1 lfo12'>
+        <o:p></o:p>
+      </p>
+      <p class=StyleBookmanBold style='text-indent:0in'><strong>Factors
+        for significance in my book:
+          <o:p></o:p>
+      </strong></p>
+      <ul>
+        <li>
+          <span class="StyleBookmanBold" style="font-size: 12pt">
+            <![if !supportLists]>        </span><span class="MsoNormal" style="font-weight: normal; font-family: Verdana, Arial, Helvetica, sans-serif;">Breakthrough insight or
+              system design idea – An idea that is quite different from the state-of-the-art
+              or gives a fresh insight into what had been considered a dead end.
+          </span></li>
+        <li>
+            <o:p></o:p>
+
+            <![if !supportLists]>        Significant follow-on work
+            – This factor is an evolving one, especially for the more recent work that I am
+            proud of. Still if I observe evidence of other researchers picking up the idea
+            and developing it further or applying it to other domains, that work becomes
+            significant in my eyes.
+            <o:p></o:p>
+          </li>
+      </ul>
+      <ul>
+        <li>
+          <span class="MsoNormal" style="font-weight: normal">
+            <![if !supportLists]>        Breakthrough experimental
+              work and significant results – It may have been a simple idea but we developed
+              it suitably, evaluated it empirically in a comprehensive and rigorous manner on
+              a significant system or testbed, and the results were impressive.
+
+            <o:p></o:p>
+            </span></li>
+      </ul>
+      <ul>
+        <li>
+          <span class="MsoNormal" style="font-weight: normal">
+            <![if !supportLists]>        Application in other
+              domains – This is characterized by the core Computer Science technical work
+              finding application and significant adoption in other domains. Two primary ones
+              have been computational genomics and earthquake engineering and simulation,
+              where we have been involved in building robust computational infrastructures
+              for them.
+
+            <o:p></o:p>
+            </span></li>
+      </ul>
+      <ul>
+        <li>
+          <span class="MsoNormal" style="font-weight: normal">
+            <![if !supportLists]>        Prestige of the forum – If
+              the work was accepted for a prestigious forum (conference or journal), implying
+              thereby that it went through a rigorous review and generated discussions at the
+              forum at which it was presented (the last factor only applies to conferences),
+              that is a factor in the significance of the work in my eyes.
+            </span></li>
+    </ul>
+      <p class=MsoNormal style='margin-left:27.0pt;mso-add-space:
+auto;text-indent:-27.0pt;mso-list:l7 level1 lfo12'>
+        <o:p></o:p>
+      </p>
+	-->
+    </div></section>
+    <section> </section>
+    <!-- end .content --></article>
+  <footer></footer>
+<!-- end .container --></div>
+</body>
+</html>
