@@ -1,0 +1,15 @@
+html *{
+    font-family: "Open Sans";
+    text-size-adjust: auto;
+    -webkit-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
+    -ms-text-size-adjust: auto;
+}
+
+.content-margin-30 {
+    margin: 30px;
+}
+
+li{
+    margin: 0 0 3vh 3vh;
+}
