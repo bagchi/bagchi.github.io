@@ -1,0 +1,36 @@
+Saurabh Bagchi
+Professor
+School of Electrical and Computer Engineering
+Purdue University
+Office: EE 325
+Office: 765-494-1741; Cell: 765-427-5708; Urgent: 765-714-8812
+Email: sbagchi@purdue.edu
+Administrative Assistant: Mary-Ann Saterfield; msaterfi@purdue.edu; 765-494-6389
+
+Schedule for Fall 2023
+----------------------
+Note: A [Alternate] B means each meeting is bi-weekly, starting with A the week of 8/20
+
+M 3:30-4:30: FL security and privacy
+M 5:00-6:00: Cisco in-network analytics
+
+T 10:30-12:00: Teaching ECE 369 (Forney G140)
+T 3:15-4:45: Pengcheng, Jay
+
+W 10:00-11:00: Office hours
+W 8:00-9:00 pm: IoT security
+
+R 10:30-12:00: Teaching ECE 369 (Forney G140)
+R 1:30-2:00: Milind
+R 3:00-4:00: Blockstore 
+
+F 10:00-11:00: Corporate Partnerships
+F 2:00-3:00: Secure RL (ARL) (bi-weekly)
+F 2:00-3:30: Hyunseung, Preeti
+F 4:00-5:00: Office hours
+F 5:00-6:30: DCSL group meeting (EE 317)
+
+Engagements
+------------
+Oct 9: SDC meeting; Anaheim, CA
+Nov 2-3: IEEE CS Board Meeting; Washington DC
