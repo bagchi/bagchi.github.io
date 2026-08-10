@@ -1,155 +1,546 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Saurabh Bagchi's Candidature for IEEE Computer Society Vice President</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saurabh Bagchi for IEEE Computer Society President, 2026</title>
+<meta name="description" content="Saurabh Bagchi is a candidate for IEEE Computer Society President, 2026. Read his vision, track record, and share your ideas for the Society.">
+
+<style>
+  :root{
+    --ink:#1C2321;
+    --trace:#1F5C4E;
+    --trace-soft:#E7EFEC;
+    --gold:#C98A2B;
+    --gold-soft:#F3E6D2;
+    --paper:#F6F5F0;
+    --card:#FFFFFF;
+    --slate:#565F5C;
+    --slate-light:#8B948F;
+    --line:#E1DFD6;
+    --display:'Newsreader',Georgia,serif;
+    --body:'Public Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    --mono:'Space Mono',ui-monospace,Menlo,monospace;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,500&family=Public+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.65;-webkit-font-smoothing:antialiased;}
+  img{max-width:100%;display:block;}
+  a{color:inherit;}
+  ::selection{background:var(--gold-soft);color:var(--ink);}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:.01ms !important;transition-duration:.01ms !important;}
+  }
+
+  .wrap{max-width:980px;margin:0 auto;padding:0 44px;}
+  @media (max-width:720px){.wrap{padding:0 22px;}}
+
+  /* ---------- nav ---------- */
+  .nav{
+    position:sticky;top:0;z-index:30;
+    background:rgba(246,245,240,.92);
+    backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{max-width:980px;margin:0 auto;padding:16px 44px;display:flex;align-items:center;justify-content:space-between;}
+  @media (max-width:720px){.nav-inner{padding:14px 22px;}}
+  .nav-left{display:flex;align-items:center;gap:10px;}
+  .nav-left img{height:26px;width:auto;}
+  .nav-left span{font-family:var(--mono);font-size:.72rem;color:var(--slate);}
+  .nav-links{display:flex;gap:26px;list-style:none;margin:0;padding:0;}
+  @media (max-width:760px){.nav-links{display:none;}}
+  .nav-links a{text-decoration:none;font-size:.88rem;font-weight:600;color:var(--ink);position:relative;}
+  .nav-links a::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:1px;background:var(--trace);transform:scaleX(0);transform-origin:left;transition:transform .2s ease;}
+  .nav-links a:hover::after{transform:scaleX(1);}
+  .nav-cta{font-family:var(--mono);font-size:.76rem;font-weight:700;padding:9px 16px;border:1px solid var(--ink);color:var(--ink);text-decoration:none;border-radius:3px;transition:background .18s ease,color .18s ease;}
+  .nav-cta:hover{background:var(--ink);color:var(--paper);}
+
+  /* ---------- hero ---------- */
+  .hero{padding:76px 0 54px;}
+  @media (max-width:720px){.hero{padding:48px 0 36px;}}
+  .hero-grid{display:grid;grid-template-columns:1.3fr .9fr;gap:52px;align-items:center;}
+  @media (max-width:820px){.hero-grid{grid-template-columns:1fr;}}
+
+  .fade-up{opacity:0;transform:translateY(16px);animation:fadeUp .8s ease forwards;}
+  .fade-up.d1{animation-delay:.08s;}
+  .fade-up.d2{animation-delay:.18s;}
+  .fade-up.d3{animation-delay:.28s;}
+  @keyframes fadeUp{to{opacity:1;transform:none;}}
+
+  .kicker{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:var(--mono);font-size:.74rem;letter-spacing:.03em;
+    color:var(--trace);margin-bottom:22px;
+  }
+  .kicker::before{content:"";width:16px;height:1px;background:var(--trace);display:inline-block;}
+
+  .hero h1{
+    font-family:var(--display);font-weight:600;
+    font-size:clamp(2.1rem,4.4vw,3.3rem);
+    line-height:1.1;letter-spacing:-.01em;margin:0 0 22px;
+  }
+  .hero h1 em{font-style:italic;color:var(--trace);font-weight:500;}
+  .hero p.lede{font-size:1.05rem;color:var(--slate);max-width:50ch;margin:0 0 30px;}
+  .hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+  .btn{font-family:var(--body);font-size:.9rem;font-weight:600;text-decoration:none;padding:13px 22px;border-radius:3px;display:inline-block;transition:transform .15s ease,box-shadow .15s ease,background .15s ease;}
+  .btn-solid{background:var(--trace);color:#fff;}
+  .btn-solid:hover{background:#164A3F;}
+  .btn-line{border:1px solid var(--line);color:var(--ink);}
+  .btn-line:hover{border-color:var(--slate);}
+
+  .hero-portrait{position:relative;}
+  .hero-portrait .frame{border:1px solid var(--line);padding:8px;background:var(--card);position:relative;}
+  .hero-portrait .frame::before{
+    content:"";position:absolute;top:-8px;left:-8px;right:-8px;bottom:-8px;
+    border:1px solid var(--gold-soft);pointer-events:none;
+  }
+  .hero-portrait img{width:100%;height:340px;object-fit:cover;object-position:50% 20%;}
+  .hero-portrait .tag{font-family:var(--mono);font-size:.7rem;color:var(--slate-light);margin-top:10px;}
+
+  .credentials{display:flex;flex-wrap:wrap;gap:9px;margin-top:26px;}
+  .chip{font-family:var(--mono);font-size:.72rem;padding:6px 11px;border:1px solid var(--line);border-radius:3px;color:var(--slate);background:var(--card);}
+
+
+  /* ---------- carousel ---------- */
+  .carousel{position:relative;border:1px solid var(--line);background:var(--card);overflow:hidden;}
+  .car-stage{position:relative;display:grid;grid-template-columns:1.5fr 1fr;min-height:400px;}
+  @media (max-width:720px){.car-stage{grid-template-columns:1fr;min-height:auto;}}
+  .car-img-wrap{position:relative;background:var(--trace-soft);overflow:hidden;}
+  .car-img-wrap img,.car-img-wrap .ph{
+    position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+    opacity:0;transition:opacity .6s ease;cursor:zoom-in;
+  }
+  .car-img-wrap .ph{position:relative;display:flex;align-items:center;justify-content:center;cursor:default;}
+  .car-img-wrap img.active,.car-img-wrap .ph.active{opacity:1;}
+  .car-img-wrap{height:400px;}
+  @media (max-width:720px){.car-img-wrap{height:260px;}}
+  .ph p{font-family:var(--mono);font-size:.74rem;color:var(--slate-light);text-align:center;padding:0 26px;}
+  .car-caption{padding:30px 32px;display:flex;flex-direction:column;justify-content:center;}
+  .car-caption .num{font-family:var(--mono);color:var(--gold);font-size:.76rem;margin-bottom:12px;}
+  .car-caption p{font-family:var(--display);font-size:1.1rem;line-height:1.5;margin:0;color:var(--ink);}
+  .car-nav{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:2;font-size:1rem;}
+  .car-nav:hover{border-color:var(--trace);}
+  .car-prev{left:14px;} .car-next{right:14px;}
+  .car-dots{display:flex;gap:7px;justify-content:center;padding:14px;}
+  .car-dot{width:6px;height:6px;border-radius:50%;background:var(--line);border:none;cursor:pointer;padding:0;}
+  .car-dot.active{background:var(--gold);}
+
+  .lightbox{position:fixed;inset:0;background:rgba(28,35,33,.94);display:none;align-items:center;justify-content:center;z-index:60;padding:40px;}
+  .lightbox.open{display:flex;}
+  .lightbox img{max-height:88vh;max-width:88vw;object-fit:contain;}
+  .lightbox-close{position:absolute;top:24px;right:30px;color:#fff;background:none;border:1px solid rgba(255,255,255,.4);padding:8px 14px;border-radius:3px;font-family:var(--mono);font-size:.8rem;cursor:pointer;}
+
+  /* ---------- section scaffolding with trace rail ---------- */
+  section.block{padding:64px 0;border-top:1px solid var(--line);position:relative;}
+
+  .rail-layout{display:grid;grid-template-columns:34px 1fr;gap:26px;}
+  @media (max-width:640px){.rail-layout{grid-template-columns:20px 1fr;gap:16px;}}
+  .rail{position:relative;}
+  .rail .via{
+    width:9px;height:9px;border-radius:50%;
+    background:var(--card);border:2px solid var(--trace);
+    position:absolute;top:6px;left:50%;transform:translateX(-50%);
+  }
+  .rail .via .pulse{
+    position:absolute;inset:-4px;border-radius:50%;border:1px solid var(--trace);
+    opacity:.5;animation:breathe 3.4s ease-in-out infinite;
+  }
+  @keyframes breathe{0%,100%{transform:scale(1);opacity:.5;}50%{transform:scale(1.6);opacity:0;}}
+  .rail .trace-line{
+    position:absolute;top:16px;bottom:-64px;left:50%;width:1px;
+    background:repeating-linear-gradient(to bottom, var(--line) 0 4px, transparent 4px 8px);
+    transform:translateX(-50%);
+  }
+  section.block:last-of-type .rail .trace-line{display:none;}
+
+  .block-eyebrow{font-family:var(--mono);font-size:.74rem;color:var(--slate-light);margin:0 0 10px;}
+  .block-head h2{font-family:var(--display);font-weight:600;font-size:clamp(1.7rem,3vw,2.25rem);margin:0 0 34px;letter-spacing:-.008em;}
+
+  .content{max-width:70ch;}
+  .content p{color:var(--slate);margin:0 0 18px;}
+  .content strong{color:var(--ink);}
+
+  .pull{font-family:var(--display);font-style:italic;font-size:1.24rem;line-height:1.55;color:var(--ink);border-left:2px solid var(--gold);padding-left:22px;margin:32px 0;}
+
+  .whiteboard-aside{margin-top:32px;border:1px solid var(--line);background:var(--card);padding:16px;max-width:500px;}
+  .whiteboard-aside img{width:100%;}
+  .whiteboard-aside .cap{font-family:var(--mono);font-size:.72rem;color:var(--slate-light);margin-top:10px;}
+
+  /* pillars */
+  .pillars{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  @media (max-width:680px){.pillars{grid-template-columns:1fr;}}
+  .pillar{background:var(--card);border:1px solid var(--line);border-top:2px solid var(--trace);padding:26px 24px;transition:border-color .18s ease;}
+  .pillar:hover{border-top-color:var(--gold);}
+  .pillar .mark{font-family:var(--mono);color:var(--gold);font-size:.76rem;display:block;margin-bottom:12px;}
+  .pillar h3{font-family:var(--body);font-weight:700;font-size:1.02rem;margin:0 0 10px;color:var(--ink);}
+  .pillar p{margin:0;color:var(--slate);font-size:.94rem;}
+
+  /* track record */
+  .record-item{padding:22px 0;border-bottom:1px solid var(--line);}
+  .record-item:first-child{padding-top:0;}
+  .record-date{font-family:var(--mono);font-size:.76rem;color:var(--gold);margin-bottom:8px;}
+  .record-item h3{font-family:var(--body);font-weight:700;font-size:1.0rem;margin:0 0 8px;color:var(--ink);}
+  .record-item p{margin:0;color:var(--slate);font-size:.94rem;}
+
+  /* feedback */
+  .feedback-grid{display:grid;grid-template-columns:1fr 280px;gap:44px;}
+  @media (max-width:820px){.feedback-grid{grid-template-columns:1fr;}}
+  .field{margin-bottom:16px;}
+  .field label{display:block;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.03em;color:var(--slate);margin-bottom:8px;}
+  .field textarea,.field input{width:100%;border:1px solid var(--line);background:var(--card);padding:12px 14px;font-family:var(--body);font-size:.94rem;color:var(--ink);border-radius:3px;}
+  .field textarea{min-height:140px;resize:vertical;}
+  .field textarea:focus,.field input:focus{outline:none;border-color:var(--trace);box-shadow:0 0 0 3px var(--trace-soft);}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  @media (max-width:460px){.two-col{grid-template-columns:1fr;}}
+  .captcha-box{margin:6px 0 18px;}
+  .submit-btn{border:none;cursor:pointer;}
+  .feedback-side{border-left:1px solid var(--line);padding-left:28px;}
+  @media (max-width:820px){.feedback-side{border-left:none;padding-left:0;border-top:1px solid var(--line);padding-top:22px;}}
+  .feedback-side h4{font-family:var(--display);font-size:1.08rem;margin:0 0 10px;}
+  .feedback-side p{color:var(--slate);font-size:.9rem;}
+
+  footer{padding:36px 0 56px;}
+  footer p{color:var(--slate-light);font-size:.8rem;font-style:italic;border-top:1px solid var(--line);padding-top:22px;}
+</style>
+  <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 </head>
-<body style="margin: 25px;">
-    <div class="columns is-desktop is-centered">
-        <div class="column content">
-            <a href="/images/IEEE25/nasc24.jpg"><img alt="nasc24" src="/images/IEEE25/nasc24.jpg"/></a>
-            <p>At the IEEE CS North America Student Challenge Competition 2024 in Washington DC with the finalists and co-organizers/judges Deborah, Eric, and Haoliang.</p>
-        </div>
-        <div class="column content">
-            <a href="/images/IEEE25/nasc24-winners.jpg"><img alt="nasc24 winners" src="/images/IEEE25/nasc24-winners.jpg"/></a>
-            <p>Awarded the winners of the IEEE CS North America Student Challenge Competition 2024 at a Smithsonian Museum in Washington DC.</p>
-        </div>
-        <div class="column content">
-            <a href="/images/IEEE25/teaching25.jpg"><img alt="teaching25" src="/images/IEEE25/teaching25.jpg"/></a>
-            <p>Doing something that I love doing, teaching and learning (in my class in Fall 2024)</p>
-        </div>
-        <div class="column content">
-            <a href="/images/IEEE25/award-ceremony19.jpg"><img alt="award ceremony19" src="/images/IEEE25/award-ceremony19.jpg"/></a>
-            <p>At the CS awards ceremony in 2019.</p>
-        </div>
-        <div class="column content">
-            <a href="/images/IEEE25/chorus24.JPG"><img alt="chorus24" src="/images/IEEE25/chorus24.JPG"/></a>
-            <p>With my team of the NSF CHORUS Center, at Purdue in 2024. </p>
-        </div>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-left">
+      <img src="images/IEEE26/cs-logo.png" alt="IEEE Computer Society logo">
+      <span>SAURABH BAGCHI · 2026</span>
     </div>
-    <div class="content">
-        <h1>IEEE Computer Society Election 2025 </h1>
-        <div class="columns is-vcentered">
-            <div class="column">
-                <p> <img style="margin-left: 15%; max-width: 75%;" alt="IEEE CS" src="/images/IEEE25/IEEE-CS_LogoTM-orange-354x108.webp"> </p>
-            </div>
-            <div class="column">
-                <figure class="image">
-                <img class="is-rounded" style="max-width: 50%;" alt="saurabh" src="/images/saurabh_0625.jpg">
-                </figure>
-            </div>
-            <div class="column">
-                <a class="button is-warning is-medium" href="https://eballot.app/ieee/login.cfm?fb=1"><b>Election Ballot</b></a>
-            </div>
+    <ul class="nav-links">
+      <li><a href="#who">Who am I</a></li>
+      <li><a href="#vision">Vision</a></li>
+      <li><a href="#record">My record</a></li>
+      <li><a href="#feedback">Feedback</a></li>
+    </ul>
+    <a class="nav-cta" href="#" id="ballot-link">Cast your ballot</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="kicker fade-up">IEEE Computer Society Election · 2026</p>
+        <h1 class="fade-up d1">Let's build a <em>trusted, agile</em> Computer Society. Ready for what comes next.</h1>
+        <p class="lede fade-up d2">I'm running for President of the IEEE Computer Society. Here I share my story, my plans for our technical community, and what I've done so far. I'd also love to hear your ideas, and to learn whether you'd like to get involved.</p>
+        <div class="hero-actions fade-up d3">
+          <a class="btn btn-solid" href="#vision">Read my vision</a>
+          <a class="btn btn-line" href="#feedback">Share your ideas</a>
+          <a class="btn btn-line" href="#who">Who am I</a>
+          <a class="btn btn-line" href="#record">My record</a>
+        </div>
+        <div class="credentials fade-up d3">
+          <span class="chip">IET Fellow · 2022</span>
+          <span class="chip">AAIA Fellow · 2025</span>
+          <span class="chip">Humboldt Award · 2018</span>
+          <span class="chip">27 PhD grads</span>
+        </div>
+      </div>
+      <div class="hero-portrait fade-up d2">
+        <div class="frame">
+          <img src="images/IEEE26/headshot.jpg" alt="Portrait of Saurabh Bagchi">
+        </div>
+        <p class="tag">Professor, Purdue University · Elmore Family School of ECE &amp; CS</p>
+      </div>
+    </div>
+
+    <div class="carousel fade-up d3" style="margin-top:46px;">
+      <div class="car-stage" id="car-stage">
+        <div class="car-img-wrap">
+          <img class="active" data-slide="0" src="images/IEEE26/dc-student-challenge-2024.png" alt="Saurabh Bagchi with finalists and judges at the IEEE CS North America Student Challenge Competition 2024 in Washington DC" data-full="images/IEEE26/dc-student-challenge-2024.png">
+          <img class="" data-slide="1" src="images/IEEE26/pickleball-2025.jpg" alt="Saurabh Bagchi holding a runner-up medal at a pickleball tournament" data-full="images/IEEE26/pickleball-2025.jpg">
+          <img class="" data-slide="2" src="images/IEEE26/teaching-dec25.jpg" alt="A large sophomore lecture hall" data-full="images/IEEE26/teaching-dec25.jpg">
+          <img class="" data-slide="3" src="https://www.choruscomputes.xyz/news_images/chorus-group-pic-0626.jpg" alt="Saurabh Bagchi with the NSF Center CHORUS group, June 2026" data-full="https://www.choruscomputes.xyz/news_images/chorus-group-pic-0626.jpg">
+          <img class="" data-slide="4" src="https://www.saurabhbagchi.us/images/IEEE25/award-ceremony19.jpg" alt="Saurabh Bagchi at the Computer Society Awards Ceremony, 2019" data-full="https://www.saurabhbagchi.us/images/IEEE25/award-ceremony19.jpg">
+        </div>
+        <div class="car-caption">
+          <p class="num" id="cap-num">01 / 05</p>
+          <p id="cap-text">At the IEEE CS North America Student Challenge Competition 2024 in Washington DC with the finalists and co‑organizers/judges Deborah, Eric, and Haoliang.</p>
+        </div>
+        <button class="car-nav car-prev" aria-label="Previous photo">‹</button>
+        <button class="car-nav car-next" aria-label="Next photo">›</button>
+      </div>
+      <div class="car-dots" id="car-dots"></div>
+    </div>
+  </div>
+</header>
+
+
+<!-- ---------- WHO AM I ---------- -->
+
+<section class="block" id="election-schedule" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:28px 0;">
+  <div class="wrap">
+    <div class="block-head" style="margin-bottom:14px;">
+      <p class="block-eyebrow">Election Schedule</p>
+    </div>
+    <p>You will receive your electronic ballot from Election from <a href="mailto:ieee-computervote@ieee.org">ieee-computervote@ieee.org</a> on 14 August 2026. Eligible voting members for this election include current IEEE Computer Society members with active membership as of 11 June 2026. Unfortunately, Graduate Student Members and Students are ineligible to vote.</p>
+  </div>
+</section>
+
+<section class="block" id="who">
+  <div class="wrap">
+    <div class="rail-layout">
+      <div class="rail"><div class="via"><span class="pulse"></span></div><div class="trace-line"></div></div>
+      <div>
+        <div class="block-head">
+          <p class="block-eyebrow">01 · Introduction</p>
+          <h2>Who am I?</h2>
         </div>
         <div class="content">
-            <p>I am a candidate for Vice President of the IEEE Computer Society. I share here my track record in leadership roles, including within IEEE, my rationale for running and my plans to make our computing community even more impactful.</p>
-            <ol>
-                <li><a href="#who">Who am I?</a></li>
-                <li><a href="#leader">My track record as a leader</a></li>
-                <li><a href="#plans">My plans for our computing community</a></li>
-                <li><a href="#honors">Honors and recognitions</a></li>
-            </ol>
-        	<i> The opinions on this page are mine and are not necessarily those of the IEEE Computer Society or the IEEE. </i>    
-		</div>
-        <div class="content box">
-            <h2 id="who">Who am I?</h2>
-            <p>I am a Professor of Electrical and Computer Engineering and Computer Science at <b>Purdue University in the US</b>. I am also the <b>Co-Founder and CTO of a cloud computing startup KeyByte</b> (2022-present). My research contributions lie in secure and reliable computing.</p>
-            <p>
-                Starting from my <b>undergraduate days at the Indian Institute of Technology (IIT) Kharagpur</b> where I led the IEEE Student Chapter, I have been involved with IEEE in both participatory and leadership roles. I lead the <b>CS Student Challenge Competitions</b> 
-                (for undergraduate and graduate students the world over), academia-industry visioning workshops at various CS conferences (laying the roadmap for security in distributed systems, assured autonomy, and cyber-physical systems (CPS) resilience), and am the 
-                <b>Co-Chair of the CS Juniors Program</b> (for organizing computing events for K-12 students the world over). Saurabh has led in various organizational roles with the IEEE Technical Community on Dependable Computing and Fault Tolerance (TCFT), such as organizing 
-                the DSN Conference and founding the Rising Stars program in 2020 to recognize outstanding contributions from young researchers.
-            </p>
-            <p>
-                In my academic capacity, I lead the <b>National Science Foundation (NSF)-funded center CHORUS</b> (2024-present) on resilient CPS, involving 4 universities and 5 industry partners. I lead the <b>Army's Artificial Intelligence Innovation Institute (A2I2)</b> (2020-present) 
-                on assured autonomous operations, a partnership of 3 universities. I am <b>a Fellow of the Institute of Engineering and Technology (IET)</b> (2022), <b>an inducted member of IFIP</b> (2020), <b>IEEE CS Golden Core Member</b> (2017) and Distinguished Contributor (2021), 
-                and <b>a Humboldt Fellow</b> (2018).
-            </p>
-            <p>
-                I am proudest of the <b>25 PhD and 30 Masters thesis students</b> who have graduated from our research group and who are in various stages of building wonderful careers in industry or academia. I received my <b>MS and PhD degrees from the University of Illinois at Urbana-Champaign</b> 
-                and my <b>BS degree from IIT Kharagpur, all in Computer Science</b>. I maintain strong connections to my birth land, India, serving as International Visiting Faculty at IIT Kharagpur and IIT Bombay. On a personal level, I have been a 20+ year volunteer with Asha for Education, 
-                an organization that has branches at all major US universities, and that has been providing basic education to underprivileged children in India since 1991. I love my treks on paths all across the globe, trodden and untrodden, with his family.
-            </p>
+          <p>I am a Professor in the School of Electrical and Computer Engineering and the Department of Computer Science at Purdue University, in the sleepy and charming university town of West Lafayette, Indiana. I am the Co‑founder and CTO of a cloud computing startup, KeyByte. I have had the joy of graduating <strong>27 PhD students and 30 Masters thesis students</strong> from my group, who are all in various stages of building wonderful careers in academia and industry.</p>
+
+          <p>I was born and grew up in the overwhelming, contradiction‑filled, warm, embracing city of Calcutta (renamed Kolkata) in India. With my father's job as a civil engineer in the Federal Government of India, I had the fortune, though it did not seem that great at the time, of traveling through many parts of India. I did my undergraduate studies at the Indian Institute of Technology, Kharagpur, in Computer Science, and after that, following a hallowed and well‑worn path, I came to the US for MS and PhD at the University of Illinois at Urbana‑Champaign. Four short years later, I added a "Dr." to my name and was out into the bright lights of industry, starting work at the IBM T. J. Watson Research Center in New York.</p>
+
+          <p class="pull">A decade and a half later, I am still idealistic, still wonder‑struck that a profession can be so rewarding.</p>
+
+          <p>A few years of learning from, and then working together with, some of the greats of computer science at IBM, the academic bug bit me, and I headed back to the mid‑west to become an idealistic Assistant Professor at Purdue University. One scenic detour along the way has been a successful startup I did with three colleagues, SensorHound Innovations, on embedded system reliability. Currently at Purdue, I lead the <strong>National Science Foundation center CHORUS (2024–current)</strong> on resilient cyber‑physical systems, and the <strong>Army's Artificial Intelligence Innovation Institute (A2I2) (2020–current)</strong> on assured autonomous operations.</p>
+
+          <p>Our technical community has been generous with awards, acknowledging our technical and societal contributions. Our work has received <strong>13 best paper or runner‑up for best paper awards, and two Test‑of‑Time awards</strong> (DSN 2022; Middleware 2025). I am a nominated member of the International Federation for Information Processing (IFIP), a <strong>Fellow of the Institute of Engineering and Technology (2022)</strong> and of the <strong>Asia Pacific Artificial Intelligence Association (2025)</strong>, and a recipient of the <strong>Humboldt Award (2018)</strong>.</p>
+
+          <p>On a personal level, I maintain strong connections to India, serving as International Visiting Faculty at IIT Kharagpur and IIT Bombay. I have been a <strong>20+ year volunteer with Asha for Education</strong>, a non‑profit that has been supporting basic education for underprivileged children in India since 1991. I love to play tennis — surface no matter — and for those snowy days in the Midwest, pickleball would do equally well. My wife is also a Professor at Purdue, and she has kept me sane (to some extent), on my toes (especially when she zips past me during our bike rides), energetic (whenever I feel like lolling too much, she lets me know), and fun (no professorial airs, please).</p>
+
+          <div class="whiteboard-aside">
+            <img src="images/IEEE26/whiteboard-0726.jpg" alt="Saurabh Bagchi sketching a multimodal classification pipeline on a whiteboard">
+            <p class="cap">Same habit in every room I'm in, from the classroom to the boardroom: sketch it out, then build it.</p>
+          </div>
         </div>
-        <div class="content box">
-            <h2 id="leader">My track record as a leader</h2>
-            <p>
-                I have been fortunate to have led several teams and efforts that have led to tangible positive impacts in our world. I use this saying as my touchstone: "There are no losers on a winning team, and no winners on a losing team." (Fred Brooks Jr.)
-            </p>
-            <ol>
-                <li>
-                    <b>Chair, Computer Society Student Challenge Competition (2021-current):</b>
-                    The challenge competitions provide a platform for students to create innovative solutions to real-world problems based on real-world datasets, provided by academic and industry teams. These competitions alternately focus on the global student community and the 
-                    North America-based student community. For the last Global Student Competition, 500 students registered and for the last North America Competition (2024), 43 teams registered. Each was financially sponsored by IEEE CS and private industry, organized with two other 
-                    Board member colleagues (Prof. Deborah Silver and Prof. Joaquim Jorge), and the final happened at an IEEE CS conference.
-                </li>
-                <li>
-                    <b>Board of Governor Member (2017-20, 2022-24):</b>
-                    I took on various participatory and leadership roles during my stints on the board. These were largely focused on two overarching goals — energizing students and young professionals, and creating synergies between academic and industry professionals. Specific roles 
-                    were leading student activities within the Geographical Activities Committee (GAC), IEEE CS representative to IEEE Biometrics Council, Charter Member of CS Distinguished Contributor Recognition Program, and member of Ad-Hoc Committee on expansion of CS activities. 
-                </li>
-                <li>
-                    <b>Distinguished Visitor, IEEE Computer Society (2021-24):</b>
-                    I was selected as a Distinguished Visitor and gave 6 talks (including two keynote talks) at various campuses (IISc Bangalore, University of Lisbon, University of Glasgow, etc.) and CS conferences (keynotes at ISSRE, InC4). Topics included "Turning Padawans to 
-                    Jedi Knights: Best practices for training our computing students", "How to have a Terrific or a Terrible Life During Your First Three Years as Faculty", and "Dependability and Data Analytics: A Match Made in the Cloud".
-                </li>
-                <li>
-                    <b>Co-Chair, IEEE CS Juniors Program (2025); Member (2024):</b>
-                    This is a global program, started in 2024, meant to inspire K-12 students to explore and excel in computing activities. The goal of the program is to spark curiosity in computer science and build lasting relationships with students, educators, and communities. 
-                    As Co-Chair, my responsibilities include defining the rubric for selection of projects, coordinating evaluation of the proposals for events, and helping the organizers with the successful execution of the events.
-                </li>
-                <li>
-                    <b>Steering Committee and Organizing Committee of TCFTC and DSN Conference (7 times in the last 10 years):</b>
-                    I have been a core member of the IEEE CS Technical Community on Dependable Computing and Fault Tolerance (TCFTC). I have been in the Organizing Committee of the primary conference of the TC, Dependable Systems and Networks (DSN), 7 times in the last 10 years, 
-                    including in prominent roles like Founder of the Rising Star Award (2020), Workshop Chair (2021, 2025), Steering Committee (2018-19), and PC Chair (2011).
-                </li>
-            </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ---------- VISION ---------- -->
+<section class="block" id="vision">
+  <div class="wrap">
+    <div class="rail-layout">
+      <div class="rail"><div class="via"><span class="pulse"></span></div><div class="trace-line"></div></div>
+      <div>
+        <div class="block-head">
+          <p class="block-eyebrow">02 · Platform</p>
+          <h2>My vision and plans for our technical community</h2>
         </div>
-        <div class="content box">
-            <h2 id="plans">My plans for our computing community</h2>
-            <p>
-                I have lofty goals to make Computer Society an even better representative for our technical community. My goals are ambitious but grounded in tangible plans to accomplish them.
-            </p>
-            <p>
-                <b><i>First,</i> I will energize our organization to become even more of a trusted independent voice in technology matters.</b>
-                This means we will train our members to enhance their impact through their leading technical contributions and through greater cooperation with standards making bodies (including IEEE) and policy makers. I am bullish that in this time of great technological disruption, 
-                doomsayers about the future of our profession are wrong. Researchers and practitioners like us will grow and flourish and professional societies like ours have a pivotal role to play in harnessing our creativity and passion. I will put in place mentoring and 
-                training programs to enable us to reach this destination.
-            </p>
-            <p>
-                As part of this, I will elevate the impact of CS by leading <b>roadmapping efforts in technologies</b> that are being rapidly developed and commercialized. Thus, I will guide these technologies toward serving the greatest good of the greatest number.
-            </p>
-            <p>
-                <b><i>Second,</i></b> while I have been on the Board of Governors, I have worked fruitfully to <b>make CS the natural locus for industry and academia to collaborate</b>. I will put in place programs and events where they can come together to undertake joint activities, such as, roadmapping efforts, standards and prototype building, and challenge competitions. These joint activities will further their short-term goals as well as contribute to the long-term flowering of our technical communities.
-            </p>
-            <p>
-                <b><i>Third,</i> I will make CS more agile in vetting technologies and promoting the most promising ones that offer solutions to our pressing societal problems.</b> 
-                Through this, I will underline my firm belief that technology is a force for good, and CS needs to be a leader in this movement. I will achieve this through further streamlining of our operations and making sure we are constantly listening to voices outside our board rooms and absorbing and acting upon the cogent pieces of feedback.
-            </p>
-            <p>
-                <b><i>Finally,</i> I will be the voice for the thousands of our members</b> 
-                from all across the globe to whom IEEE is but a distant presence. I will achieve this through local member-driven events and at a global level, highlighting that most of technology is human centered. I will demonstrate through collective leadership how we can enhance the human aspects of our technology, both as designers and implementers and as users.
-            </p>
+        <div class="content">
+          <p>IEEE Computer Society stands at an inflection point — poised not just to disseminate technical knowledge, but to be a beacon showing our community the path forward. My two terms on the CS Board of Governors, along with my current leadership of two Society‑wide programs — CS Juniors and the Global Student Challenge — have prepared me to lead CS toward a future in which we shape computing technology as a powerful force for serving humanity.</p>
+        </div>
+
+        <div class="pillars">
+          <div class="pillar">
+            <span class="mark">I.</span>
+            <h3>Academia–industry–government collaboration</h3>
+            <p>While on the Board of Governors, I led a successful effort to make CS the locus for academia‑industry‑government collaboration. CS is uniquely positioned to catalyze this, but too often we’ve missed the calling. I will change this through focused programs: joint ventures in roadmapping technology sectors; standards development to ensure interoperability and security; joint prototype creation; and student challenge competitions that build effective talent pipelines.</p>
+          </div>
+          <div class="pillar">
+            <span class="mark">II.</span>
+            <h3>Elevate Society members</h3>
+            <p>CS must proactively nurture students and young professionals (SYP) to become leaders. Currently leading CS Juniors as Chair, and the Student Challenge as Chair, I see firsthand how much impact well‑run programs can have. I will streamline our operations and create clear, documented pathways for global members — far beyond our boardrooms — to contribute to, and then lead, important programs.</p>
+          </div>
+          <div class="pillar">
+            <span class="mark">III.</span>
+            <h3>Independent voice in technology policy</h3>
+            <p>I will build standing, rapid‑response task forces of domain experts who translate complex research into accessible policy briefs, and train members to amplify their impact with policymakers and standards bodies (NIST, IETF, ISO).</p>
+          </div>
+          <div class="pillar">
+            <span class="mark">IV.</span>
+            <h3>Efficient operation</h3>
+            <p>I will make CS agile and cost‑efficient in initiating and sustaining activities worldwide — leading through local, member‑driven events that tap into the passion of our members, given the proper support and recognition, and keep these events broadly accessible across financial and geographical lines.</p>
+          </div>
+        </div>
+
+        <div class="content" style="margin-top:28px;">
+          <p>This moment of opportunity excites me. Drawing on my leadership experience across IEEE, ACM, and IFIP, as well as my passion and discipline, I am committed to making the Society a deeply rewarding professional home for its members and a powerful, enduring force for good in the broader world.</p>
+        </div>
+      </div>
     </div>
-    <div class="content box">
-        <h2 id="honors">Honors and Recognitions</h2>
-        <p>
-    	  <!-- Start -->
-	    <p class="c10"><span class="c1">The top-10 list, enabled by a wonderful team of students, post-doctoral scholars, and collaborators from academia and industry, plus the well-wishes of many. </span></p><p class="c10 c12"><span class="c2 c0 c22"></span></p><ol class="c8 lst-kix_1z0jf09j7rzr-0 start" start="1"><li class="c10 c7 li-bullet-0"><span class="c2 c0"><b><i>Spanning the years:</i></b> </span><span class="c1">13 best paper awards or runners-up awards at IEEE/ACM conferences and a <b>Test of Time Award</b>, from the IEEE Technical Committee on Dependable Computing and Fault Tolerance (TCFT). This award is given to the work published 10 years back that has had the greatest impact in the area of dependable computing. </span></li><li class="c3 c7 li-bullet-0"><span class="c2 c0"><b><i>June 2024:</i></b></span><span>&nbsp;Awarded as PI and</span><span><a class="c13" href="https://www.choruscomputes.xyz">&nbsp;</a></span><span class="c14 c0"><a class="c13" href="https://www.choruscomputes.xyz">Director of National Science Foundation (NSF) Center</a></span><span>, from the Computing Directorate. The Center called CHORUS, is for $7M over 5 years, and involves 4 universities (Purdue, Georgia Tech, University of Southern California, and University of Wisconsin at Madison), and 7 industry partners. This is the first NSF CISE-funded center with Purdue as the lead.</span><span class="c17">&nbsp;</span></li><li class="c21 c7 li-bullet-0"><span class="c2 c0"><b><i>June 2023:</i></b> </span><span>Selected to </span><b>Chair the USENIX Annual Technical Conference 2024</b><span class="c1">, the flagship conference of the USENIX professional society.</span></li><li class="c21 c7 li-bullet-0"><span class="c2 c0"><b><i>June 2023: </i></b></span><span>Selected to the </span><b>Steering Committee of the ACM/IFIP Middleware Conference</b><span class="c1">. This is a conference in the computer systems area, running since 1998. &nbsp;</span></li><li class="c21 c7 li-bullet-0"><span class="c2 c0"><b><i>October 2024, June 2022: </i></b></span><span class="c1">&nbsp;IET (Institute of Engineering and Technology) recognitions</span></li></ol>
-	      <ul class="c8 lst-kix_1z0jf09j7rzr-1 start" start="1"><li class="c9 li-bullet-0"><b>2024:</b><span>&nbsp;Finalist for the</span><span><a class="c13" href="https://www.theiet.org/impact-society/awards-prizes-and-scholarships/achievement-awards/achievement-medals">&nbsp;</a></span><span class="c14 c0"><a class="c13" href="https://www.theiet.org/impact-society/awards-prizes-and-scholarships/achievement-awards/achievement-medals">IET (Institute of Engineering and Technology) Achievement Medal</a></span><span class="c1">. There were 8 finalists. The Achievement Medal is a mid-career award given across all engineering disciplines with finalists being selected from among 100+ nominations across the world. </span></li><li class="c9 li-bullet-0"><span class="c0"><b><i>2022: </i></b></span><span class="c1">&nbsp;Elevated to <b>Fellow of the Institute of Engineering and Technology (IET)</b>. The grade represents only 5% of the active members of IET, which numbers 147,000 engineering and technology professionals.</span></li></ul>
-	      <ol class="c8 lst-kix_1z0jf09j7rzr-0" start="6"><li class="c10 c7 li-bullet-0"><span class="c0 c2"><b><i>August 2022: </i></b></span><span>&nbsp;Selected a </span><b>Purdue Societal Impact Fellow</b><span class="c1">, one of seven from across campus. This annual recognition is for faculty whose proposed activities in research, learning, or engagement most strongly demonstrate societal impact. </span></li><li class="c3 c7 li-bullet-0"><span>&nbsp;</span><span class="c2 c0"><b><i>October 2021: </i></b></span><span class="c2">&nbsp;</span><span>Our vulnerability discovered in Android TV and our resultant fix are accepted by Google and lead to changes to the</span><b>Android TV OS</b><span class="c1">&nbsp;and gets a CVE, CVE-2021-0889. This is now running in 100M+ Android TVs around the world. </span></li><li class="c3 c7 li-bullet-0"><span class="c2 c0"><b><i>December 2020: </i></b></span><span>Selected as </span><b>IEEE Computer Society Distinguished Visitor (DV)</b> for January 2021 through December 2023 (subsequently extended through December 2024). These are selected as &ldquo;the most accomplished leaders in tech&rdquo; who are sponsored by IEEE to be speakers at IEEE chapter events. </li><li class="c7 c21 li-bullet-0"><span class="c2 c0"><b><i>July 2020: </i></b></span><span>Selected as member of the </span><b>International Federation for Information Processing (IFIP)</b><span class="c1">, Working Group on Dependable Computing and Fault Tolerance. The group consists of a select set of research leaders in the field of dependable computing. Membership is by invitation only, upon the nomination of a group member, discussion and a majority vote by the members. Its current membership is at 60 with 1-2 new members being added each year.</span></li><li class="c3 c7 li-bullet-0"><span class="c2 c0"><b><i>February 2019: </i></b></span><span> Purdue College of Engineering <b>Faculty Excellence Award for Graduate Student Mentorship</b>. One faculty member is awarded from among the 400+ in the College of Engineering each year. </span></li></ol>
-	      <!-- End -->
-        </p>
+  </div>
+</section>
+
+<!-- ---------- TRACK RECORD ---------- -->
+<section class="block" id="record">
+  <div class="wrap">
+    <div class="rail-layout">
+      <div class="rail"><div class="via"><span class="pulse"></span></div><div class="trace-line"></div></div>
+      <div>
+        <div class="block-head">
+          <p class="block-eyebrow">03 · Record</p>
+          <h2>What have I done so far?</h2>
+        </div>
+
+        <div class="record-item">
+          <div class="record-date">2021–current</div>
+          <h3>Chair, Computer Society Student Challenge Competition</h3>
+          <p>The challenge competitions give students a platform to build innovative solutions to real‑world problems, using real‑world datasets from academic and industry teams. They alternate between global student community and North America‑based community. The last Global Student Competition drew 500 registered students; the last North America Competition (2024) drew 43 teams. Each is financially sponsored by IEEE CS and private industry, organized with two other Board member colleagues (Prof. Deborah Silver and Prof. Joaquim Jorge), with the final held in person at an IEEE CS conference.</p>
+        </div>
+        <div class="record-item">
+          <div class="record-date">2024–2026</div>
+          <h3>Chair (2026), Co‑Chair (2025), Member (2024): IEEE CS Juniors Program</h3>
+          <p>A global program, started in 2024, inspiring K‑12 students to explore and excel in computing. As (Co‑)Chair: defining the rubric for project selection, disseminating program information, coordinating proposal evaluation, and advising organizers on execution.</p>
+        </div>
+        <div class="record-item">
+          <div class="record-date">2017–20, 2022–24</div>
+          <h3>Computer Society Board of Governors Member</h3>
+          <p>Leading student activities within the Geographical Activities Committee (GAC), IEEE CS representative to the IEEE Biometrics Council, Charter Member of the CS Distinguished Contributor Recognition Program, and member of the Ad‑Hoc Committee on ideation of novel CS activities.</p>
+        </div>
+        <div class="record-item">
+          <div class="record-date">2021–2024</div>
+          <h3>Distinguished Visitor, IEEE Computer Society</h3>
+          <p>Selected as Distinguished Visitor, I gave 6 talks — including two keynotes — at campuses (IISc Bangalore, University of Lisbon, University of Glasgow, and others) and CS conferences (keynotes at ISSRE and InC4). Topics included “Turning Padawans to Jedi — How to Train Computing Scientists” and research on dependability and data analytics.</p>
+        </div>
+        <div class="record-item" style="border-bottom:none;">
+          <div class="record-date">8× in 10 years</div>
+          <h3>Steering Committee &amp; Organizing Committee, TCFTC and DSN Conference</h3>
+          <p>As a core member of the IEEE CS Technical Community on Dependable Computing and Fault Tolerance (TCFTC), I have served on the Organizing Committee of the primary conference, Dependable Systems and Networks (DSN), 8 times in the last 10 years — including Founder of the Rising Star Award (2020), Workshop Chair (2021, 2025), Steering Committee (2018–19), and PC Chair (2011).</p>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+
+<!-- ---------- FEEDBACK ---------- -->
+<section class="block" id="feedback">
+  <div class="wrap">
+    <div class="rail-layout">
+      <div class="rail"><div class="via"><span class="pulse"></span></div></div>
+      <div>
+        <div class="block-head">
+          <p class="block-eyebrow">04 · Your turn</p>
+          <h2>Tell me something</h2>
+        </div>
+
+        <div class="feedback-grid">
+          <form id="feedback-form" action="https://api.web3forms.com/submit" method="POST">
+            <div class="field">
+              <label for="fb-message">Your thoughts, ideas, or feedback</label>
+              <textarea id="fb-message" name="message" placeholder="What would make our Society better? Any ideas for programs, or interest in volunteering?" required></textarea>
+            </div>
+            <div class="two-col">
+              <div class="field">
+                <label for="fb-name">Name (optional)</label>
+                <input type="text" id="fb-name" name="name" placeholder="Jane Doe">
+              </div>
+              <div class="field">
+                <label for="fb-email">Email (optional)</label>
+                <input type="email" id="fb-email" name="email" placeholder="jane@example.com">
+              </div>
+            </div>
+            <input type="hidden" name="access_key" value="3e8d091e-489f-4b93-b52f-65024a3ebf33">
+            <input type="hidden" name="subject" value="IEEE CS Campaign — Feedback">
+            <div class="h-captcha" data-sitekey="7a92ff56-b634-4bc8-93d0-25a8610e3856" data-theme="auto"></div>
+            <button type="submit" class="btn btn-solid submit-btn">Send</button>
+          </form>
+          <aside class="feedback-side">
+            <h4>Why I'm asking</h4>
+            <p>This space is for you to tell me something about what you've read here, any ideas you have for making our technical community better, and any interest in volunteering for our Computer Society.</p>
+            <p>I read every note personally. If you would like a response from me, please include your name and email address.</p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>The opinions on this page are mine and are not necessarily those of the IEEE Computer Society or the IEEE.</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">Close ✕</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+  // ---- carousel (crossfade) ----
+  const imgs = document.querySelectorAll('.car-img-wrap [data-slide]');
+  const total = imgs.length;
+  let curr = 0;
+  const captions = [
+    "At the IEEE CS North America Student Challenge Competition 2024 in Washington DC with the finalists and co‑organizers/judges Deborah, Eric, and Haoliang.",
+    "Sometimes I (almost) win one on the courts: here with the runner‑up award at the professors‑vs‑students pickleball tournament at Purdue, 2025.",
+    "Something I love: teaching and learning. Here with my large sophomore class, in December 2025.",
+    "With my group in the NSF Center CHORUS, June 2026.",
+    "Participating in the Computer Society Awards Ceremony, 2019."
+  ];
+  const capNum = document.getElementById('cap-num');
+  const capText = document.getElementById('cap-text');
+  const dotsWrap = document.getElementById('car-dots');
+  for(let i=0;i<total;i++){
+    const d = document.createElement('button');
+    d.className = 'car-dot' + (i===0?' active':'');
+    d.setAttribute('aria-label','Go to photo '+(i+1));
+    d.addEventListener('click', ()=>goTo(i));
+    dotsWrap.appendChild(d);
+  }
+  const dots = dotsWrap.children;
+  function goTo(i){
+    curr = (i+total)%total;
+    imgs.forEach(el=>el.classList.toggle('active', Number(el.dataset.slide)===curr));
+    Array.from(dots).forEach((d,j)=>d.classList.toggle('active', j===curr));
+    capNum.textContent = String(curr+1).padStart(2,'0') + ' / ' + String(total).padStart(2,'0');
+    capText.textContent = captions[curr];
+  }
+  document.querySelector('.car-prev').addEventListener('click', ()=>goTo(curr-1));
+  document.querySelector('.car-next').addEventListener('click', ()=>goTo(curr+1));
+
+  // ---- lightbox ----
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  document.querySelectorAll('.car-img-wrap img[data-full]').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      lightboxImg.src = el.getAttribute('data-full');
+      lightbox.classList.add('open');
+    });
+  });
+  document.getElementById('lightbox-close').addEventListener('click', ()=>lightbox.classList.remove('open'));
+  lightbox.addEventListener('click', (e)=>{ if(e.target===lightbox) lightbox.classList.remove('open'); });
+  document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') lightbox.classList.remove('open'); });
+
+  // ---- feedback form ----
+  document.getElementById('feedback-form').addEventListener('submit', async function(e){
+    e.preventDefault();
+    const token = document.querySelector('[name="h-captcha-response"]');
+    if (!token || !token.value) {
+      alert('Please complete the captcha.');
+      return;
+    }
+    const btn = this.querySelector('.submit-btn');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    const raw = new FormData(this);
+    const data = {};
+    for (const [k, v] of raw) {
+      if (k !== 'h-captcha-response' && k !== 'g-recaptcha-response') data[k] = v;
+    }
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+        body: JSON.stringify(data)
+      });
+      const json = await res.json();
+      if (json.success) {
+        this.innerHTML = '<p style="font-size:1.1rem;padding:2rem 0;">Thank you — your message was received!</p>';
+      } else {
+        btn.disabled = false;
+        btn.textContent = 'Send';
+        alert('Submission failed: ' + (json.message || 'Unknown error'));
+      }
+    } catch(err) {
+      btn.disabled = false;
+      btn.textContent = 'Send';
+      alert('Network error — please try again.');
+    }
+  });
+</script>
+
 </body>
 </html>
-
-
-
-
-
